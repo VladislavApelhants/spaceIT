@@ -11,9 +11,11 @@ const Header = () => {
           <Link href="/about">Про нас</Link>
         </li>
         <li>
-          <Link href="/contact_us">Контакти</Link>
+          <Link href="/contact">Контакти</Link>
         </li>
       </ul>
+
+      <button type="button">записатися на курс</button>
     </header>
   );
 };

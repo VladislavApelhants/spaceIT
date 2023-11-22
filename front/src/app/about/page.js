@@ -1,3 +1,5 @@
+import Title from "@/components/pages/about/Title/Title";
+
 export default function About() {
-  return <h1>About</h1>;
+  return <Title text="some text" />;
 }
