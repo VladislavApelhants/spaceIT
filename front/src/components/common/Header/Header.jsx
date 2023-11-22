@@ -26,12 +26,21 @@ const Header = () => {
               className={s.burger_button}
               onClick={onOpenMobileMenu}
             >
-              <Image
-                src="/icons/burger.svg"
-                width={100}
-                height={50}
-                alt="qwe"
-              />
+              {isOpen ? (
+                <Image
+                  src="/icons/modal-close.svg"
+                  width={100}
+                  height={50}
+                  alt="qwe"
+                />
+              ) : (
+                <Image
+                  src="/icons/burger.svg"
+                  width={100}
+                  height={50}
+                  alt="qwe"
+                />
+              )}
             </button>
 
             <Link href="/" className={s.header_logo}>
