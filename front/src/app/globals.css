@@ -42,4 +42,5 @@ a {
 body {
   font-family: "Manrope";
   font-weight: 800;
+  background-image: url("/images/main_bg.jpg");
 }
