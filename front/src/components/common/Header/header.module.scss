@@ -34,12 +34,13 @@
   padding: 12px 14px;
   background-image: url("/images/header-bgc.png");
   background-size: contain;
-  border-radius: 24px;
+  border-radius: 16px;
 
   @media screen and (min-width: 1368px) {
     padding: 0 14px;
   }
   @media screen and (min-width: 1920px) {
+    border-radius: 24px;
     padding: 0 18px;
   }
 }
@@ -54,6 +55,7 @@
     font-weight: 700;
     line-height: normal;
     color: #fff;
+    text-transform: uppercase;
 
     border-color: transparent;
     border-radius: 12px;

@@ -30,10 +30,6 @@
   }
 }
 
-.mob_menu_btn {
-  background-color: crimson;
-}
-
 .mob_menu_content {
   max-width: 352px;
   width: 100%;
@@ -62,7 +58,7 @@
   margin-bottom: 72px;
 }
 .mob_menu_btn {
-  font-family: Manrope;
+  font-family: Manrope, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -71,6 +67,7 @@
   border-radius: 12px;
   background-color: #d93d30;
   border-color: transparent;
+  text-transform: uppercase;
 
   padding: 20px 10px;
   max-width: 320px;
