@@ -1,16 +1,10 @@
 import s from "./mobMenu.module.scss";
 import Button from "../../Button/Button";
-import Container from "../../Container/Container";
 export default function MobMenu({ isOpen }) {
   return (
     isOpen && (
       <div className={s.mobMenu}>
         <div className={s.mob_wrapper}>
-          <ul>
-            <li>qwe</li>
-            <li>qwe</li>
-            <li>qwe</li>
-          </ul>
           <div className={s.mob_menu_content}>
             <h2 className={s.mob_menu_title}>
               ПОЧНІТЬ ВАШУ КОСМІЧНУ ПРИГОДУ У СВІТІ ІТ-СФЕРИ
@@ -21,7 +15,11 @@ export default function MobMenu({ isOpen }) {
             </p>
             <Button text="Долучитись" className={s.mob_menu_btn} />
           </div>
+          <div className={s.star_container}></div>
         </div>
+
+        <div className={`${s.mob_rectangle} ${s.mob_rectangle_top}`}></div>
+        <div className={`${s.mob_rectangle} ${s.mob_rectangle_bottom}`}></div>
       </div>
     )
   );

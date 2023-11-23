@@ -3,13 +3,13 @@ import Link from "next/link";
 import s from "./Navigation.module.scss";
 import { usePathname } from "next/navigation";
 
-export default function Navigation() {
+export default function Navigation({ className }) {
   const pathname = usePathname();
   const chekActive = (path) => (pathname === path ? s.active : "");
 
   return (
-    <nav className={s.header_nav}>
-      <ul className={s.nav_list}>
+    <nav className={className}>
+      <ul className={`${s.nav_list}`}>
         <li>
           <Link href="/" className={`${s.nav_link} ${chekActive("/")}`}>
             Головна

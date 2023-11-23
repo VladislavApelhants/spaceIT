@@ -45,13 +45,13 @@ const Header = () => {
 
             <Link href="/" className={s.header_logo}>
               <Image
-                src="/images/Logo-space.png"
+                src="/icons/header-logo.svg"
                 width={100}
                 height={50}
                 alt="Site logotype"
               />
             </Link>
-            <Navigation />
+            <Navigation className={s.header_nav} />
             <Button text={"Записатись на курс"} className={s.header_button} />
           </div>
         </Container>
