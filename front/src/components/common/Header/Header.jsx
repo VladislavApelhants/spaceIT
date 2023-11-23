@@ -7,6 +7,11 @@ import Button from "../Button/Button";
 import Navigation from "./Navigation/Navigation";
 import { useState } from "react";
 import MobMenu from "./MobMenu/MobMenu";
+const classes = {
+  nav: "header_nav",
+  link: "header_link",
+  list: "header_list",
+};
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +56,7 @@ const Header = () => {
                 alt="Site logotype"
               />
             </Link>
-            <Navigation className={s.header_nav} />
+            <Navigation className={classes} />
             <Button text={"Записатись на курс"} className={s.header_button} />
           </div>
         </Container>
