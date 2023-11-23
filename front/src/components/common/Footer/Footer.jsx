@@ -96,7 +96,7 @@ const Footer = () => {
               <Title text="інформація" className={"footer-title"} />
               <ul className={s.list}>
                 <li>
-                  <Link href="/about">Про нас</Link>
+                  s<Link href="/about">Про нас</Link>
                 </li>
                 <li>
                   <Link href="/contact">Контакти</Link>
