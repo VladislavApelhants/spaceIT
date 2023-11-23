@@ -8,6 +8,7 @@
 
 body {
   font-family: Manrope, sans-serif;
+  color: rgba(255, 255, 255, 1);
   font-weight: 800;
   background-image: url("/images/main_bg.jpg");
 }
@@ -37,6 +38,7 @@ ol {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
