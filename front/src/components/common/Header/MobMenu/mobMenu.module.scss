@@ -1,0 +1,75 @@
+.mobMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 145px;
+  padding-bottom: 24px;
+  background-image: url("/images/main_bg.jpg");
+  overflow-y: scroll;
+
+  & .mob_wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    @media screen and (min-width: 375px) {
+      width: 375px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 744px;
+      padding: 0 36px;
+    }
+  }
+  @media screen and (min-width: 1368px) {
+    display: none;
+  }
+}
+
+.mob_menu_content {
+  max-width: 352px;
+  width: 100%;
+  height: 331px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+  border-radius: 32px;
+  background-image: url("/images/mob-menu-planet.png");
+}
+.mob_menu_title {
+  color: #fff;
+  font-size: 28px;
+  //   font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.mob_menu_description {
+  font-family: Manrope;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  //   font-style: normal;
+  //   font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 72px;
+}
+.mob_menu_btn {
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  border-radius: 12px;
+  background-color: #d93d30;
+  border-color: transparent;
+  text-transform: uppercase;
+
+  padding: 20px 10px;
+  max-width: 320px;
+  width: 100%;
+}
