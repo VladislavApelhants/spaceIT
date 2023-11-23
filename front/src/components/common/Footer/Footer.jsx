@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className={s.footer}>
       <Container>
-        <div className="footer-container">
+        <div className={s.footerContainer}>
           <div className={s.socialWrapper}>
             <Image
               src="/icons/logo.svg"
@@ -77,8 +77,24 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div className={s.buttons}>
+            <button type="button" className={`${s.btn} ${s.btnCall}`}>
+              замовити дзвінок
+            </button>
+            <button type="button" className={`${s.btn} ${s.btnMessage}`}>
+              <Image
+                src="/icons/message.svg"
+                width={104}
+                height={47}
+                alt="logo"
+                className={s.messageIcon}
+              />
+              потрібна допомога?
+              <br /> залиште повідомлення
+            </button>
+          </div>
           <nav className={s.footerNav}>
-            <div>
+            <div className={s.footerNavItem}>
               <Title text="курси" className={"footer-title"} />
               <ul className={s.list}>
                 <li>
@@ -92,11 +108,11 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className={s.footerNavItem}>
               <Title text="інформація" className={"footer-title"} />
               <ul className={s.list}>
                 <li>
-                  s<Link href="/about">Про нас</Link>
+                  <Link href="/about">Про нас</Link>
                 </li>
                 <li>
                   <Link href="/contact">Контакти</Link>
@@ -106,7 +122,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className={s.footerNavItem}>
               <Title text="додатки" className={"footer-title"} />
               <ul className={s.list}>
                 <li>
@@ -120,7 +136,24 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+            <div className={`${s.footerNavItem} ${s.hide}`}>
+              <button type="button" className={`${s.btn} ${s.btnCall}`}>
+                замовити дзвінок
+              </button>
+              <button type="button" className={`${s.btn} ${s.btnMessage}`}>
+                <Image
+                  src="/icons/message.svg"
+                  width={104}
+                  height={47}
+                  alt="logo"
+                  className={s.messageIcon}
+                />
+                потрібна допомога?
+                <br /> залиште повідомлення
+              </button>
+            </div>
           </nav>
+          <p className={s.copy}>Copyright &copy; 2023, SPACEIT SCHOOL</p>
         </div>
       </Container>
     </footer>
