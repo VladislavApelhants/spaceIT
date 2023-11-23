@@ -7,10 +7,12 @@
   height: 100%;
   padding-top: 145px;
   padding-bottom: 24px;
-  background-image: url("/images/main_bg.jpg");
+  background: url("/images/main_bg.jpg");
+  overflow-x: hidden;
   overflow-y: scroll;
 
   & .mob_wrapper {
+    // position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -25,12 +27,28 @@
       padding: 0 36px;
     }
   }
+
   @media screen and (min-width: 1368px) {
     display: none;
   }
 }
 
+.star_container {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  background: url("/icons/mob-menu-bg-star.svg") no-repeat;
+  background-size: contain;
+  background-position: center bottom 55px;
+}
+
 .mob_menu_content {
+  position: relative;
+  z-index: 4;
   max-width: 352px;
   width: 100%;
   height: 331px;
@@ -38,6 +56,7 @@
   padding: 24px 16px;
   text-align: center;
   border-radius: 32px;
+  background-color: #100e0e;
   background-image: url("/images/mob-menu-planet.png");
 }
 .mob_menu_title {
@@ -49,16 +68,15 @@
   margin-bottom: 16px;
 }
 .mob_menu_description {
-  font-family: Manrope;
+  font-family: "Manrope";
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
-  //   font-style: normal;
-  //   font-weight: 400;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 72px;
 }
 .mob_menu_btn {
-  font-family: Manrope, sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -72,4 +90,22 @@
   padding: 20px 10px;
   max-width: 320px;
   width: 100%;
+}
+
+.mob_rectangle {
+  width: 289.094px;
+  height: 321.96px;
+  border-radius: 163.401px;
+  background-color: #863428;
+  filter: blur(60px);
+  position: absolute;
+}
+
+.mob_rectangle_top {
+  top: -40px;
+  left: -40%;
+}
+.mob_rectangle_bottom {
+  bottom: 0;
+  right: -50%;
 }
