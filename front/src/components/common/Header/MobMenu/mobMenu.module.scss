@@ -1,5 +1,6 @@
 .mobMenu {
   position: fixed;
+  z-index: 5;
   top: 100%;
   left: 0;
   bottom: 0;
@@ -90,22 +91,6 @@
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 72px;
-}
-.mob_menu_btn {
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  color: #fff;
-  border-radius: 12px;
-  background-color: #d93d30;
-  border-color: transparent;
-  text-transform: uppercase;
-
-  padding: 20px 10px;
-  max-width: 320px;
-  width: 100%;
 }
 
 .mob_rectangle {

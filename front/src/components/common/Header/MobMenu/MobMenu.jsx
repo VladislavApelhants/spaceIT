@@ -20,7 +20,7 @@ export default function MobMenu({ isOpen }) {
             Долучайтесь до нашої ІТ-школи та гарантуйте собі працевлаштування в
             провідних компаніях
           </p>
-          <Button text="Долучитись" className={s.mob_menu_btn} />
+          <Button text="Долучитись" className={"mob_menu_btn"} />
         </div>
         <div className={s.star_container}></div>
       </div>
