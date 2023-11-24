@@ -5,6 +5,10 @@
   font-family: "Manrope-Bold";
   src: url("../../public/fonts/Manrope-Bold.woff2");
 }
+main {
+  overflow: hidden;
+  height: 2000px;
+}
 
 body {
   font-family: Manrope, sans-serif;

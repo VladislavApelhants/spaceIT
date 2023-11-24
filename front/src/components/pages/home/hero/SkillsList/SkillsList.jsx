@@ -1,4 +1,5 @@
 import s from "./skillsList.module.scss";
+import { nanoid } from "nanoid";
 const skills = [
   "UI/UX Design",
   "HTML",
@@ -13,7 +14,9 @@ export default function SkillsList() {
   return (
     <ul className={s.skills_list}>
       {skills.map((skill) => (
-        <li className={s.skills_item}>{skill}</li>
+        <li className={s.skills_item} key={nanoid()}>
+          {skill}
+        </li>
       ))}
     </ul>
   );

@@ -13,7 +13,9 @@
   }
 }
 
-.swiper_block {
+.swiper_block,
+.swiper-wrapper {
+  border-radius: 32px;
   max-width: 351px;
   width: 100%;
   height: 297px;

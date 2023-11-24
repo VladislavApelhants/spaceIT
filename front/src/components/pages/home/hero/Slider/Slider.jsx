@@ -50,10 +50,10 @@ export default function Slider() {
           },
         }}
         loop={true}
-        // autoplay={{
-        //   delay: 3500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         modules={[Pagination, Autoplay]}
         className="swiper_block"
       >
@@ -65,7 +65,6 @@ export default function Slider() {
               height={297}
               alt="descr"
               className={s.slider_image}
-              // sizes="(max-width: 767px) 352px, (max-width: 767px) 672px, (max-width: 1368px) 351px, (max-width: 1920px) 512px"
             />
             <p className={s.slide_description}>{slide.title}</p>
           </SwiperSlide>

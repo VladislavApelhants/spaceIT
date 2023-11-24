@@ -9,9 +9,9 @@ export default function Hero() {
       <Container>
         <div className={s.hero_wrapper}>
           <div className={s.hero_main_block}>
-            <h1 className={s.hero_title}>
+            <h2 className={s.hero_title}>
               Космічний рівень навчання з SPACEIT SCHOOL
-            </h1>
+            </h2>
             <div className={s.hero_skills_wrapper}>
               <SkillsList />
               <Button text={"ЗАПИСАТИСЬ НА КУРС"} className="hero_button" />
@@ -20,6 +20,7 @@ export default function Hero() {
           <Slider />
         </div>
       </Container>
+      <div className={s.hero_ellipse}></div>
     </section>
   );
 }
