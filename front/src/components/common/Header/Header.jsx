@@ -57,7 +57,7 @@ const Header = () => {
               />
             </Link>
             <Navigation className={classes} />
-            <Button text={"Записатись на курс"} className={s.header_button} />
+            <Button text={"Записатись на курс"} className={"header_button"} />
           </div>
         </Container>
       </header>

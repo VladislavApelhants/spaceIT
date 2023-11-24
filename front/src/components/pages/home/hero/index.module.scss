@@ -1,0 +1,100 @@
+.hero_section {
+  padding-top: 137px;
+  @media screen and (min-width: 768px) {
+    padding-top: 141px;
+  }
+  @media screen and (min-width: 1368px) {
+    padding-top: 134px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding-top: 184px;
+  }
+}
+.hero_main_block {
+  border-radius: 16px;
+  padding: 16px;
+
+  background-image: url("/images/hero/hero-bgi-mobile1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 375px),
+    (min-resolution: 192dpi) and (min-width: 375px),
+    (min-resolution: 2dppx) and (min-width: 375px) {
+    background-image: url("/images/hero/hero-bgi-mobile2x.jpg");
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 24px;
+    background-image: url("/images/hero/hero-bgi-tab1x.jpg");
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+    (min-resolution: 192dpi) and (min-width: 768px),
+    (min-resolution: 2dppx) and (min-width: 768px) {
+    background-image: url("/images/hero/hero-bgi-tab2x.jpg");
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/hero/hero-bgi-tab1x.jpg");
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 768px),
+    (min-resolution: 192dpi) and (min-width: 768px),
+    (min-resolution: 2dppx) and (min-width: 768px) {
+    background-image: url("/images/hero/hero-bgi-tab2x.jpg");
+  }
+  @media screen and (min-width: 1368px) {
+    border-radius: 29px;
+    padding: 32px 20px 24px 24px;
+    background-image: url("/images/hero/hero-bgi-desc1x.jpg");
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 1368px),
+    (min-resolution: 192dpi) and (min-width: 1368px),
+    (min-resolution: 2dppx) and (min-width: 1368px) {
+    background-image: url("/images/hero/hero-bgi-desc2x.jpg");
+  }
+
+  @media screen and (min-width: 1920px) {
+    border-radius: 40px;
+    padding: 65px 40px 65px 56px;
+    background-image: url("/images/hero/hero-bgi-desc1x.jpg");
+  }
+}
+
+.hero_wrapper {
+  @media screen and (min-width: 1368px) {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+}
+
+.hero_title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 56px;
+    margin-bottom: 184px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 72px;
+    margin-bottom: 276px;
+  }
+}
+
+.hero_skills_wrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,71 @@
+.swiper_container {
+  @media screen and (max-width: 768px) {
+    margin-top: 16px;
+  }
+}
+.customBulletClass {
+  background-color: #ff6347; // Измените на цвет, который вам нужен
+}
+
+.custom_bullet {
+  border-radius: 11.4px;
+  width: 75px;
+  height: 5px;
+  opacity: 0.7;
+  background-color: #fff;
+}
+
+.custom_bullet_active {
+  opacity: 1;
+}
+
+.hero_slide_wrap {
+  border-radius: 18px;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    border-radius: 16px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    border-radius: 24px;
+  }
+}
+
+.slider_image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.hero_slide_wrap .slide_description {
+  position: absolute;
+  left: 16px;
+  bottom: 39px;
+  color: #fff;
+  z-index: 5;
+
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    bottom: 47px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    bottom: 45px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 32px;
+    bottom: 70px;
+  }
+}
+
+.hero_slide_wrap {
+  // position: relative;
+  width: 100%;
+}
