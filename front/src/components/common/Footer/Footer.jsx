@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
           <nav className={s.footerNav}>
             <div className={s.footerNavItem}>
-              <Title text="курси" className={"footer-title"} />
+              <Title text="курси" className="footer-title" />
               <ul className={s.list}>
                 <li>
                   <Link href="#">Software Engineering</Link>

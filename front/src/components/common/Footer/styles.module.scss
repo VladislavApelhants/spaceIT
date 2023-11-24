@@ -1,3 +1,10 @@
+.footer {
+  padding-top: 52px;
+  padding-bottom: 32px;
+
+  background-color: black;
+}
+
 .footerContainer {
   display: flex;
   flex-direction: column;
@@ -10,14 +17,6 @@
   @media screen and (min-width: 1368px) {
     align-items: start;
   }
-}
-
-.footer {
-  margin-top: 100px;
-  padding-top: 52px;
-  padding-bottom: 32px;
-
-  background-color: black;
 }
 
 .socialWrapper {
