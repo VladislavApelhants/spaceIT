@@ -1,35 +1,17 @@
-.swiper .hero_pag_container {
+section .swiper .hero_pag_container {
   display: flex;
   gap: 8px;
   justify-content: center;
   position: absolute;
   bottom: 16px;
   z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+
   @media screen and (min-width: 768px) {
     bottom: 25px;
   }
   @media screen and (min-width: 1920px) {
     bottom: 32px;
-  }
-}
-
-.swiper_block,
-.swiper-wrapper {
-  border-radius: 32px;
-  max-width: 351px;
-  width: 100%;
-  height: 297px;
-  @media screen and (min-width: 768px) {
-    max-width: 672px;
-    height: 654px;
-  }
-
-  @media screen and (min-width: 1368px) {
-    max-width: 351px;
-    height: 507px;
-  }
-  @media screen and (min-width: 1920px) {
-    max-width: 512px;
-    height: 740px;
   }
 }

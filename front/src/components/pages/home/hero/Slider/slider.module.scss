@@ -100,6 +100,24 @@
   }
 }
 
-// .slider_swiper_container {
-//   width: 300px;
-// }
+.swiper_container .swiper_block {
+  position: relative !important;
+  border-radius: 32px;
+  max-width: 351px;
+  width: 100%;
+  height: 297px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 672px;
+    height: 654px;
+  }
+
+  @media screen and (min-width: 1368px) {
+    max-width: 351px;
+    height: 507px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 512px;
+    height: 740px;
+  }
+}
