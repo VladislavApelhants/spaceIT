@@ -21,13 +21,8 @@ export default function StepList() {
         }}
         className={s.step_swiper}
         breakpoints={{
-          375: {
-            slidesPerView: 1.5,
-          },
-          768: { slidesPerView: 2.5 },
           1368: {
             slidesPerView: 4,
-            centeredSlides: false,
           },
         }}
       >
