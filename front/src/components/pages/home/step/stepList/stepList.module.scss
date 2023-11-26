@@ -1,9 +1,15 @@
 .step_swiper {
   display: flex;
+  justify-content: flex-start;
   gap: 32px;
   width: 100%;
-}
 
+  // position: absolute;
+  // left: 0;
+}
+.swiper_wrapper .step_swiper {
+  overflow: visible;
+}
 section .step_swiper .step_slide {
   width: 256px;
   background-repeat: no-repeat;
