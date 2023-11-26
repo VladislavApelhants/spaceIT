@@ -19,20 +19,25 @@ export default function Buttons() {
       }
     };
 
-    document
-      .querySelector(`.${s.nextEl}`)
-      .addEventListener("click", handleNextClick);
-    document
-      .querySelector(`.${s.prevEl}`)
-      .addEventListener("click", handlePrevClick);
+    const nextEl = document.querySelector(`.${s.nextEl}`);
+    const prevEl = document.querySelector(`.${s.prevEl}`);
+
+    if (nextEl) {
+      nextEl.addEventListener("click", handleNextClick);
+    }
+
+    if (prevEl) {
+      prevEl.addEventListener("click", handlePrevClick);
+    }
 
     return () => {
-      document
-        .querySelector(`.${s.nextEl}`)
-        .removeEventListener("click", handleNextClick);
-      document
-        .querySelector(`.${s.prevEl}`)
-        .removeEventListener("click", handlePrevClick);
+      if (nextEl) {
+        nextEl.removeEventListener("click", handleNextClick);
+      }
+
+      if (prevEl) {
+        prevEl.removeEventListener("click", handlePrevClick);
+      }
     };
   }, [swiper]);
   return (

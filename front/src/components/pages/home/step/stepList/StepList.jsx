@@ -9,7 +9,7 @@ import { Navigation, A11y } from "swiper/modules";
 
 export default function StepList() {
   return (
-    <>
+    <div className={s.swiper_wrapper}>
       <Swiper
         spaceBetween={32}
         slidesPerView={"auto"}
@@ -67,6 +67,6 @@ export default function StepList() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

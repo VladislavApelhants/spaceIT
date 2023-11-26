@@ -3,6 +3,7 @@ import SkillsList from "./SkillsList/SkillsList";
 import s from "./index.module.scss";
 import Slider from "./Slider/Slider";
 import Button from "@/components/common/Button/Button";
+import Ellipse from "@/components/common/Ellipse/Ellipse";
 export default function Hero() {
   return (
     <section className={s.hero_section}>
@@ -20,7 +21,7 @@ export default function Hero() {
           <Slider />
         </div>
       </Container>
-      <div className={s.hero_ellipse}></div>
+      <Ellipse className={"hero_ellipse"} />
     </section>
   );
 }

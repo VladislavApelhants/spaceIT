@@ -2,6 +2,7 @@ import Container from "@/components/common/Container/Container";
 import StepList from "./stepList/StepList";
 import s from "./stepSection.module.scss";
 import Buttons from "./stepList/Buttons";
+import Ellipse from "@/components/common/Ellipse/Ellipse";
 
 export default function StepSection() {
   return (
@@ -13,6 +14,7 @@ export default function StepSection() {
         </div>
         <StepList />
       </Container>
+      <Ellipse className={"step_section_ellipse"} />
     </section>
   );
 }
