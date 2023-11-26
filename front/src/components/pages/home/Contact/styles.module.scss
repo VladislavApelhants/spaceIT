@@ -1,5 +1,4 @@
 .contact {
-  margin-bottom: -30px;
   padding: 32px 0;
   max-width: 1920px;
   position: relative;
@@ -39,7 +38,7 @@
     background-position: -192px 0, center, center;
   }
   @media screen and (min-width: 1369px) {
-    margin: 0 auto -35px;
+    margin: 0 auto;
 
     border-radius: 50px;
     background: url("/images/contact-decor-desktop.svg"),
@@ -51,7 +50,7 @@
   }
 
   @media screen and (min-width: 1920px) {
-    margin: 0 auto -35px;
+    margin: 0 auto;
 
     border-radius: 50px;
     background: url("/images/contact-decor-desktop-large.svg"),

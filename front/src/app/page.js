@@ -6,9 +6,9 @@ import StepSection from "@/components/pages/home/step";
 export default function Home() {
   return (
     <>
-      <Contact />
       <Hero />
       <StepSection />
+      <Contact />
     </>
   );
 }
