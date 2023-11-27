@@ -1,14 +1,17 @@
 .courses_section {
   position: relative;
-  margin-bottom: 80px;
+  padding-bottom: 111px;
 
   @media screen and (min-width: 768px) {
-    margin-bottom: 140px;
+    padding-top: 40px;
+    padding-bottom: 180px;
   }
   @media screen and (min-width: 1368px) {
-    margin-bottom: 152px;
+    padding-top: 65px;
+    padding-bottom: 197px;
   }
   @media screen and (min-width: 1920px) {
-    margin-bottom: 207px;
+    padding-top: 80px;
+    padding-bottom: 271px;
   }
 }
