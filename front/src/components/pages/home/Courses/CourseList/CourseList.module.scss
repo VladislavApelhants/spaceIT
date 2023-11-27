@@ -1,18 +1,28 @@
 .course_slider_wrapper .course_slider {
   overflow: visible;
 }
-
-.cource_item {
-  width: 100%;
+.course_slider_wrapper .cource_item {
   max-width: 256px;
   height: 362px;
+
+  @media screen and (min-width: 1920px) {
+    max-width: 376px;
+    height: 528px;
+  }
+}
+
+.cource_item {
+  position: relative;
+  width: 100%;
+
   padding: 18px 16px;
   background-image: url("/images/courses/courses-item-bg.png");
-  background-size: cover;
+  background-size: 256px 362px;
   background-repeat: no-repeat;
   @media screen and (min-width: 1920px) {
     max-width: 376px;
     height: 528px;
+    background-size: 376px 528px;
   }
 }
 
@@ -25,7 +35,7 @@
   );
   border-radius: 15px;
   overflow: hidden;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   @media screen and (min-width: 1920px) {
     margin-bottom: 26px;
   }
@@ -57,7 +67,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
@@ -106,4 +116,8 @@
   @media screen and (min-width: 1920px) {
     max-width: 233px;
   }
+}
+
+.course_slider_wrapper .course_slider .swiper-button-next {
+  background-color: red;
 }
