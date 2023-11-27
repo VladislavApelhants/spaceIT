@@ -11,13 +11,19 @@ export function Navigation() {
         <Title text="курси" className={"footer-title"} />
         <ul className={s.list}>
           <li>
-            <Link href="#">Software Engineering</Link>
+            <Link href="#" className={s.listLink}>
+              Software Engineering
+            </Link>
           </li>
           <li>
-            <Link href="#">Data Science</Link>
+            <Link href="#" className={s.listLink}>
+              Data Science
+            </Link>
           </li>
           <li>
-            <Link href="#">UI/UX Design</Link>
+            <Link href="#" className={s.listLink}>
+              UI/UX Design
+            </Link>
           </li>
         </ul>
       </div>
@@ -25,13 +31,19 @@ export function Navigation() {
         <Title text="інформація" className={"footer-title"} />
         <ul className={s.list}>
           <li>
-            <Link href="/about">Про нас</Link>
+            <Link href="/about" className={s.listLink}>
+              Про нас
+            </Link>
           </li>
           <li>
-            <Link href="/contact">Контакти</Link>
+            <Link href="/contact" className={s.listLink}>
+              Контакти
+            </Link>
           </li>
           <li>
-            <Link href="#">FAQ</Link>
+            <Link href="#" className={s.listLink}>
+              FAQ
+            </Link>
           </li>
         </ul>
       </div>
@@ -39,13 +51,19 @@ export function Navigation() {
         <Title text="додатки" className={"footer-title"} />
         <ul className={s.list}>
           <li>
-            <Link href="#">Терміни та умови</Link>
+            <Link href="#" className={s.listLink}>
+              Терміни та умови
+            </Link>
           </li>
           <li>
-            <Link href="#">Політика конфіденційності</Link>
+            <Link href="#" className={s.listLink}>
+              Політика конфіденційності
+            </Link>
           </li>
           <li>
-            <Link href="#">Повернення коштів</Link>
+            <Link href="#" className={s.listLink}>
+              Повернення коштів
+            </Link>
           </li>
         </ul>
       </div>
