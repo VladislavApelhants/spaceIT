@@ -21,8 +21,10 @@
 .logo {
   width: 100px;
   height: 45px;
-  margin-right: auto;
+  // margin-right: auto;
   margin: 0 auto 10px;
+
+  display: block;
   @media screen and (min-width: 375px) {
     margin: 0 auto 0 0;
   }
@@ -50,9 +52,14 @@
   }
 }
 
-.socialIcon {
+.socialLink {
+  display: block;
   width: 28px;
   height: 28px;
+  &:hover .socialIcon,
+  &:focus .socialIcon {
+    fill: #d93d30;
+  }
   @media screen and (min-width: 1368px) {
     width: 20px;
     height: 20px;
@@ -61,4 +68,12 @@
     width: 24px;
     height: 24px;
   }
+}
+
+.socialIcon {
+  width: 100%;
+  height: 100%;
+
+  fill: white;
+  transition: fill linear 250ms;
 }
