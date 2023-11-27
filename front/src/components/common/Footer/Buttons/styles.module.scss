@@ -25,6 +25,18 @@
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
+  transition: background-color linear 250ms, color linear 250ms;
+
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #100e0e;
+  }
+
+  &:hover .messageIcon,
+  &:focus .messageIcon {
+    color: #100e0e;
+  }
 }
 
 .btnCall {
@@ -67,9 +79,17 @@
     width: 281px;
     font-size: 14px;
   }
+
+  &:hover .messageIcon,
+  &:focus .messageIcon {
+    fill: black;
+  }
 }
 
 .messageIcon {
   width: 32px;
   height: 32px;
+  fill: white;
+
+  transition: fill linear 250ms;
 }

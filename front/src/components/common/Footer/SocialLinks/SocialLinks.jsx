@@ -1,72 +1,48 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import s from "./styles.module.scss";
 
 export function SocialLinks() {
   return (
     <div className={s.socialWrapper}>
-      <Image
-        src="/icons/logo.svg"
-        width={104}
-        height={47}
-        alt="logo"
-        className={s.logo}
-      />
+      <Link href="#" className={s.logo}>
+        <Image src="/icons/logo.svg" width={104} height={47} alt="logo" />
+      </Link>
 
       <ul className={s.socialList}>
         <li>
-          <a href="#" target="_blank">
-            <Image
-              src="/icons/social-icons/instagram.svg"
-              width={104}
-              height={47}
-              alt="instagram"
-              className={s.socialIcon}
-            />
+          <a href="#" target="_blank" className={s.socialLink}>
+            <svg className={s.socialIcon}>
+              <use href="/icons/sprite.svg#icon-instagram" />
+            </svg>
           </a>
         </li>
         <li>
-          <a href="#" target="_blank">
-            <Image
-              src="/icons/social-icons/telegram.svg"
-              width={104}
-              height={47}
-              alt="telegram"
-              className={s.socialIcon}
-            />
+          <a href="#" target="_blank" className={s.socialLink}>
+            <svg className={s.socialIcon}>
+              <use href="/icons/sprite.svg#icon-telegram" />
+            </svg>
           </a>
         </li>
         <li>
-          <a href="#" target="_blank">
-            <Image
-              src="/icons/social-icons/youtube.svg"
-              width={104}
-              height={47}
-              alt="youtube"
-              className={s.socialIcon}
-            />
+          <a href="#" target="_blank" className={s.socialLink}>
+            <svg className={s.socialIcon}>
+              <use href="/icons/sprite.svg#icon-youtube" />
+            </svg>
           </a>
         </li>
         <li>
-          <a href="#" target="_blank">
-            <Image
-              src="/icons/social-icons/facebook.svg"
-              width={104}
-              height={47}
-              alt="facebook"
-              className={s.socialIcon}
-            />
+          <a href="#" target="_blank" className={s.socialLink}>
+            <svg className={s.socialIcon}>
+              <use href="/icons/sprite.svg#icon-facebook" />
+            </svg>
           </a>
         </li>
         <li>
-          <a href="#" target="_blank">
-            <Image
-              src="/icons/social-icons/linkedin.svg"
-              width={104}
-              height={47}
-              alt="linkedin"
-              className={s.socialIcon}
-            />
+          <a href="#" target="_blank" className={s.socialLink}>
+            <svg className={s.socialIcon}>
+              <use href="/icons/sprite.svg#icon-linkedin" />
+            </svg>
           </a>
         </li>
       </ul>
