@@ -35,7 +35,6 @@
   }
 }
 
-
 .faqTitle {
   margin-bottom: 40px;
 
@@ -60,7 +59,8 @@
 
 .courses_section_title,
 .step_section_title,
-.contact_title {
+.contact_title,
+.teachers_title {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -78,9 +78,9 @@
     margin-bottom: 56px;
   }
 }
+
 .step_section_title {
   @media screen and (max-width: 375px) {
     max-width: 190px;
-
   }
 }

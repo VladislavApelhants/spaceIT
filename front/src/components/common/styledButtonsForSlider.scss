@@ -59,7 +59,8 @@
   }
 }
 
-.step-list-swiper-wrapper .swiper-button-next {
+.step-list-swiper-wrapper .swiper-button-next,
+.teacher-slider-wrapper .swiper-button-next {
   @include styledButton;
   right: 0px;
   top: -70px;
@@ -78,7 +79,8 @@
   }
 }
 
-.step-list-swiper-wrapper .swiper-button-prev {
+.step-list-swiper-wrapper .swiper-button-prev,
+.teacher-slider-wrapper .swiper-button-prev {
   @include styledButton;
   left: auto;
   right: 52px;
