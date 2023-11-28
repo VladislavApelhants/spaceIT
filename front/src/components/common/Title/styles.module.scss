@@ -35,6 +35,29 @@
   }
 }
 
+
+.faqTitle {
+  margin-bottom: 40px;
+
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.2;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 44px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 48px;
+
+    font-size: 28px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 56px;
+
+    font-size: 56px;
+  }
+}
+
 .courses_section_title,
 .step_section_title,
 .contact_title {
@@ -58,5 +81,6 @@
 .step_section_title {
   @media screen and (max-width: 375px) {
     max-width: 190px;
+
   }
 }
