@@ -1,5 +1,5 @@
-import Title from "@/components/pages/about/Title/Title";
+import Contact from "@/components/pages/home/Contact/Contact";
 
 export default function About() {
-  return <Title text="some text" />;
+  return <Contact />;
 }

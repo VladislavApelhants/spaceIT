@@ -1,5 +1,9 @@
 @import "node_modules/modern-normalize/modern-normalize.css";
 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @font-face {
   font-weight: 400; /* Соответствует значению normal */
   font-family: "Manrope-Bold";
