@@ -14,10 +14,7 @@ section .step_swiper .step_slide {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 16px 12px 24px 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 16px 12px;
   height: 338px;
 
   @media screen and (min-width: 1920px) {
@@ -46,10 +43,10 @@ section .step_swiper .step_slide {
   font-weight: 200;
   line-height: normal;
   color: #fff;
-  margin-bottom: 162px;
+  margin-bottom: 145px;
 
   @media screen and (min-width: 1920px) {
-    margin-bottom: 223px;
+    margin-bottom: 210px;
     font-size: 44px;
   }
 }
@@ -59,12 +56,12 @@ section .step_swiper .step_slide {
   font-style: normal;
   font-weight: 800;
   line-height: 1.2;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 
   @media screen and (min-width: 1920px) {
     font-size: 28px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 }
 

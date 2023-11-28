@@ -35,6 +35,7 @@
   }
 }
 
+
 .faqTitle {
   margin-bottom: 40px;
 
@@ -54,5 +55,31 @@
     margin-bottom: 56px;
 
     font-size: 56px;
+  }
+}
+
+.courses_section_title,
+.step_section_title {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 28px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 40px;
+    margin-bottom: 56px;
+  }
+}
+.step_section_title {
+  @media screen and (max-width: 375px) {
+    max-width: 190px;
+
   }
 }

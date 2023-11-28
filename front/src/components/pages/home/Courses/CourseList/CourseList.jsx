@@ -1,31 +1,35 @@
 "use client";
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+import { Pagination, Navigation } from "swiper/modules";
 
-// Import Swiper styles
-import "swiper/css";
+import Button from "../Button/Button";
+import "swiper/scss";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "/src/components/common/styledButtonsForSlider.scss";
+import "./styledProgressBar.scss";
 import s from "./CourseList.module.scss";
 
-import { Pagination, Navigation } from "swiper/modules";
 export default function CourseList() {
   return (
-    <div className={s.course_slider_wrapper}>
+    <div className={`course_slider_wrapper ${s.course_slider_wrapper}`}>
       <Swiper
         pagination={{
           type: "progressbar",
         }}
+        navigation={true}
         spaceBetween={32}
         slidesPerView={"auto"}
-        navigation={true}
         modules={[Pagination, Navigation]}
         className={s.course_slider}
       >
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course1.jpg"
+              src="/images/courses/course1.png"
               width={200}
               height={200}
               alt="image course info"
@@ -46,11 +50,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course2.jpg"
+              src="/images/courses/course2.png"
               width={200}
               height={200}
               alt="image course info"
@@ -72,11 +77,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course3.jpg"
+              src="/images/courses/course3.png"
               width={200}
               height={200}
               alt="image course info"
@@ -98,11 +104,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course4.jpg"
+              src="/images/courses/course4.png"
               width={200}
               height={200}
               alt="image course info"
@@ -124,11 +131,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course5.jpg"
+              src="/images/courses/course5.png"
               width={200}
               height={200}
               alt="image course info"
@@ -150,11 +158,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course1.jpg"
+              src="/images/courses/course1.png"
               width={200}
               height={200}
               alt="image course info"
@@ -176,11 +185,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course2.jpg"
+              src="/images/courses/course2.png"
               width={200}
               height={200}
               alt="image course info"
@@ -202,11 +212,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course3.jpg"
+              src="/images/courses/course3.png"
               width={200}
               height={200}
               alt="image course info"
@@ -228,11 +239,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course4.jpg"
+              src="/images/courses/course4.png"
               width={200}
               height={200}
               alt="image course info"
@@ -254,11 +266,12 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
             <Image
-              src="/images/courses/course5.jpg"
+              src="/images/courses/course5.png"
               width={200}
               height={200}
               alt="image course info"
@@ -280,8 +293,15 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
+          <Button />
         </SwiperSlide>
       </Swiper>
     </div>
   );
 }
+
+//  navigation={{
+//           enabled: true,
+//           nextEl: `.${s.courseNextEl}`,
+//           prevEl: `.${s.coursePrevEl}`,
+//         }}

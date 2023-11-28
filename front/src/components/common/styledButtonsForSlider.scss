@@ -1,0 +1,99 @@
+@mixin styledButton {
+  background-color: #d93d30;
+  position: absolute;
+  top: -52px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  &.swiper-button-disabled {
+    opacity: 0.5;
+  }
+
+  &.swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after,
+  &.swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 768px) {
+    top: -56px;
+  }
+  @media screen and (min-width: 1368px) {
+    top: -54px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+.course_slider_wrapper .swiper-button-next {
+  @include styledButton;
+  right: 0px;
+  &.swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    background-image: url("/icons/arrow/arrow-right.svg");
+  }
+  @media screen and (min-width: 1920px) {
+    top: -86px;
+  }
+}
+
+.course_slider_wrapper .swiper-button-prev {
+  @include styledButton;
+  left: auto;
+  right: 52px;
+  &.swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    background-image: url("/icons/arrow/arrow-left.svg");
+  }
+  @media screen and (min-width: 1920px) {
+    right: 68px;
+    top: -86px;
+  }
+}
+
+.step-list-swiper-wrapper .swiper-button-next {
+  @include styledButton;
+  right: 0px;
+  top: -70px;
+  &.swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    background-image: url("/icons/arrow/arrow-right.svg");
+  }
+  @media screen and (min-width: 768px) {
+    top: -56px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 48px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 56px;
+  }
+}
+
+.step-list-swiper-wrapper .swiper-button-prev {
+  @include styledButton;
+  left: auto;
+  right: 52px;
+  top: -70px;
+  &.swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    background-image: url("/icons/arrow/arrow-left.svg");
+  }
+  @media screen and (min-width: 768px) {
+    top: -56px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 48px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 56px;
+  }
+}

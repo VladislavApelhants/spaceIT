@@ -1,24 +1,20 @@
 "use client";
-import React, { useRef, useState, useEffect } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 
-import s from "./stepList.module.scss";
 import "swiper/css";
-import { Navigation, A11y } from "swiper/modules";
+import s from "./stepList.module.scss";
+import "/src/components/common/styledButtonsForSlider.scss";
 
 export default function StepList() {
   return (
-    <div className={s.swiper_wrapper}>
+    <div className={`step-list-swiper-wrapper ${s.swiper_wrapper}`}>
       <Swiper
         spaceBetween={32}
         slidesPerView={"auto"}
-        modules={[Navigation, A11y]}
-        navigation={{
-          enabled: true,
-          nextEl: `.${s.nextEl}`,
-          prevEl: `.${s.prevEl}`,
-        }}
+        modules={[Navigation]}
+        navigation={true}
         className={s.step_swiper}
         breakpoints={{
           1368: {
