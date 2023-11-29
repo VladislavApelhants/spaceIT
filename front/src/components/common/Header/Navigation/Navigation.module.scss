@@ -65,6 +65,15 @@
   font-size: 18px;
   line-height: 1.5;
   display: block;
+  transition: color linear 250ms;
+
+  &:hover,
+  &:focus {
+    color: #ffbab5;
+  }
+  &:active {
+    color: #d93d30;
+  }
 
   @media screen and (min-width: 1368px) {
     padding: 26px 0;
