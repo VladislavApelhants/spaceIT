@@ -72,10 +72,8 @@
     top: -56px;
   }
   @media screen and (min-width: 1368px) {
-    margin-bottom: 48px;
   }
   @media screen and (min-width: 1920px) {
-    margin-bottom: 56px;
   }
 }
 
@@ -93,9 +91,27 @@
     top: -56px;
   }
   @media screen and (min-width: 1368px) {
-    margin-bottom: 48px;
   }
   @media screen and (min-width: 1920px) {
-    margin-bottom: 56px;
+  }
+}
+
+.teacher-slider-wrapper .swiper-button-next,
+.teacher-slider-wrapper .swiper-button-prev {
+  top: -54px;
+  @media screen and (min-width: 768px) {
+    top: -57px;
+  }
+  @media screen and (min-width: 1368px) {
+    top: -55px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: -85px;
+  }
+}
+
+.teacher-slider-wrapper .swiper-button-prev {
+  @media screen and (min-width: 1920px) {
+    right: 68px;
   }
 }

@@ -5,10 +5,16 @@ import TeachersList from "./TeachersList/TeachersList";
 
 export default function Teachers() {
   return (
-    <section>
+    <section className={s.teacher_section}>
       <Container>
-        <Title text="НАШІ ВИКЛАДАЧІ" className="teachers_title" tagName="h2" />
-        <TeachersList />
+        <div className={s.teachers_wrapper}>
+          <Title
+            text="НАШІ ВИКЛАДАЧІ"
+            className="teachers_title"
+            tagName="h2"
+          />
+          <TeachersList />
+        </div>
       </Container>
     </section>
   );
