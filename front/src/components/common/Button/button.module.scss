@@ -73,3 +73,37 @@
     max-width: 227px;
   }
 }
+
+.joinUsBtn {
+  margin: 0 auto;
+  padding: 25px 0;
+  width: 100%;
+
+  display: block;
+
+  border-radius: 12px;
+  background: #d93d30;
+
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  transition: color linear 250ms, background linear 250ms;
+
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #100e0e;
+  }
+
+  @media screen and (min-width: 1368px) {
+    padding: 24px 31px;
+    width: auto;
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 32px 51px;
+    font-size: 18px;
+  }
+}

@@ -35,7 +35,6 @@
   }
 }
 
-
 .faqTitle {
   margin-bottom: 40px;
 
@@ -60,7 +59,8 @@
 
 .courses_section_title,
 .step_section_title,
-.contact_title {
+.contact_title,
+.joinUsMainTitle {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -81,6 +81,45 @@
 .step_section_title {
   @media screen and (max-width: 375px) {
     max-width: 190px;
+  }
+}
 
+.joinUsMainTitle {
+  position: relative;
+  z-index: 1;
+
+  margin-bottom: 16px;
+
+  text-align: center;
+
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 14px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 20px;
+  }
+}
+
+.joinUsSubTitle {
+  position: relative;
+  z-index: 1;
+
+  margin-bottom: 72px;
+
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 48px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 28px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 40px;
+
+    font-size: 20px;
   }
 }
