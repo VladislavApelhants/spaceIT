@@ -17,6 +17,10 @@ section .step_swiper .step_slide {
   padding: 16px 12px;
   height: 338px;
 
+  @media screen and (min-width: 768px) {
+    margin-right: 32px;
+  }
+
   @media screen and (min-width: 1920px) {
     height: 495px;
     width: 375px;

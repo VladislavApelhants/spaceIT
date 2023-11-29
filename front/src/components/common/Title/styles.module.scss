@@ -84,3 +84,15 @@
     max-width: 190px;
   }
 }
+
+.teachers_title {
+  @media screen and (max-width: 370px) {
+    margin-bottom: 80px;
+  }
+}
+
+.step_section_title {
+  @media screen and (max-width: 370px) {
+    margin-bottom: 70px;
+  }
+}

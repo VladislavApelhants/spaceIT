@@ -1,6 +1,20 @@
 .teacher_slider_wrapper .teacher_slider {
   overflow: visible;
 }
+.teacher_item {
+  max-width: 351px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    max-width: 320px;
+    margin-right: 32px;
+  }
+  @media screen and (min-width: 1368px) {
+    max-width: 256px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 376px;
+  }
+}
 
 .teacher_item_thumb {
   position: relative;
@@ -51,5 +65,35 @@
   @media screen and (min-width: 1920px) {
     border-radius: 24px;
     padding: 20px 16px;
+  }
+}
+
+.teacher_item_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 12px;
+
+  @media screen and (min-width: 1368px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 14px;
+    font-size: 22px;
+  }
+}
+
+.teacher_prof_description {
+  color: #8a8b8a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  @media screen and (min-width: 1368px) {
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 16px;
   }
 }
