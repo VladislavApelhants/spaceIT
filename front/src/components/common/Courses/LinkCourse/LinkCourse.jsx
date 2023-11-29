@@ -1,5 +1,5 @@
 import Link from "next/link";
-import s from "./LinkCourse.module.scss";
+import s from "./linkCourse.module.scss";
 
 export default function LinkCourse() {
   return (

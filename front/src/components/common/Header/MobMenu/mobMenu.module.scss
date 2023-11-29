@@ -1,6 +1,6 @@
 .mobMenu {
   position: fixed;
-  z-index: 5;
+  z-index: 998;
   top: 100%;
   left: 0;
   bottom: 0;
@@ -94,7 +94,7 @@
 }
 
 .mob_rectangle {
-  position: fixed;
+  position: absolute;
   width: 289.094px;
   height: 321.96px;
   border-radius: 163.401px;
@@ -104,8 +104,9 @@
 }
 
 .mob_rectangle_top {
-  top: -150px;
+  top: -70px;
   left: -110px;
+  filter: blur(85px);
 }
 .mob_rectangle_bottom {
   bottom: 0;

@@ -18,7 +18,6 @@ const Header = () => {
 
   const onOpenMobileMenu = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen);
   };
 
   return (
