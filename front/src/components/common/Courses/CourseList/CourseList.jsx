@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import { Pagination, Navigation } from "swiper/modules";
 
-import Button from "../Button/Button";
+import LinkCourse from "../LinkCourse/LinkCourse";
 import "swiper/scss";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -50,7 +50,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -77,7 +77,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -104,7 +104,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -131,7 +131,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -158,7 +158,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -185,7 +185,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -212,7 +212,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -239,7 +239,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -266,7 +266,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
         <SwiperSlide className={s.cource_item}>
           <div className={s.course_item_thumb}>
@@ -293,7 +293,7 @@ export default function CourseList() {
               Github, Hit, Rest API
             </p>
           </div>
-          <Button />
+          <LinkCourse />
         </SwiperSlide>
       </Swiper>
     </div>
