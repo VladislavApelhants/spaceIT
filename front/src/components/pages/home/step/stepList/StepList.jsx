@@ -15,6 +15,7 @@ export default function StepList() {
         slidesPerView={"auto"}
         modules={[Navigation]}
         navigation={true}
+        loop={true}
         className={s.step_swiper}
         breakpoints={{
           1368: {

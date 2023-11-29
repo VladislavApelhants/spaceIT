@@ -59,7 +59,9 @@
   }
 }
 
-.step-list-swiper-wrapper .swiper-button-next {
+.step-list-swiper-wrapper .swiper-button-next,
+.teacher-slider-wrapper .swiper-button-next,
+.social-slider-wrapper .swiper-button-next {
   @include styledButton;
   right: 0px;
   top: -70px;
@@ -71,14 +73,14 @@
     top: -56px;
   }
   @media screen and (min-width: 1368px) {
-    margin-bottom: 48px;
   }
   @media screen and (min-width: 1920px) {
-    margin-bottom: 56px;
   }
 }
 
-.step-list-swiper-wrapper .swiper-button-prev {
+.step-list-swiper-wrapper .swiper-button-prev,
+.teacher-slider-wrapper .swiper-button-prev,
+.social-slider-wrapper .swiper-button-prev {
   @include styledButton;
   left: auto;
   right: 52px;
@@ -91,9 +93,42 @@
     top: -56px;
   }
   @media screen and (min-width: 1368px) {
-    margin-bottom: 48px;
   }
   @media screen and (min-width: 1920px) {
-    margin-bottom: 56px;
+  }
+}
+
+.teacher-slider-wrapper .swiper-button-next,
+.teacher-slider-wrapper .swiper-button-prev {
+  top: -54px;
+  @media screen and (min-width: 768px) {
+    top: -57px;
+  }
+  @media screen and (min-width: 1368px) {
+    top: -55px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: -85px;
+  }
+}
+
+.teacher-slider-wrapper .swiper-button-prev,
+.social-slider-wrapper .swiper-button-prev {
+  @media screen and (min-width: 1920px) {
+    right: 68px;
+  }
+}
+
+.social-slider-wrapper .swiper-button-prev,
+.social-slider-wrapper .swiper-button-next {
+  top: -51px;
+  @media screen and (min-width: 768px) {
+    top: -49px;
+  }
+  @media screen and (min-width: 1368px) {
+    top: -61px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: -81px;
   }
 }
