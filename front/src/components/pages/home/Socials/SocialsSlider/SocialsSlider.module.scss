@@ -1,0 +1,17 @@
+.social_slider_wrapper .social_slider {
+  overflow: visible;
+}
+.social_slider_wrapper .social_item {
+  margin-right: 32px;
+  max-width: 255px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    max-width: 320px;
+  }
+  @media screen and (min-width: 1368px) {
+    max-width: 256px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 376px;
+  }
+}

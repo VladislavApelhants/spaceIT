@@ -60,7 +60,8 @@
 .courses_section_title,
 .step_section_title,
 .contact_title,
-.teachers_title {
+.teachers_title,
+.socials_title {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -94,5 +95,22 @@
 .step_section_title {
   @media screen and (max-width: 370px) {
     margin-bottom: 70px;
+  }
+}
+
+.socials_title {
+  margin-bottom: 12px;
+  width: 100%;
+  max-width: 352px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 378px;
+  }
+  @media screen and (min-width: 1368px) {
+    max-width: 439px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 490px;
+    margin-bottom: 16px;
   }
 }

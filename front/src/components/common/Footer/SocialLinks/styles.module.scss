@@ -43,37 +43,3 @@
     height: 47px;
   }
 }
-
-.socialList {
-  display: flex;
-  gap: 11px;
-  @media screen and (min-width: 1920px) {
-    gap: 16px;
-  }
-}
-
-.socialLink {
-  display: block;
-  width: 28px;
-  height: 28px;
-  &:hover .socialIcon,
-  &:focus .socialIcon {
-    fill: #d93d30;
-  }
-  @media screen and (min-width: 1368px) {
-    width: 20px;
-    height: 20px;
-  }
-  @media screen and (min-width: 1920px) {
-    width: 24px;
-    height: 24px;
-  }
-}
-
-.socialIcon {
-  width: 100%;
-  height: 100%;
-
-  fill: white;
-  transition: fill linear 250ms;
-}
