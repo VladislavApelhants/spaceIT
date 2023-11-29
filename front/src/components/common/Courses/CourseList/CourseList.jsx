@@ -299,9 +299,3 @@ export default function CourseList() {
     </div>
   );
 }
-
-//  navigation={{
-//           enabled: true,
-//           nextEl: `.${s.courseNextEl}`,
-//           prevEl: `.${s.coursePrevEl}`,
-//         }}
