@@ -15,20 +15,8 @@ export default function SocialsSlider() {
     <div className={`social-slider-wrapper ${s.social_slider_wrapper}`}>
       <Swiper
         navigation={true}
-        spaceBetween={32}
-        slidesPerView={1.3}
+        slidesPerView={"auto"}
         modules={[Pagination, Navigation]}
-        breakpoints={{
-          320: {
-            slidesPerView: 1.3,
-          },
-          768: {
-            slidesPerView: 2.1,
-          },
-          1368: {
-            slidesPerView: 4,
-          },
-        }}
         className={s.social_slider}
       >
         <SwiperSlide className={s.social_item}>
