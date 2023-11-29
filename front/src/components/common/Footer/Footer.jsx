@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className={s.footer}>
       <Container>
         <div className={s.footerContainer}>
-         <SocialLinks />
+          <SocialLinks />
           <Buttons>
             <ButtonCall />
             <ButtonMessage />
