@@ -1,38 +1,11 @@
 .nasa {
   position: relative;
-  @media screen and (min-width: 768px) {
-    padding: 104px 0;
-  }
-  @media screen and (min-width: 1368px) {
-    padding-top: 132px;
-    padding-bottom: 126px;
-  }
-  @media screen and (min-width: 1920px) {
-    padding-top: 145px;
-    padding-bottom: 156px;
-  }
 }
 
-.div {
-  position: relative;
-  z-index: 3;
-  padding-top: 145px;
-  padding-bottom: 184px;
-  background: url("/images/nasa/astronaut-mobile-test.png"),
-    url("/images/nasa/ship-mobile.png"),
-    url("/images/nasa/platet-overlay-mobile.png"),
-    url("/images/nasa/Planet.png");
-  background-size: 178px 160px, auto, contain, auto;
-  background-position: -45px 72px, right 0% bottom 0%, right 50% bottom 50%,
-    right 50% bottom 50%;
-  background-repeat: no-repeat;
-}
-
-.nasaContainer {
-  position: relative;
-}
 .bg {
   position: absolute;
+  left: -25%;
+  top: 10%;
   z-index: -1;
   width: 982.836px;
   height: 380.878px;
@@ -42,7 +15,200 @@
   border-radius: 271.26px;
   background-color: rgba(180, 13, 10, 1);
   filter: blur(102.25924682617188px);
+
+  @media screen and (min-width: 768px) {
+    left: -32%;
+    top: 40%;
+
+    width: 1798px;
+    height: 430px;
+    transform: rotate(16.176deg);
+    flex-shrink: 0;
+
+    border-radius: 538px;
+    background-color: rgba(133, 32, 25, 1);
+    filter: blur(202.88235473632812px);
+  }
+  @media screen and (min-width: 1368px) {
+    left: 0%;
+    top: 40%;
+
+    width: 1655.137px;
+    height: 396.15px;
+    transform: rotate(16.176deg);
+    flex-shrink: 0;
+    border-radius: 495.188px;
+    background-color: rgba(133, 32, 25, 1);
+    filter: blur(186);
+  }
+  @media screen and (min-width: 1920px) {
+    left: 50%;
+    top: 50%;
+
+    width: 2323px;
+    height: 556px;
+    transform: translate(-50%, -50%) rotate(16.176deg);
+    flex-shrink: 0;
+    border-radius: 695px;
+    background-color: rgba(133, 32, 25, 1);
+    filter: blur(262px);
+  }
 }
 
-.mobileBackground {
+.mobileBg {
+  position: relative;
+  z-index: 1;
+  padding-top: 145px;
+  padding-bottom: 184px;
+  background: url("/images/nasa/astronaut-mobile.png"),
+    url("/images/nasa/ship-mobile.png"),
+    url("/images/nasa/platet-overlay-mobile.png"),
+    url("/images/nasa/half-planet-mobile.png"),
+    url("/images/nasa/planet-mobile.png");
+  background-size: 178px 160px, auto, 100px 100px, auto, auto;
+  background-position: -45px 72px, right 0% bottom 0%, right 50% bottom 50%,
+    right 0% bottom 100%, right 50% bottom 50%;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    padding: 0;
+    background: none;
+  }
+}
+
+.halfPlanet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    right: -42px;
+    top: 140px;
+
+    width: 108px;
+    height: 84px;
+
+    background: url("/images/nasa/half-planet-tablet.png");
+    background-size: contain;
+
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1368px) {
+    right: -42px;
+    top: 140px;
+
+    width: 177px;
+    height: 138px;
+
+    background: url("/images/nasa/half-planet-desktop.png");
+  }
+  @media screen and (min-width: 1920px) {
+    right: -60px;
+    top: 275px;
+
+    width: 248px;
+    height: 193px;
+
+    background: url("/images/nasa/half-planet-desktop-large.png");
+  }
+}
+
+.halfPlanetOverlay {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(255, 0, 0, 0.3);
+  filter: blur(10px);
+  border-radius: 50%;
+}
+
+.astronaut {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 118px;
+    left: -33px;
+
+    width: 252px;
+    height: 274px;
+
+    background: url("/images/nasa/astronaut-tablet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1368px) {
+    top: 148px;
+    left: -117px;
+
+    width: 480px;
+    height: 454px;
+
+    background: url("/images/nasa/astronaut-desktop.png");
+  }
+  @media screen and (min-width: 1920px) {
+    top: 158px;
+    left: -147px;
+
+    width: 673px;
+    height: 635px;
+
+    background: url("/images/nasa/astronaut-desktop-large.png");
+  }
+}
+
+.ship {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 353px;
+    right: -33px;
+
+    width: 252px;
+    height: 459px;
+
+    background: url("/images/nasa/ship-tablet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1368px) {
+    top: 523px;
+    right: -113px;
+
+    width: 480px;
+    height: 601px;
+
+    background: url("/images/nasa/ship-desktop.png");
+  }
+
+  @media screen and (min-width: 1920px) {
+    top: 703px;
+    right: -170px;
+
+    width: 687px;
+    height: 1064px;
+
+    background: url("/images/nasa/ship-desktop-large.png");
+  }
+}
+
+.nasaContainer {
+  @media screen and (min-width: 768px) {
+    position: relative;
+    padding: 285px 0;
+    background: url("/images/nasa/planet-tablet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1368px) {
+    padding: 406px 0;
+
+    background: url("/images/nasa/planet-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media screen and (min-width: 1920px) {
+    padding: 541px 0 561px 0;
+
+    background: url("/images/nasa/planet-desktop-large.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
