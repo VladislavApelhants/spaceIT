@@ -62,7 +62,8 @@
 .contact_title,
 .joinUsMainTitle,
 .teachers_title,
-.socials_title {
+.socials_title,
+.nasaTitle {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -155,7 +156,6 @@
     margin-bottom: 16px;
   }
 }
-
 .main_courses_title {
   position: absolute;
   width: 1px;
@@ -211,9 +211,22 @@
     font-weight: 600;
     line-height: 1;
     margin-bottom: 16px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 28px;
+  }
+}
 
-    @media screen and (min-width: 1920px) {
-      font-size: 28px;
-    }
+.nasaTitle {
+  text-align: center;
+  margin-bottom: 0;
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 104px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 146px;
   }
 }
