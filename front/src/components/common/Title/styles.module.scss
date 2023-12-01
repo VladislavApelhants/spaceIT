@@ -62,7 +62,8 @@
 .contact_title,
 .joinUsMainTitle,
 .teachers_title,
-.socials_title {
+.socials_title,
+.nasaTitle {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -86,7 +87,6 @@
     max-width: 190px;
   }
 }
-
 
 .joinUsMainTitle {
   position: relative;
@@ -128,7 +128,6 @@
   }
 }
 
-
 .teachers_title {
   @media screen and (max-width: 370px) {
     margin-bottom: 80px;
@@ -155,6 +154,19 @@
   @media screen and (min-width: 1920px) {
     max-width: 490px;
     margin-bottom: 16px;
+  }
+}
 
+.nasaTitle {
+  text-align: center;
+  margin-bottom: 0;
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 104px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 146px;
   }
 }

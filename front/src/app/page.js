@@ -7,6 +7,8 @@ import JoinUs from "@/components/pages/home/JoinUs/JoinUs";
 import Faq from "@/components/pages/home/Faq/Faq";
 import Teachers from "@/components/pages/home/Teachers/Teachers";
 import Socials from "@/components/pages/home/Socials/Socials";
+import Nasa from "@/components/pages/home/Nasa/Nasa";
+
 import "./main.scss";
 export default function Home() {
   return (
@@ -15,8 +17,9 @@ export default function Home() {
       <StepSection />
       <Courses />
       <HowLearning />
-      <JoinUs />
       <Teachers />
+      <Nasa />
+      <JoinUs />
       <Socials />
       <Faq />
       <Contact />
