@@ -8,6 +8,7 @@ import Faq from "@/components/pages/home/Faq/Faq";
 import Teachers from "@/components/pages/home/Teachers/Teachers";
 import Socials from "@/components/pages/home/Socials/Socials";
 import Nasa from "@/components/pages/home/Nasa/Nasa";
+
 import "./main.scss";
 export default function Home() {
   return (
