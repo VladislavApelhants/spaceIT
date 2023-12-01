@@ -5,8 +5,9 @@ import Container from "../Container/Container";
 import Image from "next/image";
 import Button from "../Button/Button";
 import Navigation from "./Navigation/Navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MobMenu from "./MobMenu/MobMenu";
+import { usePathname } from "next/navigation";
 const classes = {
   nav: "header_nav",
   link: "header_link",
@@ -15,10 +16,14 @@ const classes = {
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
 
   const onOpenMobileMenu = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen);
   };
 
   return (
@@ -56,7 +61,7 @@ const Header = () => {
                 alt="Site logotype"
               />
             </Link>
-            <Navigation className={classes} />
+            <Navigation className={classes} onChangeOpen={onOpenMobileMenu} />
             <Button text={"Записатись на курс"} className={"header_button"} />
           </div>
         </Container>
