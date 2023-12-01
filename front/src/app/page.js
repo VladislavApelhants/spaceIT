@@ -7,6 +7,7 @@ import JoinUs from "@/components/pages/home/JoinUs/JoinUs";
 import Faq from "@/components/pages/home/Faq/Faq";
 import Teachers from "@/components/pages/home/Teachers/Teachers";
 import Socials from "@/components/pages/home/Socials/Socials";
+import "./main.scss";
 export default function Home() {
   return (
     <>
