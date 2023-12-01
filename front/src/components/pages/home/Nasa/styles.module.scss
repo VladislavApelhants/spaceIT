@@ -1,0 +1,48 @@
+.nasa {
+  position: relative;
+  @media screen and (min-width: 768px) {
+    padding: 104px 0;
+  }
+  @media screen and (min-width: 1368px) {
+    padding-top: 132px;
+    padding-bottom: 126px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding-top: 145px;
+    padding-bottom: 156px;
+  }
+}
+
+.div {
+  position: relative;
+  z-index: 3;
+  padding-top: 145px;
+  padding-bottom: 184px;
+  background: url("/images/nasa/astronaut-mobile-test.png"),
+    url("/images/nasa/ship-mobile.png"),
+    url("/images/nasa/platet-overlay-mobile.png"),
+    url("/images/nasa/Planet.png");
+  background-size: 178px 160px, auto, contain, auto;
+  background-position: -45px 72px, right 0% bottom 0%, right 50% bottom 50%,
+    right 50% bottom 50%;
+  background-repeat: no-repeat;
+}
+
+.nasaContainer {
+  position: relative;
+}
+.bg {
+  position: absolute;
+  z-index: -1;
+  width: 982.836px;
+  height: 380.878px;
+  transform: rotate(10.157deg);
+  flex-shrink: 0;
+
+  border-radius: 271.26px;
+  background-color: rgba(180, 13, 10, 1);
+  filter: blur(102.25924682617188px);
+}
+
+.mobileBackground {
+}
