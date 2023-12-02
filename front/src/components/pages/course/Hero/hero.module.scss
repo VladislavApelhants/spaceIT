@@ -27,6 +27,7 @@
   @media screen and (min-width: 1368px) {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
     padding: 24px;
     background-image: url("/images/hero-courses/hero-desk1-bg.png");
   }
@@ -44,6 +45,8 @@
     margin-bottom: 153px;
   }
   @media screen and (min-width: 1920px) {
+    max-width: 490px;
+    margin-bottom: 188px;
   }
 }
 .hero_description {
