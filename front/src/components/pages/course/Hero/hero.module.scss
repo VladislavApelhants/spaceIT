@@ -14,21 +14,25 @@
     padding-bottom: 70px;
   }
 }
-.hero_vrapper {
+.hero_all_vrapper {
   position: relative;
   padding: 12px 17px 32px 12px;
-  background-image: url("/images/heroCourses/hero-mob-bg.png");
+
+  background-image: url("/images/hero-courses/hero-mob-bg.png");
+  background-repeat: no-repeat;
   @media screen and (min-width: 768px) {
     padding: 24px 9px 24px 24px;
-    background-image: url("/images/heroCourses/hero-tab-bg.png");
+    background-image: url("/images/hero-courses/hero-tab-bg.png");
   }
   @media screen and (min-width: 1368px) {
-    background-image: url("/images/heroCourses/hero-desk1-bg.png");
+    display: flex;
+    flex-direction: row-reverse;
     padding: 24px;
+    background-image: url("/images/hero-courses/hero-desk1-bg.png");
   }
   @media screen and (min-width: 1920px) {
     padding: 40px;
-    background-image: url("/images/heroCourses/hero-desk2-bg.png");
+    background-image: url("/images/hero-courses/hero-desk2-bg.png");
   }
 }
 .title_box {
