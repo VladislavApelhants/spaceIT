@@ -2,19 +2,18 @@
   position: relative;
   margin-bottom: 183px;
 
-  // @media screen and (min-width: 768px) {
-
-  //
-  // }
   @media screen and (min-width: 768px) {
     left: 108px;
-    margin-bottom: 0px;
     bottom: 15px;
     margin-bottom: 308px;
   }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 0px;
+  }
   @media screen and (min-width: 1920px) {
-    left: 231px;
+    left: 215px;
     bottom: 36px;
+    margin-bottom: 0px;
   }
 }
 
