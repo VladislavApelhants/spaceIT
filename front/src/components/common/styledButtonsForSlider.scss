@@ -90,10 +90,6 @@
   @media screen and (min-width: 768px) {
     top: -56px;
   }
-  @media screen and (min-width: 1368px) {
-  }
-  @media screen and (min-width: 1920px) {
-  }
 }
 
 .step-list-swiper-wrapper .swiper-button-prev,
@@ -106,10 +102,6 @@
 
   @media screen and (min-width: 768px) {
     top: -56px;
-  }
-  @media screen and (min-width: 1368px) {
-  }
-  @media screen and (min-width: 1920px) {
   }
 }
 
@@ -128,7 +120,8 @@
 }
 
 .teacher-slider-wrapper .swiper-button-prev,
-.social-slider-wrapper .swiper-button-prev {
+.social-slider-wrapper .swiper-button-prev,
+.step-list-swiper-wrapper .swiper-button-prev {
   @media screen and (min-width: 1920px) {
     right: 68px;
   }

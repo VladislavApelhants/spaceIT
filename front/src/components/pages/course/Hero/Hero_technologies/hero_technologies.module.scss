@@ -3,10 +3,15 @@
   background-image: url("/images/header-bgc.png");
   background-size: cover;
   width: 60px;
-  padding: 16px;
+  padding: 14px;
 
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1367px) {
+    position: absolute;
+    top: 24px;
+    left: 24px;
   }
   @media screen and (min-width: 1368px) {
     width: 270px;
@@ -23,8 +28,9 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
-  align-items: flex-start;
+
   @media screen and (min-width: 1368px) {
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 11px;
     height: 70px;
