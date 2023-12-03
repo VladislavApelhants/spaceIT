@@ -4,6 +4,7 @@ import s from "./hero.module.scss";
 import Button from "@/components/common/Button/Button";
 import HeroTechnologies from "./Hero_technologies/HeroTechnologies";
 import HeroPresentation from "./HeroPresentation/HeroPresentation";
+import Ellipse from "@/components/common/Ellipse/Ellipse";
 
 export default function Hero() {
   return (
@@ -35,6 +36,8 @@ export default function Hero() {
           </div>
         </div>
       </Container>
+      <Ellipse className="hero-cource-ellipse-top" />
+      <Ellipse className="hero-cource-ellipse-bottom" />
     </section>
   );
 }

@@ -63,3 +63,37 @@
     bottom: -500px;
   }
 }
+
+.hero-cource-ellipse-top,
+.hero-cource-ellipse-bottom {
+  @media screen and (min-width: 1368px) {
+    @include ellipse_stile;
+  }
+}
+
+.hero-cource-ellipse-top {
+  @media screen and (min-width: 1368px) {
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    filter: blur(200px);
+  }
+}
+
+.hero-cource-ellipse-bottom {
+  @media screen and (min-width: 1368px) {
+    top: 200px;
+    left: 200px;
+    width: 470px;
+    height: 470px;
+    filter: blur(292.125px);
+  }
+
+  @media screen and (min-width: 1920px) {
+    top: 360px;
+    left: 380px;
+    width: 570px;
+    height: 570px;
+  }
+}
