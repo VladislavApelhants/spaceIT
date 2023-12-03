@@ -230,3 +230,19 @@
     font-size: 146px;
   }
 }
+
+.you_learning_title {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 28px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 40px;
+  }
+}

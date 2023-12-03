@@ -150,3 +150,33 @@
     max-width: 227px;
   }
 }
+
+.you_learn_button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 12px;
+  background: #d93d30;
+  padding: 26px 12px;
+  width: 100%;
+
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    max-width: 178px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+    max-width: 227px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+}
