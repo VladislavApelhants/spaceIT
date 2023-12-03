@@ -1,0 +1,74 @@
+.hero_box_technologies {
+  border-radius: 24px;
+  background-image: url("/images/header-bgc.png");
+  background-size: cover;
+  width: 60px;
+  padding: 16px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 1368px) {
+    width: 270px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 465px;
+    padding: 24px;
+  }
+}
+
+.technologies_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-items: flex-start;
+  @media screen and (min-width: 1368px) {
+    flex-wrap: wrap;
+    gap: 11px;
+    height: 70px;
+  }
+  @media screen and (min-width: 1920px) {
+    flex-wrap: wrap;
+    gap: 11px;
+    height: 116px;
+  }
+}
+
+.techno_icon {
+  @media screen and (min-width: 1368px) and (max-width: 1919px) {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.techno_item_title {
+  @media screen and (max-width: 1367px) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 20px;
+  }
+}
+
+.techno_item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}

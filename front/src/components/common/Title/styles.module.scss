@@ -156,6 +156,66 @@
     margin-bottom: 16px;
   }
 }
+.main_courses_title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.courses_hero_title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 56px;
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 72px;
+    margin-bottom: 56px;
+  }
+}
+
+.courses_hero_tech_title {
+  @media screen and (max-width: 1367px) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 1368px) {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 28px;
+  }
+}
 
 .nasaTitle {
   text-align: center;
