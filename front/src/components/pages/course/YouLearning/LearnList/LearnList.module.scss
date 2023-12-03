@@ -4,6 +4,9 @@
     flex-wrap: wrap;
     gap: 17px;
   }
+  @media screen and (min-width: 1920px) {
+    gap: 24px;
+  }
 }
 
 .learn_item {
@@ -21,6 +24,9 @@
   }
   @media screen and (min-width: 1368px) {
     flex-basis: calc((100% - 17px) / 2);
+  }
+  @media screen and (min-width: 1920px) {
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
