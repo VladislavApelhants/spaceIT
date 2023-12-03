@@ -170,14 +170,12 @@
   @media screen and (min-width: 768px) {
     font-size: 14px;
     max-width: 178px;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding: 21px 10px;
   }
 
   @media screen and (min-width: 1920px) {
     font-size: 18px;
     max-width: 227px;
-    padding-top: 29px;
-    padding-bottom: 29px;
+    padding: 29px 12px;
   }
 }
