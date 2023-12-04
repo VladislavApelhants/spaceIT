@@ -71,3 +71,44 @@
   fill: #d93d30;
   transition: fill linear 250ms;
 }
+
+.teacher_list_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fff;
+
+  width: 28px;
+  height: 28px;
+
+  &:hover .teacher_list_icon,
+  &:focus .teacher_list_icon {
+    fill: #d93d30;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 18px;
+    height: 18px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.teacher_list_icon {
+  transition: fill linear 250ms;
+  width: 100%;
+  height: 100%;
+}
+
+.teachers_list {
+  display: flex;
+  gap: 16px;
+  @media screen and (min-width: 1368px) {
+    gap: 11;
+  }
+  @media screen and (min-width: 1920px) {
+    gap: 16;
+  }
+}
