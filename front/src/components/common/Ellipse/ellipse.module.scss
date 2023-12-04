@@ -65,7 +65,8 @@
 }
 
 .hero-cource-ellipse-top,
-.hero-cource-ellipse-bottom {
+.hero-cource-ellipse-bottom,
+.teacher_ellipse {
   @media screen and (min-width: 1368px) {
     @include ellipse_stile;
   }
@@ -95,5 +96,20 @@
     left: 380px;
     width: 570px;
     height: 570px;
+  }
+}
+
+.teacher_ellipse {
+  @media screen and (min-width: 1368px) {
+    width: 500px;
+    height: 500px;
+    top: 400px;
+    filter: blur(292.125px);
+  }
+  @media screen and (min-width: 1920px) {
+    top: 600px;
+    width: 570px;
+    height: 570px;
+    filter: blur(410px);
   }
 }

@@ -261,10 +261,11 @@
   @media screen and (min-width: 1920px) {
     width: 510px;
     font-size: 32px;
-}
+  }
 }
 
-  .you_learning_title {
+.you_learning_title,
+.course_teacher_title {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -277,5 +278,17 @@
   }
   @media screen and (min-width: 1920px) {
     font-size: 40px;
+  }
+}
+.course_teacher_title {
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 64px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 48px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 64px;
   }
 }
