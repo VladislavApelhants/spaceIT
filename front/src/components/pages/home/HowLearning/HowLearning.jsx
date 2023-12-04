@@ -58,7 +58,7 @@ export default function HowLearning() {
               <li className={s.howLearning_item}>
                 <div className={s.howLearning_title_container}>
                   <svg className={s.icons} width={20} height={20}>
-                    <use href="/icons/sprite.svg#icon-rocket"></use>
+                    <use href="/icons/sprite.svg#icon-rocket-white"></use>
                   </svg>
                   <h3 className={s.howLearning_item_title}>
                     Особистий онлайн-кабінет
