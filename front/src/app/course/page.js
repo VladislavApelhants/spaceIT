@@ -5,7 +5,7 @@ import Courses from "@/components/pages/course/Courses/Courses.module";
 import Contact from "@/components/pages/home/Contact/Contact";
 import AboutProfession from "@/components/pages/course/AboutProfession/AboutProfession";
 import Teachers from "@/components/pages/course/Teachers/Teachers";
-
+import Ready from "@/components/pages/course/Ready/Ready";
 
 export default function Course() {
   return (
@@ -15,6 +15,7 @@ export default function Course() {
       <YouLearning />
       <AboutProfession />
       <Teachers />
+      <Ready />
       <Courses />
       <Contact />
     </>
