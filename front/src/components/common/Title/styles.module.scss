@@ -66,6 +66,7 @@
 .aboutCourse,
 .aboutCourseSecondTitle,
 .aboutProfessionTitle,
+.programTitle,
 .nasaTitle {
   font-size: 28px;
   font-weight: 800;
@@ -267,7 +268,6 @@
 
 .you_learning_title,
 .course_teacher_title {
-
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -282,7 +282,6 @@
     font-size: 40px;
   }
 }
-
 
 .aboutProfessionTitle {
   margin-bottom: 21px;
@@ -372,5 +371,18 @@
   }
   @media screen and (min-width: 1920px) {
     margin-bottom: 64px;
+  }
+}
+
+.programTitle {
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 17px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 24px;
   }
 }
