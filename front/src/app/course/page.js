@@ -6,6 +6,7 @@ import Contact from "@/components/pages/home/Contact/Contact";
 import AboutProfession from "@/components/pages/course/AboutProfession/AboutProfession";
 import Teachers from "@/components/pages/course/Teachers/Teachers";
 import Ready from "@/components/pages/course/Ready/Ready";
+import HowLearn from "@/components/pages/course/HowLearn/HowLearn";
 
 export default function Course() {
   return (
@@ -16,6 +17,7 @@ export default function Course() {
       <AboutProfession />
       <Teachers />
       <Ready />
+      <HowLearn />
       <Courses />
       <Contact />
     </>
