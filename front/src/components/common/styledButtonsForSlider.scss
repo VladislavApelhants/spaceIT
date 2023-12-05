@@ -140,3 +140,68 @@
     top: -81px;
   }
 }
+
+.course_how_learn .swiper-button-prev,
+.course_how_learn .swiper-button-next {
+  @include styledButton;
+
+  top: 42px;
+  width: 34px;
+  height: 34px;
+
+  @media screen and (min-width: 768px) {
+    top: 42px;
+  }
+
+  @media screen and (min-width: 1368px) {
+    top: auto;
+    right: auto;
+    bottom: 20px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 40px;
+    height: 40px;
+    bottom: 33px;
+  }
+
+  &.swiper-button-next::after,
+  &.swiper-button-prev::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-size: 18px 18px;
+    @media screen and (min-width: 1920px) {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.course_how_learn .swiper-button-prev:after,
+.course_how_learn .swiper-button-next::after {
+  width: 34px;
+  height: 34px;
+}
+
+.course_how_learn .swiper-button-prev {
+  left: auto;
+  right: 59px;
+  @media screen and (min-width: 1368px) {
+    right: auto;
+    left: 16px;
+  }
+  @media screen and (min-width: 1920px) {
+    left: 32px;
+  }
+}
+
+.course_how_learn .swiper-button-next {
+  right: 16px;
+  @media screen and (min-width: 1368px) {
+    right: auto;
+    left: 59px;
+  }
+  @media screen and (min-width: 1920px) {
+    left: 84px;
+  }
+}
