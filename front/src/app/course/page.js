@@ -8,7 +8,7 @@ import Teachers from "@/components/pages/course/Teachers/Teachers";
 import Program from "@/components/pages/course/Program/Program";
 import Ready from "@/components/pages/course/Ready/Ready";
 import HowLearn from "@/components/pages/course/HowLearn/HowLearn";
-
+import Diploma from "@/components/pages/course/Diploma/Diploma";
 
 export default function Course() {
   return (
@@ -22,6 +22,7 @@ export default function Course() {
       <Ready />
       <HowLearn />
       <Courses />
+      <Diploma />
       <Contact />
     </>
   );
