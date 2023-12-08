@@ -69,6 +69,17 @@
 }
 
 .play_btn {
+  transition: background-color linear 250ms, color linear 250ms;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #100e0e;
+  }
+  & .icon_play {
+    fill: currentColor;
+  }
   @media screen and (max-width: 767px) {
     display: none;
   }
@@ -99,67 +110,3 @@
     font-size: 18px;
   }
 }
-
-// .icon_play {
-//   width: 20px;
-//   height: 20px;
-//   @media screen and (min-width: 1920px) {
-//     width: 28px;
-//     height: 28px;
-//   }
-// }
-
-// .register_btn {
-//   font-size: 16px;
-//   font-weight: 400;
-//   line-height: 1;
-//   padding: 6px 8px;
-//   border-radius: 24px;
-//   border: 1px solid #fff;
-//   text-transform: uppercase;
-
-//   margin-bottom: 20px;
-
-//   @media screen and (min-width: 768px) {
-//     font-size: 16px;
-//   }
-//   @media screen and (min-width: 1368px) {
-//     font-size: 14px;
-//     padding: 7px 8px;
-//   }
-//   @media screen and (min-width: 1920px) {
-//     font-size: 18px;
-//     padding: 8px 12px;
-//     margin-bottom: 32px;
-//   }
-// }
-
-// .card_title {
-//   font-size: 20px;
-//   font-weight: 800;
-//   line-height: 1.2;
-//   margin-bottom: 16px;
-
-//   @media screen and (min-width: 1920px) {
-//     font-size: 24px;
-//     margin-bottom: 24px;
-//   }
-// }
-
-// .description {
-//   font-size: 16px;
-//   font-weight: 400;
-//   line-height: 1.5;
-
-//   @media screen and (max-width: 767px) {
-//     margin-bottom: 20px;
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     font-size: 14px;
-//   }
-
-//   @media screen and (min-width: 1920px) {
-//     font-size: 18px;
-//   }
-// }

@@ -60,6 +60,15 @@
   font-weight: 700;
   line-height: normal;
 
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #100e0e;
+  }
+  & .icon_play {
+    fill: currentColor;
+  }
+
   @media screen and (min-width: 768px) {
     display: none;
   }
