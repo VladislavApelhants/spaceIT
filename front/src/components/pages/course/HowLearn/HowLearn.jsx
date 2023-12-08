@@ -15,6 +15,7 @@ export default function HowLearn() {
                 src="/images/course-how/some-h.png"
                 width={784}
                 height={490}
+                alt="Як відбувається навчання"
               />
             </div>
             <SliderDescription />

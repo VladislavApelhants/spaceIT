@@ -66,7 +66,8 @@
 
 .hero-cource-ellipse-top,
 .hero-cource-ellipse-bottom,
-.teacher_ellipse {
+.teacher_ellipse,
+.course_register_ellipse {
   @media screen and (min-width: 1368px) {
     @include ellipse_stile;
   }
@@ -112,4 +113,12 @@
     height: 570px;
     filter: blur(410px);
   }
+}
+
+.course_register_ellipse {
+  top: 80px;
+  left: -200px;
+  width: 662px;
+  height: 662px;
+  filter: blur(292.125px);
 }

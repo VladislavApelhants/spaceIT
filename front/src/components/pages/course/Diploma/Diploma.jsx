@@ -18,6 +18,7 @@ export default function Diploma() {
               className={s.dipImage}
               width={352}
               height={473}
+              alt="image diploma"
             />
             <div className={s.info_thumb}>
               <Title

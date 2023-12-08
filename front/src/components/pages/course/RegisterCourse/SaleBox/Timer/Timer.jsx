@@ -1,5 +1,35 @@
+"use client";
+import { useState, useEffect } from "react";
 import s from "./timer.module.scss";
 export default function Timer() {
+  const [sec, SetSec] = useState(0);
+  const [min, SetMin] = useState(0);
+  const [hour, SetHour] = useState(0);
+  const [days, SetDays] = useState(0);
+
+  useEffect(() => {
+    const targetDate = new Date(new Date().getFullYear(), 11, 31, 23, 59, 59);
+    timer(targetDate);
+  }, []);
+
+  const timer = (data) => {
+    const timerId = setInterval(() => {
+      const currentDate = new Date();
+      const timeDifference = data.getTime() - currentDate.getTime();
+
+      if (timeDifference <= 0) {
+        clearInterval(timerId);
+        return;
+      }
+
+      SetDays(Math.floor(timeDifference / (1000 * 60 * 60 * 24)));
+      SetHour(
+        Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+      );
+      SetMin(Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60)));
+      SetSec(Math.floor((timeDifference % (1000 * 60)) / 1000));
+    }, 1000);
+  };
   return (
     <div className={s.get_sale}>
       <p className={s.get_sale_info}>
@@ -10,25 +40,25 @@ export default function Timer() {
         <div className={s.timer_output_block}>
           <div className={s.time_output}>
             <span className={s.time_value} data-time="day">
-              0
+              {days}
             </span>
             Днів
           </div>
           <div className={s.time_output}>
             <span className={s.time_value} data-time="hour">
-              0
+              {hour}
             </span>
             Годин
           </div>
           <div className={s.time_output}>
             <span className={s.time_value} data-time="minets">
-              0
+              {min}
             </span>
             Хвилин
           </div>
           <div className={s.time_output}>
             <span className={s.time_value} data-time="second">
-              0
+              {sec}
             </span>
             Секунд
           </div>
