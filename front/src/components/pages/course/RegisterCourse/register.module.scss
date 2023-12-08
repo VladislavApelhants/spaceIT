@@ -1,0 +1,23 @@
+.sale_box {
+  max-width: 544px;
+  @media screen and (min-width: 1920px) {
+    max-width: 784px;
+  }
+}
+.course_time,
+.discount {
+  background-image: url("/images/diploma/some-h-black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  @media screen and (min-width: 1920px) {
+    border-radius: 24px;
+  }
+}
+
+.course_time {
+  margin-bottom: 16px;
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 25px;
+  }
+}
