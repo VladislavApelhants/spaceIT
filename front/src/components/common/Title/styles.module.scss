@@ -67,6 +67,7 @@
 .aboutCourseSecondTitle,
 .aboutProfessionTitle,
 .programTitle,
+.courseTechnologyTitle,
 .nasaTitle {
   font-size: 28px;
   font-weight: 800;
@@ -435,5 +436,23 @@
   @media screen and (min-width: 1920px) {
     font-size: 56px;
     margin-bottom: 74px;
+  }
+}
+
+.courseTechnologyTitle {
+  margin-bottom: 40px;
+  word-wrap: unset;
+
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 48px;
+    width: 400px;
+  }
+  @media screen and (min-width: 1368px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 64px;
   }
 }
