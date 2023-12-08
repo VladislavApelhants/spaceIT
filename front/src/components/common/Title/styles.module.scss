@@ -416,3 +416,24 @@
     display: block;
   }
 }
+
+.register_course {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    margin-bottom: 65px;
+  }
+
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 62px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 56px;
+    margin-bottom: 74px;
+  }
+}

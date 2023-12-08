@@ -9,6 +9,7 @@ import Program from "@/components/pages/course/Program/Program";
 import Ready from "@/components/pages/course/Ready/Ready";
 import HowLearn from "@/components/pages/course/HowLearn/HowLearn";
 import Diploma from "@/components/pages/course/Diploma/Diploma";
+import RegisterCourse from "@/components/pages/course/RegisterCourse/RegisterCourse";
 
 export default function Course() {
   return (
@@ -23,6 +24,7 @@ export default function Course() {
       <HowLearn />
       <Courses />
       <Diploma />
+      <RegisterCourse />
       <Contact />
     </>
   );
