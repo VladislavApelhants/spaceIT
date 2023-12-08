@@ -1,12 +1,13 @@
 import s from "./saleBox.module.scss";
 import { Buttons, ButtonCall, ButtonMessage } from "../Buttons/Buttons";
+import Timer from "./Timer/Timer";
 
 export default function SaleBox() {
   return (
     <div className={s.sale_box}>
       <div className={s.course_time}>
         <div className={s.discount_circle}>
-          <span>50%</span>
+          <span className={s.discount_circle_value}>50%</span>
         </div>
         <h3 className={s.course_title}>КУРС UI/UX DESIGN</h3>
         <div className="left_time">
@@ -18,18 +19,7 @@ export default function SaleBox() {
         </div>
       </div>
       <div className={s.discount}>
-        <div className="get_sale">
-          Отримайте знижку <span>50%</span>
-        </div>
-        <div className="timer">
-          <p>До кінця дії знижки:</p>
-          <div>
-            <div>day</div>
-            <div>hour</div>
-            <div>minets</div>
-            <div>second</div>
-          </div>
-        </div>
+        <Timer />
         <Buttons>
           <ButtonCall />
           <ButtonMessage />
