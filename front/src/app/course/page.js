@@ -10,6 +10,7 @@ import Ready from "@/components/pages/course/Ready/Ready";
 import HowLearn from "@/components/pages/course/HowLearn/HowLearn";
 import Diploma from "@/components/pages/course/Diploma/Diploma";
 import RegisterCourse from "@/components/pages/course/RegisterCourse/RegisterCourse";
+import CourseTechnology from "@/components/pages/course/CourseTechnology/CourseTechnology";
 
 export default function Course() {
   return (
@@ -19,9 +20,10 @@ export default function Course() {
       <YouLearning />
       <AboutProfession />
       <Teachers />
-      <Program />
       <Ready />
+      <Program />
       <HowLearn />
+      <CourseTechnology />
       <Courses />
       <Diploma />
       <RegisterCourse />
