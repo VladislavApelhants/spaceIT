@@ -1,6 +1,6 @@
 import Contact from "@/components/pages/home/Contact/Contact";
 import Courses from "@/components/common/Courses/Courses.module";
-import Hero from "@/components/pages/home/hero";
+import Hero from "@/components/pages/home/Hero";
 import HowLearning from "@/components/pages/home/HowLearning/HowLearning";
 import StepSection from "@/components/pages/home/Step";
 import JoinUs from "@/components/pages/home/JoinUs/JoinUs";

@@ -1,5 +1,5 @@
 import Container from "@/components/common/Container/Container";
-import StepList from "./stepList/StepList";
+import StepList from "./StepList/StepList";
 import s from "./stepSection.module.scss";
 import Ellipse from "@/components/common/Ellipse/Ellipse";
 import Title from "@/components/common/Title/Title";
