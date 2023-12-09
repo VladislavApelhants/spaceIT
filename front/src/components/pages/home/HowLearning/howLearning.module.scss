@@ -1,0 +1,146 @@
+.howLearning {
+  padding: 32px 0;
+  max-width: 1920px;
+  position: relative;
+  z-index: 2;
+
+  border-radius: 56px;
+  background: linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+    url("/images/contact-bg-mobile.png"), lightgray;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 0 32px 0;
+  }
+
+  @media screen and (min-width: 1368px) {
+    padding: 50px 0;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 80px 0 92px;
+  }
+
+  @media screen and (min-width: 376px) {
+    border: 1px solid #000;
+    background: url("/images/contact-bg-tablet.png"), lightgray;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 769px) {
+    background: linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+      url("/images/contact-bg-desktop.png"), lightgray;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1369px) {
+    margin: 0 auto;
+
+    border-radius: 56px;
+    background: linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+      url("/images/contact-bg-desktop-large.png"), lightgray;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin: 0 auto;
+
+    border-radius: 70px;
+    background: linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+      url("/images/contact-bg-desktop-large.png"), lightgray;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+.howLearningWrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  @media screen and (min-width: 1368px) {
+    gap: 72px;
+  }
+  @media screen and (min-width: 1920px) {
+    gap: 104px;
+  }
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+
+  @media screen and (min-width: 1920px) {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.icons.icons_star {
+  width: 22px;
+  height: 22px;
+
+  @media screen and (min-width: 1920px) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.howLearning_list {
+  @media screen and (min-width: 768px) and (max-width: 1367px) {
+    width: 312px;
+  }
+}
+.howLearning_item {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+    @media screen and (min-width: 1920px) {
+      margin-bottom: 32px;
+    }
+  }
+}
+.howLearning_title_container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 16px;
+  }
+}
+
+.howLearning_item_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 28px;
+  }
+}
+
+.howLearning_item_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+  }
+}
+
+.image {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 1368px) {
+    max-width: 524px;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 748px;
+    max-height: 468px;
+  }
+}

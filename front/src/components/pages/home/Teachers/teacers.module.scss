@@ -1,0 +1,18 @@
+.teachers_wrapper {
+  padding: 10px 0;
+  overflow-x: hidden;
+}
+
+.teacher_section {
+  padding-top: 73px;
+  padding-bottom: 29px;
+  @media screen and (min-width: 768px) {
+    padding: 94px 0;
+  }
+  @media screen and (min-width: 1368px) {
+    padding: 114px 0;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 146px 0;
+  }
+}

@@ -1,0 +1,45 @@
+.socialWrapper {
+  margin: 0 auto 48px;
+  @media screen and (min-width: 375px) {
+    margin: 0 0 48px 0;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    flex-direction: column;
+    align-items: start;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-right: 46px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-right: 88px;
+  }
+}
+
+.logo {
+  width: 100px;
+  height: 45px;
+  // margin-right: auto;
+  margin: 0 auto 10px;
+
+  display: block;
+  @media screen and (min-width: 375px) {
+    margin: 0 auto 0 0;
+  }
+  @media screen and (min-width: 768px) {
+    width: 118px;
+    height: 53px;
+    margin: 0 0 24px 0;
+  }
+  @media screen and (min-width: 1368px) {
+    width: 82px;
+    height: 36px;
+    margin: 0 0 16px 0;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 104px;
+    height: 47px;
+  }
+}

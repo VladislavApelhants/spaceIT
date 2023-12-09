@@ -1,0 +1,112 @@
+.cource_how_section {
+  padding: 40px 0;
+  @media screen and (min-width: 768px) {
+    padding: 52px 0;
+  }
+  @media screen and (min-width: 1368px) {
+    padding: 55px 0;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 78px 0;
+  }
+}
+
+.how_wrapper {
+  position: relative;
+}
+.content_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @media screen and (min-width: 768px) {
+    gap: 32px;
+  }
+  @media screen and (min-width: 1368px) {
+    flex-direction: row;
+  }
+}
+.description_box {
+  background-image: url("/images/course-how/some-h-black.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  border-radius: 17px;
+  padding: 20px 16px;
+
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/course-how/some-h-black.jpg");
+  }
+  @media screen and (min-width: 1368px) {
+    background-image: url("/images/course-how/some-h-black.jpg");
+    padding: 20px;
+    max-width: 352px;
+  }
+  @media screen and (min-width: 1920px) {
+    background-image: url("/images/course-how/some-h-black.jpg");
+    border-radius: 24px;
+    padding: 32px;
+    max-width: 511px;
+  }
+}
+.how_title {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 28px;
+    margin-bottom: 62px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 40px;
+    margin-bottom: 81px;
+  }
+}
+
+.play_btn {
+  transition: background-color linear 250ms, color linear 250ms;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #100e0e;
+  }
+  & .icon_play {
+    fill: currentColor;
+  }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: -13px;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 21px 10px;
+    width: 100%;
+    max-width: 170px;
+    border-radius: 12px;
+
+    font-size: 14px;
+    background: #d93d30;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @media screen and (min-width: 1920px) {
+    top: -15px;
+    padding: 27px 12px;
+    max-width: 217px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,181 @@
+.header_button {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    text-transform: uppercase;
+
+    border-color: transparent;
+    border-radius: 12px;
+    background-color: #d93d30;
+    padding: 13px 12px;
+    transition: background-color linear 250ms, color linear 250ms;
+
+    &:hover,
+    &:focus {
+      background: #fff;
+      color: #100e0e;
+    }
+  }
+  @media screen and (min-width: 1368px) {
+    font-size: 14px;
+    padding: 14px 12px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+    padding: 16px 12px;
+  }
+}
+
+.mob_menu_btn {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  border-radius: 12px;
+  background-color: #d93d30;
+  border-color: transparent;
+  text-transform: uppercase;
+
+  padding: 20px 10px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.hero_button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  color: #100e0e;
+
+  max-width: 320px;
+  width: 100%;
+  padding: 21px 10px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+
+  border-radius: 12px;
+  border: none;
+  background: #fff;
+
+  transition: background-color linear 250ms, color linear 250ms;
+
+  &:hover,
+  &:focus {
+    background-color: #d93d30;
+    color: #fff;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 201px;
+  }
+
+  @media screen and (min-width: 1368px) {
+    font-size: 14px;
+    max-width: 178px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+    padding: 30px 12px;
+    max-width: 227px;
+  }
+}
+
+.joinUsBtn {
+  margin: 0 auto;
+  padding: 25px 0;
+  width: 100%;
+
+  display: block;
+
+  border-radius: 12px;
+  background-color: #d93d30;
+
+  color: #fff;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  transition: color linear 250ms, background linear 250ms;
+
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #100e0e;
+  }
+
+  @media screen and (min-width: 1368px) {
+    padding: 24px 31px;
+    width: auto;
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 32px 51px;
+    font-size: 18px;
+  }
+}
+
+.hero_course_button {
+  background-color: #d93d30;
+  width: 100%;
+  padding: 23px 10px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+
+  @media screen and (min-width: 768px) {
+    border-radius: 12px;
+    padding: 32px 10px;
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1368px) {
+    border-radius: 16px;
+    padding: 24px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    max-width: 178px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 32px 10px;
+    font-size: 18px;
+    max-width: 227px;
+  }
+}
+
+.you_learn_button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 12px;
+  background: #d93d30;
+  padding: 26px 12px;
+  width: 100%;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    max-width: 178px;
+    padding: 21px 10px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+    max-width: 227px;
+    padding: 29px 12px;
+  }
+}

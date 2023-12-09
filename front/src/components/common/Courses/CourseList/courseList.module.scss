@@ -1,0 +1,126 @@
+.course_slider_wrapper .course_slider {
+  overflow: visible;
+}
+.course_slider_wrapper .cource_item {
+  max-width: 256px;
+  height: 362px;
+  @media screen and (min-width: 768px) {
+    margin-right: 32px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    max-width: 376px;
+    height: 528px;
+  }
+}
+
+.cource_item {
+  position: relative;
+  width: 100%;
+
+  padding: 18px 16px;
+  background-image: url("/images/courses/courses-item-bg.png");
+  background-size: 256px 362px;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 1920px) {
+    max-width: 376px;
+    height: 528px;
+    background-size: 376px 528px;
+  }
+}
+
+.course_item_thumb {
+  position: relative;
+  background: linear-gradient(
+    237deg,
+    rgba(0, 0, 0, 0.7) 17.93%,
+    rgba(0, 0, 0, 0) 69.61%
+  );
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 18px;
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 26px;
+  }
+}
+
+.cource_duration_training {
+  position: absolute;
+  top: 13.5px;
+  right: 20px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 8px 12px;
+
+  border-radius: 24px;
+  background-color: #fff;
+
+  color: #100e0e;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+    padding: 12px 18px;
+  }
+}
+
+.cource_item_title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1368px) {
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 24px;
+  }
+}
+
+.item_prof_block {
+  margin-bottom: 10px;
+}
+.item_prof_title {
+  text-transform: uppercase;
+}
+
+.item_prof_title,
+.item_skill_title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 6px;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+}
+
+.item_prof_description,
+.cource_item_stack {
+  color: #8a8b8a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  @media screen and (min-width: 1920px) {
+    font-size: 16px;
+  }
+}
+.cource_item_stack {
+  width: 100%;
+  max-width: 178px;
+  @media screen and (min-width: 1920px) {
+    max-width: 233px;
+  }
+}
+
+.course_slider_wrapper .course_slider .swiper-button-next {
+  background-color: red;
+}
