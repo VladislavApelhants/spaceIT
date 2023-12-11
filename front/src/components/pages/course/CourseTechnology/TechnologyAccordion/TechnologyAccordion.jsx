@@ -4,11 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import s from "./styles.module.scss";
 export function TechnologyAccordion() {
   return (
-    <Tabs
-      className={s.tabs}
-      defaultFocus={true}
-      selectedTabPanelClassName={s.activeTabPanel}
-    >
+    <Tabs className={s.tabs} selectedTabPanelClassName={s.activeTabPanel}>
       <TabList className={s.tabsList}>
         <Tab className={s.tab} selectedClassName={s.tabActive}>
           <span className={s.headerIcon}>
