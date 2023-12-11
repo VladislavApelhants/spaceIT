@@ -4,7 +4,7 @@ import Image from "next/image";
 import Title from "@/components/common/Title/Title";
 export default function Diploma() {
   return (
-    <section className={s.diploma}>
+    <section className={s.diploma} id="work">
       <CourseContainer>
         <div className={s.cont}>
           <Title

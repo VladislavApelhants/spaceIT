@@ -8,7 +8,7 @@ import Ellipse from "@/components/common/Ellipse/Ellipse";
 
 export default function RegisterCourse() {
   return (
-    <section className={s.register}>
+    <section className={s.register} id="register">
       <CourseContainer>
         <Title className="register_course" text="Запис на курс" tagName="h2" />
         <div className={s.content_wrapper}>

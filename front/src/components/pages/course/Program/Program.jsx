@@ -6,7 +6,7 @@ import s from "./styles.module.scss";
 
 export default function Program() {
   return (
-    <section className={s.program}>
+    <section className={s.program} id="prog">
       <CourseContainer>
         <div className={s.circle}></div>
         <Title text="програма" tagName="h2" className="programTitle" />

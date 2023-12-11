@@ -15,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" class="scroll-smooth">
       <body className={manrope.className}>
         <Header />
         <main>{children}</main>
