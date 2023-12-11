@@ -5,7 +5,7 @@ import TeachersList from "./TeachersList/TeachersList";
 import Ellipse from "@/components/common/Ellipse/Ellipse";
 export default function Teachers() {
   return (
-    <section className={s.teacher_section}>
+    <section className={s.teacher_section} id="teachers">
       <CourseContainer>
         <Title text="ВИКЛАДАЧІ" className="course_teacher_title" tagName="h2" />
         <TeachersList />

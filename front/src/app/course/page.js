@@ -11,11 +11,13 @@ import HowLearn from "@/components/pages/course/HowLearn/HowLearn";
 import Diploma from "@/components/pages/course/Diploma/Diploma";
 import RegisterCourse from "@/components/pages/course/RegisterCourse/RegisterCourse";
 import CourseTechnology from "@/components/pages/course/CourseTechnology/CourseTechnology";
+import Sidebar from "@/components/pages/course/sidebar/Sidebar";
 
 export default function Course() {
   return (
     <>
       <Hero />
+      <Sidebar />
       <AboutCourse />
       <YouLearning />
       <AboutProfession />
@@ -24,9 +26,9 @@ export default function Course() {
       <Program />
       <HowLearn />
       <CourseTechnology />
-      <Courses />
       <Diploma />
       <RegisterCourse />
+      <Courses />
       <Contact />
     </>
   );

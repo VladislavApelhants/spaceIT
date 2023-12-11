@@ -6,7 +6,7 @@ import s from "./styles.module.scss";
 
 export default function AboutCourse() {
   return (
-    <section className={s.aboutCourse}>
+    <section className={s.aboutCourse} id="about">
       <CourseContainer>
         <Title text="про курс" tagName="h2" className="aboutCourse" />
         <div className={s.textWrapper}>

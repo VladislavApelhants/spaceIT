@@ -5,7 +5,10 @@ import SliderDescription from "./SliderDescription/SliderDescription";
 
 export default function HowLearn() {
   return (
-    <section className={`cource_how_section ${s.cource_how_section}`}>
+    <section
+      className={`cource_how_section ${s.cource_how_section}`}
+      id="learn"
+    >
       <CourseContainer>
         <div className={s.how_wrapper}>
           <h2 className={s.how_title}>ЯК ВІДБУВАЄТЬСЯ НАВЧАННЯ</h2>
