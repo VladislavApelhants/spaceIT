@@ -14,7 +14,6 @@ import CourseTechnology from "@/components/pages/course/CourseTechnology/CourseT
 import Sidebar from "@/components/pages/course/sidebar/Sidebar";
 import Faq from "@/components/pages/course/Faq/Faq";
 
-
 export default function Course() {
   return (
     <>
@@ -28,7 +27,6 @@ export default function Course() {
       <Program />
       <HowLearn />
       <CourseTechnology />
-      <Courses />
       <Diploma />
       <Faq />
       <RegisterCourse />
