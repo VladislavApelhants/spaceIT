@@ -37,7 +37,7 @@ export default function AboutProfession() {
               className="aboutProfessionGraphTitle"
             />
             <Image
-              src="/images/AboutProfession/test.png"
+              src="/images/aboutProfession/test.png"
               width={717}
               height={408}
               alt="salary graph"
