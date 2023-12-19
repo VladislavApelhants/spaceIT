@@ -13,6 +13,7 @@ import RegisterCourse from "@/components/pages/course/RegisterCourse/RegisterCou
 import CourseTechnology from "@/components/pages/course/CourseTechnology/CourseTechnology";
 import Sidebar from "@/components/pages/course/sidebar/Sidebar";
 import Faq from "@/components/pages/course/Faq/Faq";
+import NasaCourses from "@/components/pages/course/NasaCourses/NasaCourses";
 
 export default function Course() {
   return (
@@ -27,6 +28,7 @@ export default function Course() {
       <Program />
       <HowLearn />
       <CourseTechnology />
+      <NasaCourses />
       <Diploma />
       <Faq />
       <RegisterCourse />
