@@ -19,9 +19,11 @@ import s from "./style.module.scss";
 export default function Course() {
   return (
     <>
-      <Hero />
       <div className={s.railway}>
         <Sidebar />
+      </div>
+      <div className="overflow-hidden">
+        <Hero />
         <AboutCourse />
         <YouLearning />
         <AboutProfession />

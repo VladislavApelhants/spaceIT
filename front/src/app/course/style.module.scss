@@ -1,8 +1,21 @@
+// .railway {
+//   @media screen and (min-width: 1368px) {
+//     width: 1168px;
+//     margin: 0 auto;
+//     z-index: 1;
+//     height: 100%;
+//     overflow: visible !important;
+//   }
+//   @media screen and (min-width: 1920px) {
+//     width: 1652px;
+//   }
+// }
 .railway {
   @media screen and (min-width: 1368px) {
     width: 1168px;
-    position: relative;
     margin: 0 auto;
+    z-index: 1;
+    height: 100%;
   }
   @media screen and (min-width: 1920px) {
     width: 1652px;
