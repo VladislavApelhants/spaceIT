@@ -15,25 +15,28 @@ import Sidebar from "@/components/pages/course/sidebar/Sidebar";
 import Faq from "@/components/pages/course/Faq/Faq";
 import NasaCourses from "@/components/pages/course/NasaCourses/NasaCourses";
 
+import s from "./style.module.scss";
 export default function Course() {
   return (
     <>
       <Hero />
-      <Sidebar />
-      <AboutCourse />
-      <YouLearning />
-      <AboutProfession />
-      <Teachers />
-      <Ready />
-      <Program />
-      <HowLearn />
-      <CourseTechnology />
-      <NasaCourses />
-      <Diploma />
-      <Faq />
-      <RegisterCourse />
-      <Courses />
-      <Contact />
+      <div className={s.railway}>
+        <Sidebar />
+        <AboutCourse />
+        <YouLearning />
+        <AboutProfession />
+        <Teachers />
+        <Ready />
+        <Program />
+        <HowLearn />
+        <CourseTechnology />
+        <NasaCourses />
+        <Diploma />
+        <RegisterCourse />
+        <Faq />
+        <Courses />
+        <Contact />
+      </div>
     </>
   );
 }

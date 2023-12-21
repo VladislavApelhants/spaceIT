@@ -12,7 +12,6 @@ export default function Faq() {
   return (
     <section>
       <div className={s.backgroundContainer}>
-        <Circle />
         <CourseContainer>
           <div className={s.faqContainer}>
             <Title text="FAQ" tagName="h2" className="faqTitle" />

@@ -1,6 +1,5 @@
-.sidebar {
+.raleway {
   margin: 0 auto;
-  margin-left: -16px;
   padding-bottom: 24px;
 
   @media screen and (min-width: 375px) {
@@ -11,15 +10,25 @@
     padding-bottom: 44px;
   }
   @media screen and (min-width: 1368px) {
-    padding: 0;
     position: absolute;
-    left: 0;
-    top: 0;
+    height: 100%;
     z-index: 3;
-    width: 180px;
+    width: 200px;
   }
   @media screen and (min-width: 1920px) {
-    width: 240px;
+    width: 260px;
+  }
+}
+.sidebar {
+  @media screen and (min-width: 1368px) {
+    position: sticky;
+    top: 200px;
+    padding: 0;
+    width: 200px;
+    margin-left: 0;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 260px;
   }
 }
 .sidebar_list {

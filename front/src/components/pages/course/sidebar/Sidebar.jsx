@@ -3,7 +3,7 @@ import s from "./sidebar.module.scss";
 import Link from "next/link";
 export default function Sidebar() {
   return (
-    <CourseContainer>
+    <div className={s.raleway}>
       <aside className={s.sidebar}>
         <nav>
           <ul className={s.sidebar_list}>
@@ -43,6 +43,6 @@ export default function Sidebar() {
           </ul>
         </nav>
       </aside>
-    </CourseContainer>
+    </div>
   );
 }
