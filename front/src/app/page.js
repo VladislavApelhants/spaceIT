@@ -10,6 +10,7 @@ import Socials from "@/components/pages/home/Socials/Socials";
 import Nasa from "@/components/pages/home/Nasa/Nasa";
 
 import "./main.scss";
+
 export default function Home() {
   return (
     <>

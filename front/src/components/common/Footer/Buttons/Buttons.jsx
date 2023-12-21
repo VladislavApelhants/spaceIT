@@ -1,4 +1,8 @@
-import Image from "next/image";
+"use client";
+import { useState } from "react";
+
+import { ModalCall } from "../../Modals/ModalCall/ModalCall";
+
 import s from "./styles.module.scss";
 
 export function Buttons({ children }) {
@@ -6,10 +10,23 @@ export function Buttons({ children }) {
 }
 
 export function ButtonCall() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <button type="button" className={`${s.btn} ${s.btnCall}`}>
-      замовити дзвінок
-    </button>
+    <>
+      <button
+        type="button"
+        className={`${s.btn} ${s.btnCall}`}
+        onClick={toggleModal}
+      >
+        замовити дзвінок
+      </button>
+      {isOpen && <ModalCall isOpen={isOpen} toggleModal={toggleModal} />}
+    </>
   );
 }
 
