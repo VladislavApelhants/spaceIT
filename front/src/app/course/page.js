@@ -17,6 +17,7 @@ import NasaCourses from "@/components/pages/course/NasaCourses/NasaCourses";
 import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
 import { targets, labels } from "@/components/pages/course/sidebar/constants";
 import s from "./style.module.scss";
+
 export default function Course() {
   return (
     <>

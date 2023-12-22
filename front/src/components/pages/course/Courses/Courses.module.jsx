@@ -6,12 +6,14 @@ export default function Courses() {
   return (
     <section className={s.courses_section}>
       <CourseContainer>
-        <Title
-          text="Курси"
-          className={"courses_section_title"}
-          tagName={"h2"}
-        />
-        <CourseList />
+        <div className={s.hidden_wrapper}>
+          <Title
+            text="Курси"
+            className={"courses_section_title"}
+            tagName={"h2"}
+          />
+          <CourseList />
+        </div>
       </CourseContainer>
     </section>
   );
