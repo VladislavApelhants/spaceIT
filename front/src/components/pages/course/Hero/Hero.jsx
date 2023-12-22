@@ -30,6 +30,7 @@ export default function Hero() {
               <Button
                 text="ЗАПИСАТИСЬ НА КУРС"
                 className="hero_course_button"
+                courseName="ui/ux design"
               />
             </div>
             <HeroTechnologies />

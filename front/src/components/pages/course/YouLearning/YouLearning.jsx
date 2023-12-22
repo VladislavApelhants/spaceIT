@@ -15,7 +15,11 @@ export default function YouLearning() {
               className="you_learning_title"
               tagName="h2"
             />
-            <Button text={"Записатись на курс"} className="you_learn_button" />
+            <Button
+              text={"Записатись на курс"}
+              className="you_learn_button"
+              courseName="ui/ux design"
+            />
           </div>
           <LearnList />
         </div>

@@ -1,12 +1,13 @@
 "use client";
-
 import { motion } from "framer-motion";
+
+import { formSubmit } from "@/helpers/formSubmit";
 
 import s from "./modalCall.module.scss";
 
 const variantsBackdrop = {
-  open: { x: 0, transition: { duration: 0.5, delay: 0.6 } },
-  closed: { x: "100%", transition: { duration: 0.5, delay: 0.6 } },
+  open: { x: "-100%", transition: { duration: 0.5 } },
+  closed: { x: "100%", transition: { duration: 0.5 } },
 };
 
 const variantsModal = {
@@ -14,7 +15,16 @@ const variantsModal = {
   closed: { x: "-200%", transition: { duration: 0.5 } },
 };
 
-export function ModalCall({ isOpen, toggleModal }) {
+export function ModalCall({
+  isOpen,
+  toggleModal,
+  endpoint,
+  title,
+  subtitle,
+  submitBtnText,
+  isEmail = false,
+  courseName = null,
+}) {
   return (
     <motion.div
       animate={isOpen ? "open" : "closed"}
@@ -27,26 +37,42 @@ export function ModalCall({ isOpen, toggleModal }) {
             <use href="/icons/sprite.svg#icon-modal-close" />
           </svg>
         </button>
-        <p className={s.title}>замовити дзвінок</p>
-        <p className={s.subtitle}>
-          Залиште вашу контактну інформацію і ми надамо відповідь на всі ваші
-          питання
-        </p>
-        <form className={s.form}>
+        <p className={s.title}>{title}</p>
+        <p className={s.subtitle}>{subtitle}</p>
+        <form className={s.form} onSubmit={formSubmit(endpoint)}>
           <input
             type="text"
             placeholder="ПІБ"
             name="name"
             className={s.input}
+            required
           />
+          {isEmail && (
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              className={s.input}
+              required
+            />
+          )}
           <input
             type="tel"
             placeholder="Номер телефону"
             name="phone"
             className={s.input}
+            required
           />
+          {courseName && (
+            <input
+              type="text"
+              name="courseName"
+              className={s.hiddenInput}
+              defaultValue={courseName}
+            />
+          )}
           <button type="submit" className={s.submitBtn}>
-            зателефонувати
+            {submitBtnText}
           </button>
         </form>
         <p className={s.subtext}>
@@ -57,5 +83,3 @@ export function ModalCall({ isOpen, toggleModal }) {
     </motion.div>
   );
 }
-
-// icon-modal-close;

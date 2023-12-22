@@ -12,7 +12,7 @@ export function Buttons({ children }) {
 export function ButtonCall() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleModal = () => {
+  const toggleModal = (e) => {
     setIsOpen(!isOpen);
   };
 
@@ -25,7 +25,14 @@ export function ButtonCall() {
       >
         замовити дзвінок
       </button>
-      {isOpen && <ModalCall isOpen={isOpen} toggleModal={toggleModal} />}
+      <ModalCall
+        isOpen={isOpen}
+        toggleModal={toggleModal}
+        endpoint="https:example.com"
+        title="замовити дзвінок"
+        subtitle="Залиште вашу контактну інформацію і ми надамо відповідь на всі ваші питання"
+        submitBtnText="зателефонувати"
+      />
     </>
   );
 }

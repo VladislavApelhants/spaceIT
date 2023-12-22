@@ -1,6 +1,7 @@
 "use client";
 
-import axios from "axios";
+import { formSubmit } from "@/helpers/formSubmit";
+
 import s from "./styles.module.scss";
 
 export function Form({
@@ -9,18 +10,8 @@ export function Form({
   subtext = "Вкажіть який текст",
   subtextStatus = false,
 }) {
-  const handlerSubmit = async (e) => {
-    e.preventDefault();
-    const data = {};
-    new FormData(e.currentTarget).forEach((value, key) => {
-      data[key] = value;
-    });
-    console.log("set endpoint for request ", data);
-    // await axios.post(endpoint, data);
-  };
-
   return (
-    <form className={s.form} onSubmit={handlerSubmit}>
+    <form className={s.form} onSubmit={formSubmit("https:example.com")}>
       <div className={s.inputWrapper}>
         <input
           type="text"
