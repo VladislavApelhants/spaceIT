@@ -14,26 +14,34 @@ import CourseTechnology from "@/components/pages/course/CourseTechnology/CourseT
 import Sidebar from "@/components/pages/course/sidebar/Sidebar";
 import Faq from "@/components/pages/course/Faq/Faq";
 import NasaCourses from "@/components/pages/course/NasaCourses/NasaCourses";
+import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
+import { targets, labels } from "@/components/pages/course/sidebar/constants";
+import s from "./style.module.scss";
 
 export default function Course() {
   return (
     <>
-      <Hero />
-      <Sidebar />
-      <AboutCourse />
-      <YouLearning />
-      <AboutProfession />
-      <Teachers />
-      <Ready />
-      <Program />
-      <HowLearn />
-      <CourseTechnology />
-      <NasaCourses />
-      <Diploma />
-      <Faq />
-      <RegisterCourse />
-      <Courses />
-      <Contact />
+      <div className={s.railway}>
+        <Sidebar targets={targets} labels={labels} />
+      </div>
+      <HiddenWrapper>
+        <Hero />
+        <Sidebar className={"min"} targets={targets} labels={labels} />
+        <AboutCourse />
+        <YouLearning />
+        <AboutProfession />
+        <Teachers />
+        <Ready />
+        <Program />
+        <HowLearn />
+        <CourseTechnology />
+        <NasaCourses />
+        <Diploma />
+        <RegisterCourse />
+        <Faq />
+        <Courses />
+        <Contact />
+      </HiddenWrapper>
     </>
   );
 }

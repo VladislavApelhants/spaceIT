@@ -1,0 +1,13 @@
+.railway {
+  display: none;
+  @media screen and (min-width: 1368px) {
+    display: block;
+    width: 1168px;
+    margin: 0 auto;
+    z-index: 1;
+    height: 100%;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 1652px;
+  }
+}
