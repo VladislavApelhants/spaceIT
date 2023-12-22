@@ -17,14 +17,15 @@
   }
   @media screen and (min-width: 1368px) {
     position: absolute;
-    top: 830px;
-    height: calc(100% - 1333px);
+    padding-bottom: 0;
+    top: 735px;
+    height: calc(100% - 1285px);
     z-index: 5;
     width: 200px;
   }
   @media screen and (min-width: 1920px) {
-    height: calc(100% - 1839px);
-    top: 1157px;
+    height: calc(100% - 1755px);
+    top: 1025px;
     width: 260px;
   }
 }
