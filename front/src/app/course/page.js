@@ -14,16 +14,18 @@ import CourseTechnology from "@/components/pages/course/CourseTechnology/CourseT
 import Sidebar from "@/components/pages/course/sidebar/Sidebar";
 import Faq from "@/components/pages/course/Faq/Faq";
 import NasaCourses from "@/components/pages/course/NasaCourses/NasaCourses";
-
+import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
+import { targets, labels } from "@/components/pages/course/sidebar/constants";
 import s from "./style.module.scss";
 export default function Course() {
   return (
     <>
       <div className={s.railway}>
-        <Sidebar />
+        <Sidebar targets={targets} labels={labels} />
       </div>
-      <div className="overflow-hidden">
+      <HiddenWrapper>
         <Hero />
+        <Sidebar className={"min"} targets={targets} labels={labels} />
         <AboutCourse />
         <YouLearning />
         <AboutProfession />
@@ -38,7 +40,7 @@ export default function Course() {
         <Faq />
         <Courses />
         <Contact />
-      </div>
+      </HiddenWrapper>
     </>
   );
 }
