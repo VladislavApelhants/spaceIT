@@ -480,3 +480,22 @@
     max-width: 652px;
   }
 }
+
+.lecture_hall_title {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 556px;
+  }
+  @media screen and (min-width: 1368px) {
+    max-width: 720px;
+    margin-bottom: 46px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 64px;
+    max-width: 935px;
+  }
+}
