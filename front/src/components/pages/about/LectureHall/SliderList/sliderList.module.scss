@@ -1,0 +1,49 @@
+.social_slider_wrapper .social_slider {
+  overflow: visible;
+}
+.social_slider_wrapper .social_item {
+  margin-right: 32px;
+  max-width: 289px;
+  height: 289px;
+  overflow: hidden;
+  border-radius: 32px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    max-width: 320px;
+    height: 320px;
+    border-radius: 16px;
+  }
+  @media screen and (min-width: 1368px) {
+    border-radius: 30px;
+    max-width: 544px;
+    height: 306px;
+  }
+  @media screen and (min-width: 1920px) {
+    border-radius: 40px;
+    max-width: 784px;
+    height: 440px;
+  }
+}
+
+.image_slider {
+  object-fit: cover;
+  object-position: center;
+  max-width: 289px;
+  height: 289px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 320px;
+    height: 320px;
+    border-radius: 16px;
+  }
+  @media screen and (min-width: 1368px) {
+    max-width: 544px;
+    height: 306px;
+  }
+  @media screen and (min-width: 1920px) {
+    border-radius: 32px;
+    max-width: 784px;
+    height: 440px;
+  }
+}
