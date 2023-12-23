@@ -1,15 +1,15 @@
 .program {
   position: relative;
-
-  margin-bottom: 80px;
+  padding: 40px 0;
   @media screen and (min-width: 768px) {
-    margin-bottom: 104px;
+    padding: 52px 0;
   }
   @media screen and (min-width: 1368px) {
-    margin-bottom: 110px;
+    padding: 55px 0;
   }
   @media screen and (min-width: 1920px) {
-    margin-bottom: 156px;
+    padding-top: 78px;
+    padding: 78px 0;
   }
 }
 
