@@ -834,6 +834,74 @@ export interface ApiCallbackCourseCallbackCourse extends Schema.CollectionType {
   };
 }
 
+export interface ApiCourseCourse extends Schema.CollectionType {
+  collectionName: 'courses';
+  info: {
+    singularName: 'course';
+    pluralName: 'courses';
+    displayName: '\u0421\u043F\u0438\u0441\u043E\u043A \u043A\u0443\u0440\u0441\u0456\u0432';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    courseName: Attribute.String & Attribute.Required & Attribute.Unique;
+    term: Attribute.String & Attribute.Required;
+    professions: Attribute.String & Attribute.Required;
+    skills: Attribute.String;
+    previewImg: Attribute.Media & Attribute.Required;
+    link: Attribute.String & Attribute.Required & Attribute.Unique;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiDiscountPromotionDiscountPromotion
+  extends Schema.SingleType {
+  collectionName: 'discount_promotions';
+  info: {
+    singularName: 'discount-promotion';
+    pluralName: 'discount-promotions';
+    displayName: '\u0410\u043A\u0446\u0456\u044F \u043D\u0430 \u043A\u0443\u0440\u0441\u0438';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    expirationDate: Attribute.DateTime & Attribute.Required;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::discount-promotion.discount-promotion',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::discount-promotion.discount-promotion',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -854,6 +922,8 @@ declare module '@strapi/types' {
       'plugin::i18n.locale': PluginI18NLocale;
       'api::callback.callback': ApiCallbackCallback;
       'api::callback-course.callback-course': ApiCallbackCourseCallbackCourse;
+      'api::course.course': ApiCourseCourse;
+      'api::discount-promotion.discount-promotion': ApiDiscountPromotionDiscountPromotion;
     }
   }
 }
