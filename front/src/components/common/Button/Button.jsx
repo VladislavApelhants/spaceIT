@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { useLockBodyScroll } from "react-use";
 
 import { ModalCall } from "../Modals/ModalCall/ModalCall";
 
@@ -12,6 +13,8 @@ export default function Button({ text, className, courseName = "" }) {
     setIsOpen(!isOpen);
   };
 
+  useLockBodyScroll(isOpen);
+
   return (
     <>
       <button type="button" className={s[className]} onClick={toggleModal}>
@@ -23,7 +26,7 @@ export default function Button({ text, className, courseName = "" }) {
           isOpen={isOpen}
           toggleModal={toggleModal}
           endpoint="https:example.com"
-          title="замовити дзвінок"
+          title="записатися на курс"
           subtitle="Залиште вашу контактну інформацію і ми надамо відповідь на всі ваші питання"
           submitBtnText="зателефонувати"
           courseName={courseName}
