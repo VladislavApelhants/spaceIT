@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "callback_courses",
+  "info": {
+    "singularName": "callback-course",
+    "pluralName": "callback-courses",
+    "displayName": "Callback по курсам",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "courseName": {
+      "type": "string"
+    }
+  }
+}

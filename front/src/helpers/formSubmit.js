@@ -1,15 +1,16 @@
 import { callBackAPI } from "@/services/callBackAPI";
 
+const { BASE_URL } = process.env;
+
 export function formSubmit(endpoint) {
-  return function (e) {
+  return async function (e) {
     e.preventDefault();
 
-    const data = {};
+    const formData = { data: {} };
     new FormData(e.currentTarget).forEach((value, key) => {
-      data[key] = value;
+      formData.data[key] = value;
     });
-
-    console.log("set endpoint for request ", data);
-    //const result = await callBackAPI.sendModalCall(endpoint, data);
+    const result = await callBackAPI.sendModalCall(endpoint, formData);
+    console.log(result);
   };
 }

@@ -5,7 +5,7 @@ import { ModalCall } from "../Modals/ModalCall/ModalCall";
 
 import s from "./button.module.scss";
 
-export default function Button({ text, className, courseName = "" }) {
+export default function Button({ text, className, courseName = "", endpoint }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleModal = (e) => {
@@ -22,7 +22,7 @@ export default function Button({ text, className, courseName = "" }) {
         <ModalCall
           isOpen={isOpen}
           toggleModal={toggleModal}
-          endpoint="https:example.com"
+          endpoint={endpoint}
           title="замовити дзвінок"
           subtitle="Залиште вашу контактну інформацію і ми надамо відповідь на всі ваші питання"
           submitBtnText="зателефонувати"
@@ -33,7 +33,7 @@ export default function Button({ text, className, courseName = "" }) {
         <ModalCall
           isOpen={isOpen}
           toggleModal={toggleModal}
-          endpoint="https:example.com"
+          endpoint={endpoint}
           title="замовити дзвінок"
           subtitle="Залиште вашу контактну інформацію і ми надамо відповідь на всі ваші питання"
           submitBtnText="зателефонувати"

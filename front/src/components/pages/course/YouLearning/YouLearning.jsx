@@ -3,6 +3,7 @@ import s from "./youLearning.module.scss";
 import Button from "@/components/common/Button/Button";
 import CourseContainer from "@/components/common/CourseContainer/CourseContainer";
 import LearnList from "./LearnList/LearnList";
+import { endpoints } from "@/services/callBackAPI";
 
 export default function YouLearning() {
   return (
@@ -18,6 +19,7 @@ export default function YouLearning() {
             <Button
               text={"Записатись на курс"}
               className="you_learn_button"
+              endpoint={endpoints.callbackCourse}
               courseName="ui/ux design"
             />
           </div>

@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 import { ModalCall } from "../../Modals/ModalCall/ModalCall";
+import { endpoints } from "@/services/callBackAPI";
 
 import s from "./styles.module.scss";
 
@@ -12,7 +13,7 @@ export function Buttons({ children }) {
 export function ButtonCall() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleModal = (e) => {
+  const toggleModal = () => {
     setIsOpen(!isOpen);
   };
 
@@ -28,7 +29,7 @@ export function ButtonCall() {
       <ModalCall
         isOpen={isOpen}
         toggleModal={toggleModal}
-        endpoint="https:example.com"
+        endpoint={endpoints.callback}
         title="замовити дзвінок"
         subtitle="Залиште вашу контактну інформацію і ми надамо відповідь на всі ваші питання"
         submitBtnText="зателефонувати"
