@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 import { ModalCall } from "../../Modals/ModalCall/ModalCall";
-
+import { useLockBodyScroll } from "react-use";
 import s from "./styles.module.scss";
 
 export function Buttons({ children }) {
@@ -15,6 +15,8 @@ export function ButtonCall() {
   const toggleModal = (e) => {
     setIsOpen(!isOpen);
   };
+
+  useLockBodyScroll(isOpen);
 
   return (
     <>
