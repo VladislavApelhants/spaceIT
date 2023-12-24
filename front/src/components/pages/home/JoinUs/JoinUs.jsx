@@ -1,6 +1,7 @@
 import Container from "@/components/common/Container/Container";
 import Title from "@/components/common/Title/Title";
 import Button from "@/components/common/Button/Button";
+import { endpoints } from "@/services/callBackAPI";
 
 import s from "./styles.module.scss";
 
@@ -19,7 +20,11 @@ export default function JoinUs() {
             tagName="h3"
             className="joinUsSubTitle"
           />
-          <Button text="долучитись" className="joinUsBtn" />
+          <Button
+            text="долучитись"
+            className="joinUsBtn"
+            endpoint={endpoints.callback}
+          />
           <div className={s.circleRightBottom}></div>
           <div className={s.circleLeftTop}></div>
         </div>

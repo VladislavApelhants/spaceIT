@@ -4,6 +4,8 @@ import s from "./index.module.scss";
 import Slider from "./Slider/Slider";
 import Button from "@/components/common/Button/Button";
 import Ellipse from "@/components/common/Ellipse/Ellipse";
+import { endpoints } from "@/services/callBackAPI";
+
 export default function Hero() {
   return (
     <section className={s.hero_section}>
@@ -15,7 +17,11 @@ export default function Hero() {
             </h2>
             <div className={s.hero_skills_wrapper}>
               <SkillsList />
-              <Button text={"ЗАПИСАТИСЬ НА КУРС"} className="hero_button" />
+              <Button
+                text={"ЗАПИСАТИСЬ НА КУРС"}
+                className="hero_button"
+                endpoint={endpoints.callback}
+              />
             </div>
           </div>
           <Slider />

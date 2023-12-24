@@ -6,6 +6,8 @@ import HeroTechnologies from "./Hero_technologies/HeroTechnologies";
 import HeroPresentation from "./HeroPresentation/HeroPresentation";
 import Ellipse from "@/components/common/Ellipse/Ellipse";
 
+import { endpoints } from "@/services/callBackAPI";
+
 export default function Hero() {
   return (
     <section className={s.hero_section}>
@@ -31,6 +33,7 @@ export default function Hero() {
                 text="ЗАПИСАТИСЬ НА КУРС"
                 className="hero_course_button"
                 courseName="ui/ux design"
+                endpoint={endpoints.callbackCourse}
               />
             </div>
             <HeroTechnologies />
