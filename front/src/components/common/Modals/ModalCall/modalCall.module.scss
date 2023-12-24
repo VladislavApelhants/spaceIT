@@ -4,6 +4,7 @@
   left: 100%;
   z-index: 20;
   overflow: auto;
+
   padding-left: 12px;
   padding-right: 12px;
   width: 100%;
@@ -19,14 +20,22 @@
 .modal {
   position: relative;
   z-index: 30;
+
   padding: 24px 16px;
+  height: 100vh;
   max-width: 352px;
+  overflow-y: auto;
 
   border-radius: 17px;
 
   background-image: url("/images/modals/modalBg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  @media screen and (min-height: 466px) {
+    height: auto;
+    overflow-y: unset;
+  }
+
   @media screen and (min-width: 768px) {
     max-width: 496px;
   }

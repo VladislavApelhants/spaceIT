@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
-
+import { useLockBodyScroll } from "react-use";
 import { ModalCall } from "../../Modals/ModalCall/ModalCall";
+
 import { endpoints } from "@/services/callBackAPI";
 
 import s from "./styles.module.scss";
@@ -16,6 +17,8 @@ export function ButtonCall() {
   const toggleModal = () => {
     setIsOpen(!isOpen);
   };
+
+  useLockBodyScroll(isOpen);
 
   return (
     <>
