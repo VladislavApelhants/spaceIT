@@ -20,6 +20,10 @@ body {
   background-image: url("/images/main_bg.jpg");
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 img {
   display: block;
   width: 100%;

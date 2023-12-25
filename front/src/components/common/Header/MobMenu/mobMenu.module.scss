@@ -1,6 +1,6 @@
 .mobMenu {
   position: fixed;
-  z-index: 998;
+  z-index: 18;
   top: 100%;
   left: 0;
   bottom: 0;
@@ -23,6 +23,7 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 12px;
+    gap: 50px;
 
     @media screen and (min-width: 375px) {
       width: 375px;
