@@ -5,16 +5,17 @@ import TeamList from "./TeamList/TeamList";
 
 export default function OurTeam() {
   return (
-    <section className={s.teacher_section}>
+    <section className={s.team_section}>
       <Container>
-        <div className={s.teachers_wrapper}>
+        <div className={s.title_wrapper}>
           <Title
-            text="НАШІ ВИКЛАДАЧІ"
-            className="teachers_title"
+            text="КОМАНДА SPACEIT SCHOOL"
+            className="team_title"
             tagName="h2"
           />
-          <TeamList />
+          <p className={s.specialists}>100+ КРУТИХ ФАХІВЦІВ</p>
         </div>
+        <TeamList />
       </Container>
     </section>
   );

@@ -21,12 +21,17 @@ const Header = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    console.log(pathname);
     setIsOpen(false);
+    document.body.classList.remove("no-scroll");
   }, [pathname]);
 
   const onOpenMobileMenu = () => {
     setIsOpen(!isOpen);
+    if (!isOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
   };
 
   return (

@@ -1,68 +1,26 @@
 import s from "./teamList.module.scss";
 import Image from "next/image";
+import teacherdata from "../db";
+
 export default function TeamList() {
   return (
-    <ul>
-      <li>
-        <div className={s.teacher_item_thumb}>
-          <Image
-            src="/images/teachers/teacher-one.png"
-            width={376}
-            height={411}
-            alt="image course info"
-          />
-          <span className={s.teacher_experience}>Досвід: 3 роки</span>
-        </div>
-        <div className={s.teacher_info_box}>
-          <h3 className={s.teacher_item_title}>Олексій Скороход</h3>
-          <p className={s.teacher_prof_description}>Full-Stack Developer</p>
-        </div>
-      </li>
-      <li>
-        <div className={s.teacher_item_thumb}>
-          <Image
-            src="/images/teachers/teacher-two.png"
-            width={376}
-            height={411}
-            alt="image course info"
-          />
-          <span className={s.teacher_experience}>Досвід: 3 роки</span>
-        </div>
-        <div className={s.teacher_info_box}>
-          <h3 className={s.teacher_item_title}>Олексій Скороход</h3>
-          <p className={s.teacher_prof_description}>Full-Stack Developer</p>
-        </div>
-      </li>
-      <li>
-        <div className={s.teacher_item_thumb}>
-          <Image
-            src="/images/teachers/teacher-three.png"
-            width={376}
-            height={411}
-            alt="image course info"
-          />
-          <span className={s.teacher_experience}>Досвід: 3 роки</span>
-        </div>
-        <div className={s.teacher_info_box}>
-          <h3 className={s.teacher_item_title}>Олексій Скороход</h3>
-          <p className={s.teacher_prof_description}>Full-Stack Developer</p>
-        </div>
-      </li>
-      <li>
-        <div className={s.teacher_item_thumb}>
-          <Image
-            src="/images/teachers/teacher-four.png"
-            width={376}
-            height={411}
-            alt="image course info"
-          />
-          <span className={s.teacher_experience}>Досвід: 3 роки</span>
-        </div>
-        <div className={s.teacher_info_box}>
-          <h3 className={s.teacher_item_title}>Олексій Скороход</h3>
-          <p className={s.teacher_prof_description}>Full-Stack Developer</p>
-        </div>
-      </li>
+    <ul className={s.team_list}>
+      {teacherdata.map(
+        ({ id, path, alt, experience, teacherName, teacherProf }) => (
+          <li key={id} className={s.team_item}>
+            <div className={s.team_item_thumb}>
+              <Image src={path} width={376} height={411} alt={alt} />
+              <span className={s.team_experience}>
+                Досвід: {experience} роки
+              </span>
+            </div>
+            <div className={s.team_info_box}>
+              <h3 className={s.team_item_title}>{teacherName}</h3>
+              <p className={s.team_prof_description}>{teacherProf}</p>
+            </div>
+          </li>
+        )
+      )}
     </ul>
   );
 }

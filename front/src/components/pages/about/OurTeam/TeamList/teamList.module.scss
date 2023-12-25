@@ -1,22 +1,29 @@
-.teacher_slider_wrapper .teacher_slider {
-  overflow: visible;
+.team_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
-.teacher_item {
-  max-width: 351px;
-  width: 100%;
+
+.team_item {
+  flex-basis: 100%;
+
+  @media screen and (max-width: 767px) {
+    &:nth-child(n + 5) {
+      display: none;
+    }
+  }
   @media screen and (min-width: 768px) {
-    max-width: 320px;
-    margin-right: 32px;
+    flex-basis: calc((100% - 32px) / 2);
   }
   @media screen and (min-width: 1368px) {
-    max-width: 256px;
+    flex-basis: calc((100% - 3 * 32px) / 4);
   }
   @media screen and (min-width: 1920px) {
-    max-width: 376px;
+    flex-basis: calc((100% - 3 * 32px) / 4);
   }
 }
 
-.teacher_item_thumb {
+.team_item_thumb {
   position: relative;
   overflow: hidden;
   border-radius: 16px;
@@ -27,7 +34,7 @@
   }
 }
 
-.teacher_experience {
+.team_experience {
   position: absolute;
   top: 16px;
   left: 16px;
@@ -50,7 +57,7 @@
   }
 }
 
-.teacher_info_box {
+.team_info_box {
   padding: 12px;
   background: url("/images/header-bgc.png"),
     lightgray 0px -2.01px / 100% 323.077% no-repeat;
@@ -68,7 +75,7 @@
   }
 }
 
-.teacher_item_title {
+.team_item_title {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.5;
@@ -84,7 +91,7 @@
   }
 }
 
-.teacher_prof_description {
+.team_prof_description {
   color: #8a8b8a;
   font-size: 14px;
   font-weight: 400;
