@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useLockBodyScroll } from "react-use";
+import { ToastContainer } from "react-toastify";
 
 import { ModalCall } from "../Modals/ModalCall/ModalCall";
 
@@ -20,6 +21,7 @@ export default function Button({ text, className, courseName = "", endpoint }) {
       <button type="button" className={s[className]} onClick={toggleModal}>
         {text}
       </button>
+      <ToastContainer />
 
       {courseName ? (
         <ModalCall

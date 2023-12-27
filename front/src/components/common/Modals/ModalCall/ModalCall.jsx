@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-
 import { formSubmit } from "@/helpers/formSubmit";
 
 import s from "./modalCall.module.scss";
@@ -39,7 +38,7 @@ export function ModalCall({
         </button>
         <p className={s.title}>{title}</p>
         <p className={s.subtitle}>{subtitle}</p>
-        <form className={s.form} onSubmit={formSubmit(endpoint)}>
+        <form className={s.form} onSubmit={formSubmit(endpoint, toggleModal)}>
           <input
             type="text"
             placeholder="ПІБ"
