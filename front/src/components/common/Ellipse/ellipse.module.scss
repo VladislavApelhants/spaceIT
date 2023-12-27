@@ -67,7 +67,8 @@
 .hero-cource-ellipse-top,
 .hero-cource-ellipse-bottom,
 .teacher_ellipse,
-.course_register_ellipse {
+.course_register_ellipse,
+.about_hero {
   @media screen and (min-width: 1368px) {
     @include ellipse_stile;
   }
@@ -122,5 +123,37 @@
     width: 662px;
     height: 662px;
     filter: blur(292.125px);
+  }
+}
+
+.about_hero {
+  position: absolute;
+  z-index: -2;
+  top: -2%;
+  left: 0%;
+  width: 76px;
+  height: 729px;
+  filter: blur(124px);
+  background-color: #d53b2e;
+
+  @media screen and (min-width: 768px) {
+    top: -120px;
+    left: -122px;
+    width: 300px;
+    height: 300px;
+    filter: blur(210px);
+  }
+  @media screen and (min-width: 1368px) {
+    top: -10%;
+    left: -21%;
+    width: 794px;
+    height: 598px;
+    filter: blur(410px);
+  }
+  @media screen and (min-width: 1920px) {
+    top: -326px;
+    left: -307px;
+    width: 805px;
+    height: 805px;
   }
 }

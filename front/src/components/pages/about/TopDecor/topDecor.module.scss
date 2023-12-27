@@ -1,0 +1,25 @@
+.hero_union {
+  position: absolute;
+  top: -5.5%;
+  left: 0;
+  z-index: -1;
+  width: 4000px;
+  height: 1100px;
+  object-fit: cover;
+
+  @media screen and (min-width: 768px) {
+    top: -6.5%;
+  }
+
+  @media screen and (min-width: 1368px) {
+    top: -8%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    position: absolute;
+    top: -3.5%;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+  }
+}
