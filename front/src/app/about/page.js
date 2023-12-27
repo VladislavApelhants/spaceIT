@@ -2,11 +2,15 @@ import LectureHall from "@/components/pages/about/LectureHall/LectureHall";
 import Contact from "@/components/pages/home/Contact/Contact";
 import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
 import OurTeam from "@/components/pages/about/OurTeam/OurTeam";
+import Hero from "@/components/pages/about/Hero/Hero";
+import TopDecor from "@/components/pages/about/TopDecor/TopDecor";
 
 export default function About() {
   return (
     <>
+      <TopDecor />
       <HiddenWrapper>
+        <Hero />
         <LectureHall />
         <OurTeam />
         <Contact />
