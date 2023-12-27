@@ -1,8 +1,8 @@
 import { callBackAPI } from "@/services/callBackAPI";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const { BASE_URL } = process.env;
-
-export function formSubmit(endpoint) {
+export function formSubmit(endpoint, toggleModal) {
   return async function (e) {
     e.preventDefault();
 
@@ -10,7 +10,35 @@ export function formSubmit(endpoint) {
     new FormData(e.currentTarget).forEach((value, key) => {
       formData.data[key] = value;
     });
-    const result = await callBackAPI.sendModalCall(endpoint, formData);
-    console.log(result);
+
+    try {
+      await callBackAPI.sendModalCall(endpoint, formData);
+      toast.success(
+        "Ваш запит прийнято. Менеджер зв'яжеться з вами як найшвидше.",
+        {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        }
+      );
+      toggleModal();
+      e.target.reset();
+    } catch {
+      toast.error("Вибачьте за помилку🥲 Спробуйте, будь ласка, пізніше", {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    }
   };
 }
