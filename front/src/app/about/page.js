@@ -4,6 +4,7 @@ import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
 import OurTeam from "@/components/pages/about/OurTeam/OurTeam";
 import Hero from "@/components/pages/about/Hero/Hero";
 import TopDecor from "@/components/pages/about/TopDecor/TopDecor";
+import Customers from "@/components/pages/about/Customers/Customers";
 
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
         <Hero />
         <LectureHall />
         <OurTeam />
+        <Customers />
         <Contact />
       </HiddenWrapper>
     </>
