@@ -157,3 +157,27 @@
     height: 805px;
   }
 }
+
+.customers {
+  @include ellipse_stile;
+  width: 360px;
+  height: 1043px;
+  top: -450px;
+  left: -263px;
+  filter: blur(395px);
+
+  @media screen and (min-width: 768px) {
+    width: 360px;
+    height: 1233px;
+    top: -330px;
+    left: -263px;
+    filter: blur(362px);
+  }
+  @media screen and (min-width: 768px) {
+    width: 1000px;
+    height: 1000px;
+    top: -428px;
+    left: -568px;
+    filter: blur(486px);
+  }
+}
