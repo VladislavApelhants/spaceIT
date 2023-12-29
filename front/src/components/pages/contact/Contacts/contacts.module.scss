@@ -1,0 +1,35 @@
+.contacts_wrapper {
+  @media screen and (min-width: 1368px) {
+    display: flex;
+    gap: 32px;
+  }
+}
+.form_wrapper {
+  background: linear-gradient(293deg, #000 14.11%, rgba(0, 0, 0, 0) 66%),
+    url("/images/contact-bg-desktop-large.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 32px 16px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 352px;
+  @media screen and (min-width: 768px) {
+    padding: 20px 16px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1367px) {
+    display: none;
+  }
+  @media screen and (min-width: 1920px) {
+    max-width: 512px;
+    padding: 32px 24px;
+  }
+  & input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @media screen and (min-width: 1920px) {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+}

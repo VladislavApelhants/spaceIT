@@ -112,3 +112,27 @@
     gap: 16;
   }
 }
+
+.contacts_pg_list {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    justify-content: flex-start;
+    gap: 40px;
+  }
+}
+.contacts_pg_link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  &:hover .contacts_pg_icon,
+  &:focus .contacts_pg_icon {
+    fill: #fff;
+  }
+}
+.contacts_pg_icon {
+  width: 32px;
+  height: 32px;
+  fill: #d93d30;
+  transition: fill linear 250ms;
+}
