@@ -1,0 +1,348 @@
+.roadmap {
+  position: relative;
+  margin-bottom: 80px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 104px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 92px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 156px;
+  }
+}
+
+.redCircle {
+  z-index: -1;
+  position: absolute;
+  right: -1000px;
+  bottom: 300px;
+
+  width: 1043px;
+  height: 1043px;
+  border-radius: 551px;
+  filter: blur(410px);
+  background-color: #783228;
+
+  @media screen and (min-width: 768px) {
+    right: -100px;
+    bottom: 0px;
+
+    width: 429px;
+    height: 429px;
+    border-radius: 226px;
+    filter: blur(168px);
+  }
+
+  @media screen and (min-width: 1368px) {
+    right: -200px;
+    bottom: -300px;
+
+    width: 743px;
+    height: 743px;
+    border-radius: 392px;
+    filter: blur(292px);
+  }
+
+  @media screen and (min-width: 1920px) {
+    right: -300px;
+    bottom: -600px;
+  }
+}
+
+.roadmapContainer {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
+.planList {
+  margin-bottom: 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  order: 0;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    gap: 12px;
+    order: 1;
+  }
+  @media screen and (min-width: 1368px) {
+    gap: 18px;
+  }
+  @media screen and (min-width: 1920px) {
+    gap: 24px;
+  }
+}
+
+.planListItemTitle {
+  margin-bottom: 24px;
+
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.2;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 18px;
+
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 24px;
+
+    font-size: 24px;
+  }
+}
+
+.planListItem {
+  display: flex;
+  gap: 16px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  @media screen and (min-width: 768px) {
+    gap: 12px;
+  }
+  @media screen and (min-width: 1368px) {
+    gap: 18px;
+  }
+  @media screen and (min-width: 1920px) {
+    gap: 24px;
+  }
+}
+
+.activeCircle,
+.circle {
+  width: 52px;
+  height: 52px;
+
+  background-size: cover;
+
+  @media screen and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media screen and (min-width: 1368px) {
+    width: 37px;
+    height: 37px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+.activeCircle {
+  background-image: url("/icons/roadmap/active_circle.svg");
+}
+
+.circle {
+  background-image: url("/icons/roadmap/circle.svg");
+}
+
+.dotes {
+  width: 1px;
+  height: 91px;
+
+  background-image: url("/icons/roadmap/line.svg");
+
+  @media screen and (min-width: 1368px) {
+    height: 100px;
+  }
+  @media screen and (min-width: 1920px) {
+    height: 140px;
+  }
+}
+
+.planListItemText {
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media screen and (min-width: 1368px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 18px;
+  }
+}
+
+.imagesBox {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  order: 1;
+  @media screen and (min-width: 768px) {
+    order: 0;
+  }
+  @media screen and (min-width: 1368px) {
+    width: 544px;
+    gap: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 784px;
+  }
+}
+
+.firstImgWrapper,
+.secondImgWrapper {
+  display: flex;
+  gap: 16px;
+  @media screen and (min-width: 768px) {
+    gap: 12px;
+  }
+  @media screen and (min-width: 1368px) {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.firstImgWrapper {
+  @media screen and (min-width: 1368px) {
+    width: 261px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 376px;
+  }
+}
+.secondImgWrapper {
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.image1 {
+  width: 352px;
+  @media screen and (min-width: 1368px) {
+    width: 544px;
+    height: 305px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 784px;
+    height: 441px;
+  }
+}
+
+.image2,
+.image3,
+.image4,
+.image5 {
+  width: 168px;
+  height: 197px;
+
+  border-radius: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image2,
+.image3 {
+  @media screen and (min-width: 768px) {
+    width: 154px;
+    height: 180px;
+  }
+  @media screen and (min-width: 1368px) {
+    width: 261px;
+    height: 147px;
+  }
+}
+
+.image4,
+.image5 {
+  @media screen and (min-width: 768px) {
+    width: 320px;
+    height: 180px;
+  }
+}
+
+.image2 {
+  background-image: url("/images/roadmap/img_2_mobile.jpg");
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/roadmap/img_2_tablet.jpg");
+  }
+  @media screen and (min-width: 1368px) {
+    background-image: url("/images/roadmap/img_2_desktop.jpg");
+  }
+  @media screen and (min-width: 1920px) {
+    width: 376px;
+    height: 211px;
+    background-image: url("/images/roadmap/img_2_desktop_large.jpg");
+  }
+}
+
+.image3 {
+  background-image: url("/images/roadmap/img_3_mobile.jpg");
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/roadmap/img_3_tablet.jpg");
+  }
+  @media screen and (min-width: 1368px) {
+    background-image: url("/images/roadmap/img_3_desktop.jpg");
+  }
+  @media screen and (min-width: 1920px) {
+    width: 376px;
+    height: 211px;
+    background-image: url("/images/roadmap/img_3_desktop_large.jpg");
+  }
+}
+
+.image4 {
+  background-image: url("/images/roadmap/img_4_mobile.jpg");
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/roadmap/img_4_tablet.jpg");
+  }
+  @media screen and (min-width: 1368px) {
+    display: none;
+  }
+  @media screen and (min-width: 1920px) {
+  }
+}
+
+.image4Desktop {
+  display: none;
+  @media screen and (min-width: 1368px) {
+    width: 251px;
+    height: 325px;
+
+    display: block;
+
+    border-radius: 24px;
+
+    background-image: url("/images/roadmap/img_4_desktop.jpg");
+  }
+  @media screen and (min-width: 1920px) {
+    width: 366px;
+    height: 454px;
+    background-image: url("/images/roadmap/img_4_desktop_large.jpg");
+  }
+}
+
+.image5 {
+  background-image: url("/images/roadmap/img_5_mobile.jpg");
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/roadmap/img_5_tablet.jpg");
+  }
+  @media screen and (min-width: 1368px) {
+    width: 544px;
+    height: 305px;
+    background-image: url("/images/roadmap/img_5_desktop.jpg");
+  }
+  @media screen and (min-width: 1920px) {
+    width: 784px;
+    height: 441px;
+    background-image: url("/images/roadmap/img_5_desktop_large.jpg");
+  }
+}

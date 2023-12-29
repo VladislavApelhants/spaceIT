@@ -68,6 +68,7 @@
 .aboutProfessionTitle,
 .programTitle,
 .courseTechnologyTitle,
+.roadmapTitle,
 .nasaTitle {
   font-size: 28px;
   font-weight: 800;
@@ -549,6 +550,20 @@
   @media screen and (min-width: 1368px) {
     font-size: 28px;
     margin-bottom: 45px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 40px;
+    margin-bottom: 64px;
+  }
+}
+
+.roadmapTitle {
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    // margin-bottom: 64px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 60px;
   }
   @media screen and (min-width: 1920px) {
     font-size: 40px;
