@@ -69,6 +69,7 @@
 .programTitle,
 .courseTechnologyTitle,
 .roadmapTitle,
+.mapTitle,
 .nasaTitle {
   font-size: 28px;
   font-weight: 800;
@@ -589,5 +590,15 @@
   @media screen and (min-width: 1920px) {
     font-size: 72px;
     margin-bottom: 63px;
+  }
+}
+
+.mapTitle {
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 48px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 64px;
+    font-size: 40px;
   }
 }
