@@ -13,7 +13,7 @@ export default function Contacts() {
         <div className={s.contacts_wrapper}>
           <ContactsBox />
           <div className={s.form_wrapper}>
-            <p>БЕЗКОШТОВНА КОНСУЛЬТАЦІЯ</p>
+            <p className={s.form_description}>БЕЗКОШТОВНА КОНСУЛЬТАЦІЯ</p>
             <Form btnText="ЗАМОВИТИ КОНСУЛЬТАЦІЮ" />
           </div>
         </div>
