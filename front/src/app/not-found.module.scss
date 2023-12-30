@@ -1,0 +1,121 @@
+.notFound {
+  background-image: url("/images/404/404_bg_mobile.png");
+  background-size: 2759px 1988px;
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  @media screen and (min-width: 768px) {
+    background-image: url("/images/404/404_bg_tablet.png");
+    background-size: 3537px 2353px;
+    background-repeat: no-repeat;
+    background-position: center 50px;
+  }
+  @media screen and (min-width: 1368px) {
+    background-image: url("/images/404/404_bg_desktop.png");
+    background-size: 3114px 2297px;
+    background-repeat: no-repeat;
+    background-position: center 50px;
+  }
+  @media screen and (min-width: 1920px) {
+    background-image: url("/images/404/404_bg_desktop_large.png");
+    background-size: 3114px 2297px;
+    background-repeat: no-repeat;
+    background-position: center 100px;
+  }
+}
+
+.notFoundContainer {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.5;
+
+  @media screen and (min-width: 768px) {
+    font-size: 84px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 16px;
+
+    font-size: 72px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 32px;
+
+    font-size: 100px;
+  }
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 32px;
+
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 56px;
+
+    font-size: 24px;
+  }
+}
+
+.link {
+  position: absolute;
+
+  bottom: 50px;
+
+  display: flex;
+  width: 348px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px;
+  background: #d93d30;
+
+  font-weight: 700;
+  text-transform: uppercase;
+
+  transition: background-color linear 250ms, color linear 250ms;
+
+  &:hover,
+  &:focus {
+    background: #fff;
+    color: #100e0e;
+  }
+
+  @media screen and (min-width: 768px) {
+    position: static;
+  }
+  @media screen and (min-width: 1368px) {
+    width: 160px;
+
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 240px;
+    height: 82px;
+
+    font-size: 18px;
+  }
+}
