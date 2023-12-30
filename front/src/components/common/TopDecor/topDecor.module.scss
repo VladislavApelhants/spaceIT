@@ -1,4 +1,5 @@
-.hero_union {
+.hero_union,
+.contacts_page_bg {
   position: absolute;
   top: -5.5%;
   left: 0;
@@ -16,10 +17,22 @@
   }
 
   @media screen and (min-width: 1920px) {
-    position: absolute;
     top: -3.5%;
-    left: 0;
-    z-index: -1;
+    width: 100%;
+  }
+}
+.contacts_page_bg {
+  top: -7.5%;
+
+  @media screen and (min-width: 768px) {
+    top: -13%;
+  }
+
+  @media screen and (min-width: 1368px) {
+    top: -11.5%;
+  }
+
+  @media screen and (min-width: 1920px) {
     width: 100%;
   }
 }

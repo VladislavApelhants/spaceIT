@@ -2,7 +2,7 @@ import s from "./topDecor.module.scss";
 import Image from "next/image";
 import Ellipse from "@/components/common/Ellipse/Ellipse";
 
-export default function TopDecor() {
+export default function TopDecor({ ellipseClass, bgClass }) {
   return (
     <>
       <Image
@@ -10,9 +10,9 @@ export default function TopDecor() {
         width={1970}
         height={1052}
         alt="декоративне зображення коло"
-        className={s.hero_union}
+        className={s[bgClass]}
       />
-      <Ellipse className="about_hero" />
+      <Ellipse className={ellipseClass} />
     </>
   );
 }

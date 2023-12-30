@@ -7,7 +7,7 @@ import ContactsBox from "./ContactsBox/ContactsBox";
 
 export default function Contacts() {
   return (
-    <section>
+    <section className={s.contacts_section}>
       <Container>
         <Title tagName={"h1"} text="контакти" className="contacts_page_title" />
         <div className={s.contacts_wrapper}>

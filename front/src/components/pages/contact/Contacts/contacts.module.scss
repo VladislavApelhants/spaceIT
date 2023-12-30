@@ -1,3 +1,19 @@
+.contacts_section {
+  padding-top: 32px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 40px;
+    padding-bottom: 52px;
+  }
+  @media screen and (min-width: 1368px) {
+    padding-top: 72px;
+    padding-bottom: 78px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding-bottom: 156px;
+  }
+}
 .contacts_wrapper {
   @media screen and (min-width: 1368px) {
     display: flex;
@@ -39,6 +55,7 @@
   font-weight: 600;
   line-height: normal;
   margin-bottom: 32px;
+  text-transform: uppercase;
   @media screen and (min-width: 1368px) {
     margin-bottom: 24px;
   }
