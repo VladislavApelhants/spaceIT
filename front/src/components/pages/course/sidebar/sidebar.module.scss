@@ -6,26 +6,25 @@
 
 .raleway {
   margin: 0 auto;
-  padding-bottom: 24px;
 
   @media screen and (min-width: 375px) {
     width: 375px;
   }
   @media screen and (min-width: 768px) {
     width: 672px;
-    padding-bottom: 44px;
+    // padding-bottom: 44px;
   }
   @media screen and (min-width: 1368px) {
     position: absolute;
     padding-bottom: 0;
-    top: 735px;
-    height: calc(100% - 1285px);
+    top: 830px;
+    height: calc(100% - 1380px);
     z-index: 5;
     width: 200px;
   }
   @media screen and (min-width: 1920px) {
-    height: calc(100% - 1755px);
-    top: 1025px;
+    top: 1160px;
+    height: calc(100% - 1885px);
     width: 260px;
   }
 }
@@ -46,6 +45,11 @@
   overflow-x: auto;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
+  padding-bottom: 24px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 35px;
+  }
 
   @media screen and (min-width: 1368px) {
     flex-direction: column;

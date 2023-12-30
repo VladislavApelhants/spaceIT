@@ -1,7 +1,7 @@
 .hero_union,
 .contacts_page_bg {
   position: absolute;
-  top: -5.5%;
+  top: 0;
   left: 0;
   z-index: -1;
   width: 4000px;
@@ -9,30 +9,15 @@
   object-fit: cover;
 
   @media screen and (min-width: 768px) {
-    top: -6.5%;
+    height: 610px;
   }
 
   @media screen and (min-width: 1368px) {
-    top: -8%;
+    height: 750px;
   }
 
   @media screen and (min-width: 1920px) {
-    top: -3.5%;
-    width: 100%;
-  }
-}
-.contacts_page_bg {
-  top: -7.5%;
-
-  @media screen and (min-width: 768px) {
-    top: -13%;
-  }
-
-  @media screen and (min-width: 1368px) {
-    top: -11.5%;
-  }
-
-  @media screen and (min-width: 1920px) {
+    height: 1080px;
     width: 100%;
   }
 }

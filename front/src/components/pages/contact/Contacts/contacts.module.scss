@@ -1,19 +1,21 @@
 .contacts_section {
-  padding-top: 32px;
+  padding-top: 102px;
   padding-bottom: 40px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 40px;
+    padding-top: 124px;
     padding-bottom: 52px;
   }
   @media screen and (min-width: 1368px) {
-    padding-top: 72px;
+    padding-top: 166px;
     padding-bottom: 78px;
   }
   @media screen and (min-width: 1920px) {
+    padding-top: 208px;
     padding-bottom: 156px;
   }
 }
+
 .contacts_wrapper {
   @media screen and (min-width: 1368px) {
     display: flex;

@@ -1,20 +1,18 @@
 .header {
   position: absolute;
   left: 0;
-  display: flex;
   width: 100%;
-  justify-content: center;
-  z-index: 999;
-  margin-top: 51px;
+  top: 20px;
+  z-index: 19;
 
   @media screen and (min-width: 768px) {
-    margin-top: 55px;
+    top: 12px;
   }
   @media screen and (min-width: 1368px) {
-    margin-top: 32px;
+    top: 32px;
   }
   @media screen and (min-width: 1920px) {
-    margin-top: 40px;
+    top: 40px;
   }
 }
 
