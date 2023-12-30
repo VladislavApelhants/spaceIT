@@ -5,7 +5,7 @@ import Contacts from "@/components/pages/contact/Contacts/Contacts";
 export default function ContactUs() {
   return (
     <>
-      <TopDecor />
+      <TopDecor ellipseClass="contacts_page" bgClass="contacts_page_bg" />
       <HiddenWrapper>
         <Contacts />
         <Contact />

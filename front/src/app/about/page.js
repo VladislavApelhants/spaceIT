@@ -10,7 +10,7 @@ import Roadmap from "@/components/pages/about/Roadmap/Roadmap";
 export default function About() {
   return (
     <>
-      <TopDecor />
+      <TopDecor ellipseClass="about_hero" bgClass="hero_union" />
       <HiddenWrapper>
         <Hero />
         <LectureHall />
