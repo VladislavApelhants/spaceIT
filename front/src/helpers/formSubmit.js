@@ -1,4 +1,4 @@
-import { callBackAPI } from "@/services/callBackAPI";
+import { serverAPI } from "@/services/serverAPI";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -12,7 +12,7 @@ export function formSubmit(endpoint, toggleModal) {
     });
 
     try {
-      await callBackAPI.sendModalCall(endpoint, formData);
+      await serverAPI.sendModalCall(endpoint, formData);
       toast.success(
         "Ваш запит прийнято. Менеджер зв'яжеться з вами як найшвидше.",
         {

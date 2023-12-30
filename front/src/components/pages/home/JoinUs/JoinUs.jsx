@@ -1,7 +1,7 @@
 import Container from "@/components/common/Container/Container";
 import Title from "@/components/common/Title/Title";
 import Button from "@/components/common/Button/Button";
-import { endpoints } from "@/services/callBackAPI";
+import { endpoints } from "@/services/serverAPI";
 
 import s from "./styles.module.scss";
 

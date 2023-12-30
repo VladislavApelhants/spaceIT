@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useLockBodyScroll } from "react-use";
 import { ModalCall } from "../../Modals/ModalCall/ModalCall";
 
-import { endpoints } from "@/services/callBackAPI";
+import { endpoints } from "@/services/serverAPI";
 
 import s from "./styles.module.scss";
 

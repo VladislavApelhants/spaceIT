@@ -3,7 +3,7 @@ import s from "./youLearning.module.scss";
 import Button from "@/components/common/Button/Button";
 import CourseContainer from "@/components/common/CourseContainer/CourseContainer";
 import LearnList from "./LearnList/LearnList";
-import { endpoints } from "@/services/callBackAPI";
+import { endpoints } from "@/services/serverAPI";
 
 export default function YouLearning() {
   return (
