@@ -4,7 +4,7 @@ import s from "./index.module.scss";
 import Slider from "./Slider/Slider";
 import Button from "@/components/common/Button/Button";
 import Ellipse from "@/components/common/Ellipse/Ellipse";
-import { endpoints } from "@/services/callBackAPI";
+import { endpoints } from "@/services/serverAPI";
 
 export default function Hero() {
   return (

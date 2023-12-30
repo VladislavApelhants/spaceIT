@@ -6,7 +6,7 @@ import HeroTechnologies from "./Hero_technologies/HeroTechnologies";
 import HeroPresentation from "./HeroPresentation/HeroPresentation";
 import Ellipse from "@/components/common/Ellipse/Ellipse";
 
-import { endpoints } from "@/services/callBackAPI";
+import { endpoints } from "@/services/serverAPI";
 
 export default function Hero() {
   return (

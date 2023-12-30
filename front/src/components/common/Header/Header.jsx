@@ -8,7 +8,7 @@ import Navigation from "./Navigation/Navigation";
 import { useState, useEffect } from "react";
 import MobMenu from "./MobMenu/MobMenu";
 import { usePathname } from "next/navigation";
-import { endpoints } from "@/services/callBackAPI";
+import { endpoints } from "@/services/serverAPI";
 
 const classes = {
   nav: "header_nav",
