@@ -571,7 +571,8 @@
   }
 }
 
-.contacts_page_title {
+.contacts_page_title,
+.tech_title {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
@@ -589,5 +590,18 @@
   @media screen and (min-width: 1920px) {
     font-size: 72px;
     margin-bottom: 63px;
+  }
+}
+
+.tech_title {
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 35px;
+  }
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 64px;
   }
 }
