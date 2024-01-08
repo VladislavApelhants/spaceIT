@@ -9,9 +9,11 @@ export function Form({
   endpoint,
   subtext = "Вкажіть який текст",
   subtextStatus = false,
+  courseName = null,
 }) {
+  console.log(courseName);
   return (
-    <form className={s.form} onSubmit={formSubmit("https:example.com")}>
+    <form className={s.form} onSubmit={formSubmit(endpoint)}>
       <div className={s.inputWrapper}>
         <input
           type="text"
@@ -34,6 +36,14 @@ export function Form({
           name="phone"
           required
         />
+        {courseName && (
+          <input
+            type="text"
+            name="courseName"
+            className={s.hiddenInput}
+            defaultValue={courseName}
+          />
+        )}
       </div>
       <button type="submit" className={s.btn}>
         {btnText}

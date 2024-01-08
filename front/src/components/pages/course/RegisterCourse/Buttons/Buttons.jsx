@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { ModalCall } from "@/components/common/Modals/ModalCall/ModalCall";
 import { useLockBodyScroll } from "react-use";
+import { endpoints } from "@/services/serverAPI";
 import s from "./styles.module.scss";
 
 export function Buttons({ children }) {
@@ -30,20 +31,13 @@ export function ButtonCall() {
       <ModalCall
         isOpen={isOpen}
         toggleModal={toggleModal}
-        endpoint="https:example.com"
+        submitBtnText="зателефонувати"
+        endpoint={endpoints.callback}
         title="замовити дзвінок"
       />
     </>
   );
 }
-
-// export function ButtonCall() {
-//   return (
-//     <button type="button" className={`${s.btn} ${s.btnCall}`}>
-//       замовити дзвінок
-//     </button>
-//   );
-// }
 
 export function ButtonMessage() {
   return (

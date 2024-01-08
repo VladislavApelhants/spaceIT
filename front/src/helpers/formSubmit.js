@@ -26,9 +26,12 @@ export function formSubmit(endpoint, toggleModal) {
           theme: "dark",
         }
       );
-      toggleModal();
+      if (toggleModal) {
+        toggleModal();
+      }
       e.target.reset();
-    } catch {
+    } catch (error) {
+      console.log(error);
       toast.error("Вибачьте за помилку🥲 Спробуйте, будь ласка, пізніше", {
         position: "top-right",
         autoClose: 3000,
