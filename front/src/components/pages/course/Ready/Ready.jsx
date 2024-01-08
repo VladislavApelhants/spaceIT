@@ -1,7 +1,7 @@
 import s from "./ready.module.scss";
 import CourseContainer from "@/components/common/CourseContainer/CourseContainer";
 import { Form } from "./Forms/Form";
-import Title from "@/components/common/Title/Title";
+import { endpoints } from "@/services/serverAPI";
 
 export default function Ready() {
   return (
@@ -21,6 +21,7 @@ export default function Ready() {
           <Form
             btnText="Надіслати"
             subtext="Натискаючи кнопку “Надіслати”, ви погоджуєтесь з тим, що ми можемо зв’язатись з вами задопомогою дзвінка, пошти, або СМС"
+            endpoint={endpoints.callbackCourse}
           />
         </div>
       </CourseContainer>

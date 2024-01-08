@@ -18,7 +18,7 @@ export default function Hero() {
             <div className={s.hero_skills_wrapper}>
               <SkillsList />
               <Button
-                text={"ЗАПИСАТИСЬ НА КУРС"}
+                text={"ЗАМОВИТИ ДЗВІНОК"}
                 className="hero_button"
                 endpoint={endpoints.callback}
               />

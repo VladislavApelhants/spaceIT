@@ -31,7 +31,12 @@ export function ModalCall({
       className={s.backdrop}
     >
       <motion.div variants={variantsModal} className={s.modal}>
-        <button type="button" className={s.closeBtn} onClick={toggleModal}>
+        <button
+          type="button"
+          className={s.closeBtn}
+          onClick={toggleModal}
+          aria-label="Закрити модальне вікно"
+        >
           <svg className={s.closeBtnIcon}>
             <use href="/icons/sprite.svg#icon-modal-close" />
           </svg>

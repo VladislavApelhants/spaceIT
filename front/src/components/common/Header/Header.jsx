@@ -33,7 +33,6 @@ const Header = () => {
       document.body.classList.remove("no-scroll");
     }
   };
-
   return (
     <>
       <header className={s.header}>
@@ -71,7 +70,7 @@ const Header = () => {
             </Link>
             <Navigation className={classes} onChangeOpen={onOpenMobileMenu} />
             <Button
-              text={"Записатись на курс"}
+              text={"Замовити дзвінок"}
               className={"header_button"}
               endpoint={endpoints.callback}
             />

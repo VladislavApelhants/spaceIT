@@ -2,6 +2,7 @@ import Container from "@/components/common/Container/Container";
 import Title from "@/components/common/Title/Title";
 import { Form } from "@/components/common/Forms/Form";
 import s from "./styles.module.scss";
+import { endpoints } from "@/services/serverAPI";
 
 export default function Contact() {
   return (
@@ -19,6 +20,7 @@ export default function Contact() {
             subtext="Натискаючи кнопку “Надіслати”, ви погоджуєтесь з тим, що ми можемо
           зв’язатись з вами задопомогою дзвінка, пошти, або СМС"
             subtextStatus={true}
+            endpoint={endpoints.callback}
           />
         </div>
       </Container>

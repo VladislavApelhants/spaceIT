@@ -109,3 +109,14 @@
     font-size: 16px;
   }
 }
+
+.hiddenInput {
+  position: absolute;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  width: -1px;
+  height: -1px;
+  pointer-events: none;
+}
