@@ -7,7 +7,7 @@ export default function TechSection() {
       <Container>
         <div className={s.wrapper}>
           <Title
-            tagName="h1"
+            tagName="h2"
             text="ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ"
             className="tech_title"
           />
