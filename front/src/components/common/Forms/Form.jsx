@@ -1,7 +1,6 @@
 "use client";
 
 import { formSubmit } from "@/helpers/formSubmit";
-
 import s from "./styles.module.scss";
 
 export function Form({
@@ -11,7 +10,6 @@ export function Form({
   subtextStatus = false,
   courseName = null,
 }) {
-  console.log(courseName);
   return (
     <form className={s.form} onSubmit={formSubmit(endpoint)}>
       <div className={s.inputWrapper}>

@@ -8,6 +8,7 @@ export function Form({
   btnText,
   subtext = "Вкажіть який текст",
   subtextStatus = true,
+  courseName,
 }) {
   return (
     <form className={s.form} onSubmit={formSubmit(endpoint)}>
@@ -34,6 +35,14 @@ export function Form({
             name="phone"
             required
           />
+          {courseName && (
+            <input
+              type="text"
+              name="courseName"
+              className={s.hiddenInput}
+              defaultValue={courseName}
+            />
+          )}
         </div>
         <button type="submit" className={s.btn}>
           {btnText}

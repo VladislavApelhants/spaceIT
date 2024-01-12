@@ -31,7 +31,6 @@ export function formSubmit(endpoint, toggleModal) {
       }
       e.target.reset();
     } catch (error) {
-      console.log(error);
       toast.error("Вибачьте за помилку🥲 Спробуйте, будь ласка, пізніше", {
         position: "top-right",
         autoClose: 3000,

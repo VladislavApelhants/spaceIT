@@ -22,6 +22,7 @@ export default function Ready() {
             btnText="Надіслати"
             subtext="Натискаючи кнопку “Надіслати”, ви погоджуєтесь з тим, що ми можемо зв’язатись з вами задопомогою дзвінка, пошти, або СМС"
             endpoint={endpoints.callbackCourse}
+            courseName={"ui/ux design"}
           />
         </div>
       </CourseContainer>
