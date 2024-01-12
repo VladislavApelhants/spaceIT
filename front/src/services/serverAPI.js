@@ -1,12 +1,16 @@
 import axios from "axios";
 
+const BASE_URL = "http://localhost:1337";
+
 export const endpoints = {
-  callbackCourse: "http://localhost:1337/api/callback-courses",
-  callback: "http://localhost:1337/api/callbacks",
-  getAllCourses: "http://localhost:1337/api/courses",
+  callbackCourse: `${BASE_URL}/api/callback-courses`,
+  callback: `${BASE_URL}/api/callbacks`,
+  getAllCourses: `${BASE_URL}/api/courses?populate=previewImg`,
+  discount: `${BASE_URL}/api/discount-promotion`,
 };
 
 async function sendModalCall(endpoint, data) {
+  console.log(endpoint);
   const result = await axios.post(endpoint, data);
   return result;
 }
@@ -16,7 +20,13 @@ async function getAllCourses() {
   return result;
 }
 
+async function getDiscount() {
+  const result = await axios.get(endpoints.discount);
+  return result;
+}
+
 export const serverAPI = {
   sendModalCall,
   getAllCourses,
+  getDiscount,
 };

@@ -853,6 +853,7 @@ export interface ApiCourseCourse extends Schema.CollectionType {
     skills: Attribute.String;
     previewImg: Attribute.Media & Attribute.Required;
     link: Attribute.String & Attribute.Required & Attribute.Unique;
+    startDate: Attribute.Date & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
