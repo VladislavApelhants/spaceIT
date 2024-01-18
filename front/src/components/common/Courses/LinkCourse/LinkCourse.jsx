@@ -1,10 +1,10 @@
 import Link from "next/link";
 import s from "./linkCourse.module.scss";
 
-export default function LinkCourse() {
+export default function LinkCourse({ link }) {
   return (
     <Link
-      href="/course"
+      href={link}
       className={s.button}
       aria-label="Посилання на сторінку курса"
     >
