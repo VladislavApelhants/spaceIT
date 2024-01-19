@@ -1,4 +1,5 @@
 "use client";
+import InputMask from "react-input-mask";
 import { motion } from "framer-motion";
 import { formSubmit } from "@/helpers/formSubmit";
 
@@ -60,13 +61,18 @@ export function ModalCall({
               required
             />
           )}
-          <input
-            type="tel"
-            placeholder="Номер телефону"
-            name="phone"
-            className={s.input}
-            required
-          />
+          <InputMask mask="+380(99)-999-99-99" maskChar="_" alwaysShowMask>
+            {() => (
+              <input
+                type="tel"
+                placeholder="Номер телефону"
+                name="phone"
+                className={s.input}
+                required
+              />
+            )}
+          </InputMask>
+
           {courseName && (
             <input
               type="text"

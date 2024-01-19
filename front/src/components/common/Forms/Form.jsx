@@ -1,5 +1,5 @@
 "use client";
-
+import InputMask from "react-input-mask";
 import { formSubmit } from "@/helpers/formSubmit";
 import s from "./styles.module.scss";
 
@@ -27,13 +27,17 @@ export function Form({
           name="email"
           required
         />
-        <input
-          type="tel"
-          className={s.input}
-          placeholder="Номер телефону"
-          name="phone"
-          required
-        />
+        <InputMask mask="+380(99)-999-99-99" maskChar="_" alwaysShowMask>
+          {() => (
+            <input
+              type="tel"
+              placeholder="Номер телефону"
+              name="phone"
+              className={s.input}
+              required
+            />
+          )}
+        </InputMask>
         {courseName && (
           <input
             type="text"
