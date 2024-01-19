@@ -854,6 +854,7 @@ export interface ApiCourseCourse extends Schema.CollectionType {
     previewImg: Attribute.Media & Attribute.Required;
     link: Attribute.String & Attribute.Required & Attribute.Unique;
     startDate: Attribute.Date & Attribute.Required;
+    discountTime: Attribute.DateTime;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -865,38 +866,6 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       Attribute.Private;
     updatedBy: Attribute.Relation<
       'api::course.course',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
-export interface ApiDiscountPromotionDiscountPromotion
-  extends Schema.SingleType {
-  collectionName: 'discount_promotions';
-  info: {
-    singularName: 'discount-promotion';
-    pluralName: 'discount-promotions';
-    displayName: '\u0410\u043A\u0446\u0456\u044F \u043D\u0430 \u043A\u0443\u0440\u0441\u0438';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    expirationDate: Attribute.DateTime & Attribute.Required;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::discount-promotion.discount-promotion',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::discount-promotion.discount-promotion',
       'oneToOne',
       'admin::user'
     > &
@@ -925,7 +894,6 @@ declare module '@strapi/types' {
       'api::callback.callback': ApiCallbackCallback;
       'api::callback-course.callback-course': ApiCallbackCourseCallbackCourse;
       'api::course.course': ApiCourseCourse;
-      'api::discount-promotion.discount-promotion': ApiDiscountPromotionDiscountPromotion;
     }
   }
 }

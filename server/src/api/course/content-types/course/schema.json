@@ -47,6 +47,9 @@
     "startDate": {
       "type": "date",
       "required": true
+    },
+    "discountTime": {
+      "type": "datetime"
     }
   }
 }
