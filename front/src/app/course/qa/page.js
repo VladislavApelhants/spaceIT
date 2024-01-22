@@ -9,7 +9,7 @@ import Program from "@/components/pages/qa/Program/Program";
 import Ready from "@/components/pages/qa/Ready/Ready";
 import HowLearn from "@/components/pages/qa/HowLearn/HowLearn";
 import Diploma from "@/components/pages/qa/Diploma/Diploma";
-import RegisterCourse from "@/components/pages/qa/RegisterCourse/RegisterCourse";
+import RegisterCourse from "@/components/common/RegisterCourse/RegisterCourse";
 import CourseTechnology from "@/components/pages/qa/CourseTechnology/CourseTechnology";
 import Sidebar from "@/components/common/Sidebar/Sidebar";
 import Faq from "@/components/pages/qa/Faq/Faq";
@@ -42,7 +42,7 @@ export default function Course() {
         <CourseTechnology />
         <NasaCourses />
         <Diploma />
-        <RegisterCourse />
+        <RegisterCourse name="qa manual" />
         <Faq />
         <Courses />
         <Contact />

@@ -9,7 +9,7 @@ import Program from "@/components/pages/pm/Program/Program";
 import Ready from "@/components/pages/pm/Ready/Ready";
 import HowLearn from "@/components/pages/pm/HowLearn/HowLearn";
 import Diploma from "@/components/pages/pm/Diploma/Diploma";
-import RegisterCourse from "@/components/pages/pm/RegisterCourse/RegisterCourse";
+import RegisterCourse from "@/components/common/RegisterCourse/RegisterCourse";
 import CourseTechnology from "@/components/pages/pm/CourseTechnology/CourseTechnology";
 import Sidebar from "@/components/common/Sidebar/Sidebar";
 import Faq from "@/components/pages/pm/Faq/Faq";
@@ -42,7 +42,7 @@ export default function Course() {
         <CourseTechnology />
         <NasaCourses />
         <Diploma />
-        <RegisterCourse />
+        <RegisterCourse name="project manager" />
         <Faq />
         <Courses />
         <Contact />

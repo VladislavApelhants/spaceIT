@@ -9,7 +9,8 @@ import Program from "@/components/pages/front/Program/Program";
 import Ready from "@/components/pages/front/Ready/Ready";
 import HowLearn from "@/components/pages/front/HowLearn/HowLearn";
 import Diploma from "@/components/pages/front/Diploma/Diploma";
-import RegisterCourse from "@/components/pages/front/RegisterCourse/RegisterCourse";
+// import RegisterCourse from "@/components/pages/front/RegisterCourse/RegisterCourse";
+import RegisterCourse from "@/components/common/RegisterCourse/RegisterCourse";
 import CourseTechnology from "@/components/pages/front/CourseTechnology/CourseTechnology";
 import Sidebar from "@/components/common/Sidebar/Sidebar";
 import Faq from "@/components/pages/front/Faq/Faq";
@@ -42,7 +43,7 @@ export default function Course() {
         <CourseTechnology />
         <NasaCourses />
         <Diploma />
-        <RegisterCourse />
+        <RegisterCourse name="front-end" />
         <Faq />
         <Courses />
         <Contact />

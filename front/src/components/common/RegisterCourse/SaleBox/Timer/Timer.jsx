@@ -1,15 +1,14 @@
 "use client";
 import { useState, useEffect } from "react";
 import s from "./timer.module.scss";
-export default function Timer() {
+export default function Timer({ dateTime }) {
   const [sec, SetSec] = useState(0);
   const [min, SetMin] = useState(0);
   const [hour, SetHour] = useState(0);
   const [days, SetDays] = useState(0);
 
   useEffect(() => {
-    const targetDate = new Date(new Date().getFullYear(), 11, 31, 23, 59, 59);
-    timer(targetDate);
+    timer(new Date(dateTime));
   }, []);
 
   const timer = (data) => {
@@ -30,6 +29,7 @@ export default function Timer() {
       SetSec(Math.floor((timeDifference % (1000 * 60)) / 1000));
     }, 1000);
   };
+
   return (
     <div className={s.get_sale}>
       <p className={s.get_sale_info}>

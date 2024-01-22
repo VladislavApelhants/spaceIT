@@ -9,7 +9,7 @@ import Program from "@/components/pages/design/Program/Program";
 import Ready from "@/components/pages/design/Ready/Ready";
 import HowLearn from "@/components/pages/design/HowLearn/HowLearn";
 import Diploma from "@/components/pages/design/Diploma/Diploma";
-import RegisterCourse from "@/components/pages/design/RegisterCourse/RegisterCourse";
+import RegisterCourse from "@/components/common/RegisterCourse/RegisterCourse";
 import CourseTechnology from "@/components/pages/design/CourseTechnology/CourseTechnology";
 import Sidebar from "@/components/common/Sidebar/Sidebar";
 import Faq from "@/components/pages/design/Faq/Faq";
@@ -42,7 +42,7 @@ export default function Course() {
         <CourseTechnology />
         <NasaCourses />
         <Diploma />
-        <RegisterCourse />
+        <RegisterCourse name="UI/UX Design" />
         <Faq />
         <Courses />
         <Contact />

@@ -9,7 +9,7 @@ import Program from "@/components/pages/fullstack/Program/Program";
 import Ready from "@/components/pages/fullstack/Ready/Ready";
 import HowLearn from "@/components/pages/fullstack/HowLearn/HowLearn";
 import Diploma from "@/components/pages/fullstack/Diploma/Diploma";
-import RegisterCourse from "@/components/pages/fullstack/RegisterCourse/RegisterCourse";
+import RegisterCourse from "@/components/common/RegisterCourse/RegisterCourse";
 import CourseTechnology from "@/components/pages/fullstack/CourseTechnology/CourseTechnology";
 import Sidebar from "@/components/common/Sidebar/Sidebar";
 import Faq from "@/components/pages/fullstack/Faq/Faq";
@@ -42,7 +42,7 @@ export default function Course() {
         <CourseTechnology />
         <NasaCourses />
         <Diploma />
-        <RegisterCourse />
+        <RegisterCourse name="Full-stack" />
         <Faq />
         <Courses />
         <Contact />
