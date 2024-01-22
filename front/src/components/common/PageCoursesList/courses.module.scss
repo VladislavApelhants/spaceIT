@@ -1,0 +1,23 @@
+.courses_section {
+  position: relative;
+  padding-bottom: 111px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 40px;
+    padding-bottom: 180px;
+  }
+  @media screen and (min-width: 1368px) {
+    padding-top: 5px;
+    padding-bottom: 137px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding-top: 20px;
+    padding-bottom: 211px;
+  }
+}
+.hidden_wrapper {
+  @media screen and (min-width: 1368px) {
+    overflow: hidden;
+    padding: 60px 0;
+  }
+}

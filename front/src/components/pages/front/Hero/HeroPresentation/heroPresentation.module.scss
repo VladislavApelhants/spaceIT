@@ -1,0 +1,211 @@
+.hero_presentation {
+  position: relative;
+  margin-bottom: 183px;
+
+  @media screen and (min-width: 768px) {
+    left: 108px;
+    bottom: 15px;
+    margin-bottom: 308px;
+  }
+  @media screen and (min-width: 1368px) {
+    margin-bottom: 0px;
+  }
+  @media screen and (min-width: 1920px) {
+    left: 215px;
+    bottom: 36px;
+    margin-bottom: 0px;
+  }
+}
+
+.present_list {
+  display: flex;
+}
+
+.present_item {
+  position: relative;
+  flex-shrink: 0;
+  width: 120px;
+  @media screen and (min-width: 375px) {
+    width: 150px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 231px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 324px;
+  }
+}
+.present_item:nth-child(1) {
+  top: 0;
+  z-index: 3;
+}
+.present_item:nth-child(2) {
+  top: 130px;
+  left: -76px;
+  z-index: 2;
+  @media screen and (min-width: 768px) {
+    top: 204px;
+    left: -123px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: 286px;
+    left: -174px;
+  }
+}
+.present_item:nth-child(3) {
+  top: 43px;
+  left: -122px;
+  z-index: 1;
+  @media screen and (min-width: 768px) {
+    top: 48px;
+    left: -171px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: 79px;
+    left: -240px;
+  }
+}
+
+.present_description_list {
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+}
+
+.present_description_item {
+  display: flex;
+  position: relative;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/images/hero-courses/benefit-black.png");
+  border-radius: 12px;
+  padding: 12px;
+
+  @media screen and (min-width: 768px) {
+    padding: 17px 17px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 24px;
+  }
+}
+.present_description_item:nth-child(3n + 1) {
+  background-image: url("/images/hero-courses/benefit-red.png");
+}
+
+.present_description_item:nth-child(1) {
+  top: 141px;
+  left: 3px;
+  max-width: 120px;
+  @media screen and (min-width: 375px) {
+    top: 202px;
+    left: 28px;
+    max-width: 181px;
+  }
+  @media screen and (min-width: 768px) {
+    top: 319px;
+    left: 45px;
+    max-width: 223px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: 445px;
+    left: 62px;
+    max-width: 313px;
+  }
+}
+.present_description_item:nth-child(2) {
+  top: 141px;
+  left: 115px;
+  max-width: 124px;
+
+  @media screen and (min-width: 375px) {
+    top: 208px;
+    left: 183px;
+    max-width: 153px;
+  }
+  @media screen and (min-width: 768px) {
+    top: 310px;
+    left: 282px;
+    max-width: 260px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: 430px;
+    left: 401px;
+    max-width: 365px;
+  }
+}
+.present_description_item:nth-child(3) {
+  top: 143px;
+  left: -11px;
+  max-width: 152px;
+  @media screen and (min-width: 375px) {
+    top: 152px;
+    left: -8px;
+    max-width: 169px;
+  }
+  @media screen and (min-width: 768px) {
+    top: 332px;
+    left: -128px;
+    max-width: 285px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: 463px;
+    left: -182px;
+    max-width: 400px;
+  }
+}
+.present_description_item:nth-child(4) {
+  top: 148px;
+  left: 97px;
+  max-width: 140px;
+  @media screen and (min-width: 375px) {
+    top: 157px;
+    left: 150px;
+    max-width: 176px;
+  }
+  @media screen and (min-width: 768px) {
+    top: 334px;
+    left: 237px;
+    max-width: 283px;
+  }
+  @media screen and (min-width: 1920px) {
+    top: 463px;
+    left: 326px;
+    max-width: 397px;
+  }
+}
+
+.description_text {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.3;
+
+  @media screen and (min-width: 375px) {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 20px;
+  }
+}
+
+.present_icon {
+  fill: #fff;
+  flex-shrink: 0;
+  @media screen and (min-width: 768px) {
+    width: 22px;
+    height: 22px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 32px;
+    height: 32px;
+  }
+}

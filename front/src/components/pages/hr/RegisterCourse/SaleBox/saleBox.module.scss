@@ -1,0 +1,146 @@
+.sale_box {
+  max-width: 672px;
+  @media screen and (min-width: 1920px) {
+    max-width: 784px;
+  }
+}
+.course_time {
+  position: relative;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 18px 16px;
+  }
+  @media screen and (min-width: 1368px) {
+    padding: 16px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 25px;
+  }
+}
+.course_time,
+.discount {
+  background-image: url("/images/diploma/some-h-black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  @media screen and (min-width: 1920px) {
+    border-radius: 24px;
+  }
+}
+
+.discount {
+  padding: 16px;
+
+  @media screen and (min-width: 1920px) {
+    padding: 32px;
+  }
+}
+.discount_circle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("/images/register/discount.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  top: -40px;
+  right: 16px;
+
+  @media screen and (min-width: 768px) {
+    top: -53px;
+    right: auto;
+    left: -22px;
+  }
+  @media screen and (min-width: 1368px) {
+    top: -43px;
+    right: auto;
+    left: -33px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 99px;
+    height: 99px;
+    top: -63px;
+    right: auto;
+    left: -51px;
+  }
+}
+
+.discount_circle_value {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  @media screen and (min-width: 1920px) {
+    font-size: 24px;
+  }
+}
+
+.course_title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.2;
+  @media screen and (max-width: 370px) {
+    width: 232px;
+  }
+  @media screen and (min-width: 1920px) {
+    font-size: 32px;
+  }
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, #d93d30 0%, rgba(217, 61, 48, 0) 100%);
+}
+
+.custom_progressbar {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  height: 44px;
+  border-radius: 11.4px;
+  overflow: hidden;
+  background-image: url("/images/register/bg.png");
+
+  @media screen and (min-width: 768px) {
+    width: 200px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 282px;
+  }
+}
+
+.position_left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8px;
+}
+
+.left_text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @media screen and (min-width: 1920px) {
+    font-size: 20px;
+  }
+}

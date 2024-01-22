@@ -1,0 +1,37 @@
+.circle {
+  position: absolute;
+  right: -83px;
+  bottom: -50px;
+  width: 393.375px;
+  height: 393.375px;
+  flex-shrink: 0;
+
+  border-radius: 393.375px;
+  background: #d93d30;
+  filter: blur(258px);
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (max-width: 1368px) {
+    right: -30px;
+    bottom: 154px;
+    width: 361.95px;
+    height: 361.95px;
+    flex-shrink: 0;
+
+    border-radius: 361px;
+    background: #d93d30;
+    filter: blur(237px);
+  }
+  @media screen and (max-width: 1920px) {
+    right: -50px;
+    bottom: -50px;
+    width: 508px;
+    height: 508px;
+    flex-shrink: 0;
+
+    border-radius: 508px;
+    background: #d93d30;
+    filter: blur(334px);
+  }
+}

@@ -1,21 +1,21 @@
-import Hero from "@/components/pages/course/Hero/Hero";
-import AboutCourse from "@/components/pages/course/AbooutCourse/AbooutCourse";
-import YouLearning from "@/components/pages/course/YouLearning/YouLearning";
-import Courses from "@/components/pages/course/Courses/Courses.module";
+import Hero from "@/components/pages/fullstack/Hero/Hero";
+import AboutCourse from "@/components/pages/fullstack/AbooutCourse/AbooutCourse";
+import YouLearning from "@/components/pages/fullstack/YouLearning/YouLearning";
+import Courses from "@/components/common/PageCoursesList/Courses.module";
 import Contact from "@/components/pages/home/Contact/Contact";
-import AboutProfession from "@/components/pages/course/AboutProfession/AboutProfession";
-import Teachers from "@/components/pages/course/Teachers/Teachers";
-import Program from "@/components/pages/course/Program/Program";
-import Ready from "@/components/pages/course/Ready/Ready";
-import HowLearn from "@/components/pages/course/HowLearn/HowLearn";
-import Diploma from "@/components/pages/course/Diploma/Diploma";
-import RegisterCourse from "@/components/pages/course/RegisterCourse/RegisterCourse";
-import CourseTechnology from "@/components/pages/course/CourseTechnology/CourseTechnology";
-import Sidebar from "@/components/pages/course/sidebar/Sidebar";
-import Faq from "@/components/pages/course/Faq/Faq";
-import NasaCourses from "@/components/pages/course/NasaCourses/NasaCourses";
+import AboutProfession from "@/components/pages/fullstack/AboutProfession/AboutProfession";
+import Teachers from "@/components/pages/fullstack/Teachers/Teachers";
+import Program from "@/components/pages/fullstack/Program/Program";
+import Ready from "@/components/pages/fullstack/Ready/Ready";
+import HowLearn from "@/components/pages/fullstack/HowLearn/HowLearn";
+import Diploma from "@/components/pages/fullstack/Diploma/Diploma";
+import RegisterCourse from "@/components/pages/fullstack/RegisterCourse/RegisterCourse";
+import CourseTechnology from "@/components/pages/fullstack/CourseTechnology/CourseTechnology";
+import Sidebar from "@/components/common/Sidebar/Sidebar";
+import Faq from "@/components/pages/fullstack/Faq/Faq";
+import NasaCourses from "@/components/pages/fullstack/NasaCourses/NasaCourses";
 import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
-import { targets, labels } from "@/components/pages/course/sidebar/constants";
+import { targets, labels } from "@/components/common/Sidebar/constants";
 import s from "./style.module.scss";
 
 export const metadata = {
