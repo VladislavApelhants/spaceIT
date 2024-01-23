@@ -18,12 +18,12 @@ export default function Hero() {
           <div className={s.hero_info_vrapper}>
             <div className={s.title_box}>
               <Title
-                text="QA"
+                text="qa manual"
                 className={"courses_hero_title"}
                 tagName={"h2"}
               />
               <p className={s.hero_description}>
-                Навчіться професійно розроблювати дизайн сайтів та застосунків
+                Навчіться виявляти помилки та дефекти в програмному забезпеченні
               </p>
               <Button
                 text="ЗАПИСАТИСЬ НА КУРС"
