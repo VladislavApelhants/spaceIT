@@ -13,37 +13,31 @@ export default function HeroTechnologies() {
           <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-figma"></use>
           </svg>
-          <h4 className={s.techno_item_title}>Figma</h4>
+          <h4 className={s.techno_item_title}>Node.js</h4>
         </li>
         <li className={s.techno_item}>
           <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-photoshop"></use>
           </svg>
-          <h4 className={s.techno_item_title}>Photoshop</h4>
+          <h4 className={s.techno_item_title}>NestJS</h4>
         </li>
         <li className={s.techno_item}>
           <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-llustrator"></use>
           </svg>
-          <h4 className={s.techno_item_title}>Illustrator</h4>
+          <h4 className={s.techno_item_title}>SQL</h4>
         </li>
         <li className={s.techno_item}>
           <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-figma"></use>
           </svg>
-          <h4 className={s.techno_item_title}>Figma</h4>
+          <h4 className={s.techno_item_title}>No SQL</h4>
         </li>
         <li className={s.techno_item}>
           <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-photoshop"></use>
           </svg>
-          <h4 className={s.techno_item_title}>Photoshop</h4>
-        </li>
-        <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
-            <use href="/icons/sprite.svg#icon-llustrator"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Illustrator</h4>
+          <h4 className={s.techno_item_title}>Postman</h4>
         </li>
       </ul>
     </div>

@@ -22,51 +22,65 @@ export function FaqAccordion() {
       <AccordionItem
         key="1"
         aria-label="Accordion 1"
-        title="Frequently asked question"
+        title="Як зареєструватися?"
       >
-        {defaultContent}
+        {
+          "Для реєстрації в нашій онлайн IT-школі, перейдіть на наш веб-сайт та скористайтеся формою реєстрації. Або напишіть нашому Адміну в Instagram або Telegram"
+        }
       </AccordionItem>
       <AccordionItem
         key="2"
         aria-label="Accordion 1"
-        title="Frequently asked question"
+        title="Які інтернет-технології використовуються для навчання?"
       >
-        {defaultContent}
+        {
+          "Наша школа використовує високоякісне онлайн-забезпечення для проведення уроків, вебінарів та взаємодії з викладачами. Ми використовуємо платформи відомих виробників, таких як Zoom, Microsoft Teams або Google Meet"
+        }
       </AccordionItem>
       <AccordionItem
         key="3"
         aria-label="Accordion 1"
-        title="Frequently asked question"
+        title="Як отримати доступ до навчальних матеріалів?"
       >
-        {defaultContent}
+        {
+          "Після реєстрації ви отримаєте особистий обліковий запис, де будуть доступні навчальні матеріали, завдання та інші ресурси. Детальні інструкції будуть висвітлені під час першого уроку."
+        }
       </AccordionItem>
       <AccordionItem
         key="4"
         aria-label="Accordion 1"
-        title="Frequently asked question"
+        title="Чи потрібно встановлювати спеціальне програмне забезпечення для участі в уроках?"
       >
-        {defaultContent}
+        {
+          "Для більшості наших курсів вам достатньо мати стандартний веб-браузер та доступ до Інтернету. У деяких випадках може бути рекомендовано встановлення додаткових інструментів, інформацію про які ви отримаєте під час реєстрації."
+        }
       </AccordionItem>
       <AccordionItem
         key="5"
         aria-label="Accordion 1"
-        title="Frequently asked question"
+        title="Як контролюється академічний прогрес студентів?"
       >
-        {defaultContent}
+        {
+          "Прогрес студентів контролюється через онлайн-платформу, де вони можуть переглядати свої оцінки, завдання та спілкуватися з викладачами. Регулярні звіти також надсилаються на електронну пошту."
+        }
       </AccordionItem>
       <AccordionItem
         key="6"
         aria-label="Accordion 1"
-        title="Frequently asked question"
+        title="Як звертатися за допомогою в разі технічних проблем?"
       >
-        {defaultContent}
+        {
+          "У випадку технічних проблем чи запитань щодо використання платформи, звертайтеся до нашого Адміна  в Instagram або Telegram"
+        }
       </AccordionItem>
       <AccordionItem
         key="7"
         aria-label="Accordion 1"
-        title="Frequently asked question"
+        title="Чи є можливість отримати консультації з вибору курсів чи програм?"
       >
-        {defaultContent}
+        {
+          "Так, ми пропонуємо консультації для допомоги вибрати відповідні курси чи програми. Запишіться на індивідуальну консультацію через наш веб-сайт або ж отримайте констультацію у адміна в Instagram або Telegram"
+        }
       </AccordionItem>
     </Accordion>
   );

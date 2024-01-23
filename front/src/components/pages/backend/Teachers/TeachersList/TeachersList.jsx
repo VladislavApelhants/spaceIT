@@ -17,21 +17,26 @@ export default function TeachersList() {
         <div className={s.info_thumb}>
           <div className={s.info_top_box}>
             <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
+              <p className={s.author_course}>АВТОР КУРСУ/ЛЕКТОР</p>
+              <h3 className={s.author_name}>ВЛАДИСЛАВ ЛЕВІЩЕНКО</h3>
+              <p className={s.author_description}>
+                11 років досвіду в Back-end та Front-end розробці
+              </p>
             </div>
-            <SocialList
+            {/* <SocialList
               socialList="teachers_list"
               socialLink="teacher_list_link"
               socialIcon="teacher_list_icon"
-            />
+            /> */}
           </div>
           <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
+            Владислав Левіщенко - висококваліфікований фахівець у сфері Back-end
+            та Front-end розробці 11-річним досвідом. Почавши свою кар'єру як
+            програміст, він працював у різних компаніях, від малих стартапів до
+            великих корпорацій. Як лектор курсу по Back-end, Владислав передає
+            свої глибокі знання та практичний досвід студентам, надихаючи їх
+            розвивати власні навички у сфері розробки. Його педагогічний підхід
+            визначається як практичний та орієнтований на результат.
           </p>
         </div>
       </li>
@@ -48,86 +53,26 @@ export default function TeachersList() {
         <div className={s.info_thumb}>
           <div className={s.info_top_box}>
             <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
+              <p className={s.author_course}>МЕНТОР</p>
+              <h3 className={s.author_name}>ДЕНИС КОЛОДЮК</h3>
+              <p className={s.author_description}>
+                8 років досвіду в Back-end розробці
+              </p>
             </div>
-            <SocialList
+            {/* <SocialList
               socialList="teachers_list"
               socialLink="teacher_list_link"
               socialIcon="teacher_list_icon"
-            />
+            /> */}
           </div>
           <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit. mollitia hic
-            maiores id delectus necessitatibus, blanditiis atque repellendus
-            assumenda quibusdam voluptatum velit. maiores id delectus
-            necessitatibus
-          </p>
-        </div>
-      </li>
-      <li className={s.teacher_item}>
-        <div className={s.image_thumb}>
-          <Image
-            src="/images/course-teacher/img3.png"
-            width={376}
-            height={376}
-            alt="teacher image"
-            className={s.teacher_image}
-          />
-        </div>
-        <div className={s.info_thumb}>
-          <div className={s.info_top_box}>
-            <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
-            </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
-          </div>
-          <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
-          </p>
-        </div>
-      </li>
-      <li className={s.teacher_item}>
-        <div className={s.image_thumb}>
-          <Image
-            src="/images/course-teacher/img4.png"
-            width={376}
-            height={376}
-            alt="teacher image"
-            className={s.teacher_image}
-          />
-        </div>
-        <div className={s.info_thumb}>
-          <div className={s.info_top_box}>
-            <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
-            </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
-          </div>
-          <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
+            Він спеціалізується у створенні складних серверних систем і
+            взаємодії з базами даних. Його підхід до менторства базується на
+            індивідуальному підході до кожного учня, сприяючи їх особистому та
+            професійному розвитку. За плечима Дениса багато успішних проектів,
+            які відзначилися ефективністю, безпекою та стабільністю. Його досвід
+            включає в себе розробку API, оптимізацію баз даних, а також роботу з
+            великими обсягами даних.
           </p>
         </div>
       </li>

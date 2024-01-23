@@ -15,7 +15,7 @@ export default function HowLearn() {
           <div className={s.content_wrapper}>
             <div className={s.image_thumb}>
               <Image
-                src="/images/course-how/some-h.png"
+                src="/pages/back-end/howLearn/how-learn.png"
                 width={784}
                 height={490}
                 alt="Як відбувається навчання"
