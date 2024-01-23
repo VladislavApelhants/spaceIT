@@ -97,50 +97,285 @@ export function LearningProgram() {
         aria-label="Accordion 1"
         title={
           <div className={s.titleWrapper}>
-            <h3 className={s.title}>основні інструменти figma</h3>
+            <h3 className={s.title}>Основи баз даних</h3>
             <div className={s.labelsWrapper}>
-              <span className={s.moduleLabel}>модуль 1</span>
+              <span className={s.moduleLabel}>модуль 2</span>
               <span className={s.weeksLabel}>2 неділі</span>
             </div>
             <span className={s.indicator}></span>
           </div>
         }
       >
-        {defaultContent}
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>
+                  Знання реляційних баз даних (наприклад, MySQL, PostgreSQL,
+                  SQLite).
+                </p>
+              </li>
+              <li>
+                <p>Основи мови SQL для роботи з базами даних.</p>
+              </li>
+            </ul>
+          </div>
+        }
       </AccordionItem>
       <AccordionItem
         key="3"
         aria-label="Accordion 1"
         title={
           <div className={s.titleWrapper}>
-            <h3 className={s.title}>основні інструменти figma</h3>
+            <h3 className={s.title}>Навички роботи з API</h3>
             <div className={s.labelsWrapper}>
-              <span className={s.moduleLabel}>модуль 1</span>
+              <span className={s.moduleLabel}>модуль 3</span>
               <span className={s.weeksLabel}>2 неділі</span>
             </div>
             <span className={s.indicator}></span>
           </div>
         }
       >
-        {defaultContent}
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>Розуміння принципів роботи та розробка API.</p>
+              </li>
+              <li>
+                <p>Використання та створення RESTful API.</p>
+              </li>
+            </ul>
+          </div>
+        }
       </AccordionItem>
       <AccordionItem
         key="4"
         aria-label="Accordion 1"
         title={
           <div className={s.titleWrapper}>
-            <h3 className={s.title}>основні інструменти figma</h3>
+            <h3 className={s.title}>Основи веб-серверів</h3>
             <div className={s.labelsWrapper}>
-              <span className={s.moduleLabel}>модуль 1</span>
+              <span className={s.moduleLabel}>модуль 4</span>
               <span className={s.weeksLabel}>2 неділі</span>
             </div>
             <span className={s.indicator}></span>
           </div>
         }
       >
-        {defaultContent}
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>
+                  Розуміння, як працюють веб-сервери (наприклад, Apache, Nginx).
+                </p>
+              </li>
+              <li>
+                <p>Конфігурування та взаємодія з веб-серверами.</p>
+              </li>
+            </ul>
+          </div>
+        }
       </AccordionItem>
-      s
+      <AccordionItem
+        key="5"
+        aria-label="Accordion 1"
+        title={
+          <div className={s.titleWrapper}>
+            <h3 className={s.title}>Фреймворки для розробки Back End</h3>
+            <div className={s.labelsWrapper}>
+              <span className={s.moduleLabel}>модуль 5</span>
+              <span className={s.weeksLabel}>2 неділі</span>
+            </div>
+            <span className={s.indicator}></span>
+          </div>
+        }
+      >
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>
+                  Вивчення фреймворків, які популярні для розробки Back End
+                  (наприклад, Django для Python, Spring для Java, Express для
+                  Node.js).
+                </p>
+              </li>
+            </ul>
+          </div>
+        }
+      </AccordionItem>
+      <AccordionItem
+        key="6"
+        aria-label="Accordion 1"
+        title={
+          <div className={s.titleWrapper}>
+            <h3 className={s.title}>Моделювання та міграції баз даних</h3>
+            <div className={s.labelsWrapper}>
+              <span className={s.moduleLabel}>модуль 6</span>
+              <span className={s.weeksLabel}>2 неділі</span>
+            </div>
+            <span className={s.indicator}></span>
+          </div>
+        }
+      >
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>
+                  Розуміння та використання інструментів для моделювання баз
+                  даних (наприклад, ER-діаграми).
+                </p>
+              </li>
+              <li>
+                <p>Використання міграцій для оновлення структури бази даних.</p>
+              </li>
+            </ul>
+          </div>
+        }
+      </AccordionItem>
+      <AccordionItem
+        key="7"
+        aria-label="Accordion 1"
+        title={
+          <div className={s.titleWrapper}>
+            <h3 className={s.title}>Безпека Back End</h3>
+            <div className={s.labelsWrapper}>
+              <span className={s.moduleLabel}>модуль 7</span>
+              <span className={s.weeksLabel}>2 неділі</span>
+            </div>
+            <span className={s.indicator}></span>
+          </div>
+        }
+      >
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>
+                  Розуміння основ безпеки веб-додатків (наприклад, обробка
+                  аутентифікації, захист від SQL-ін'єкцій та інших атак).
+                </p>
+              </li>
+            </ul>
+          </div>
+        }
+      </AccordionItem>
+      <AccordionItem
+        key="8"
+        aria-label="Accordion 1"
+        title={
+          <div className={s.titleWrapper}>
+            <h3 className={s.title}>Робота з системами контролю версій</h3>
+            <div className={s.labelsWrapper}>
+              <span className={s.moduleLabel}>модуль 8</span>
+              <span className={s.weeksLabel}>2 неділі</span>
+            </div>
+            <span className={s.indicator}></span>
+          </div>
+        }
+      >
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>Основи використання систем контролю версій, таких як Git.</p>
+              </li>
+            </ul>
+          </div>
+        }
+      </AccordionItem>
+      <AccordionItem
+        key="9"
+        aria-label="Accordion 1"
+        title={
+          <div className={s.titleWrapper}>
+            <h3 className={s.title}>Основи роботи з іншими технологіями</h3>
+            <div className={s.labelsWrapper}>
+              <span className={s.moduleLabel}>модуль 9</span>
+              <span className={s.weeksLabel}>2 неділі</span>
+            </div>
+            <span className={s.indicator}></span>
+          </div>
+        }
+      >
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>Розуміння основних протоколів (HTTP/HTTPS).</p>
+              </li>
+              <li>
+                <p>
+                  Знання роботи з іншими інструментами (наприклад, Postman для
+                  тестування API).
+                </p>
+              </li>
+            </ul>
+          </div>
+        }
+      </AccordionItem>
+      <AccordionItem
+        key="10"
+        aria-label="Accordion 1"
+        title={
+          <div className={s.titleWrapper}>
+            <h3 className={s.title}>Оптимізація та масштабування</h3>
+            <div className={s.labelsWrapper}>
+              <span className={s.moduleLabel}>модуль 10</span>
+              <span className={s.weeksLabel}>2 неділі</span>
+            </div>
+            <span className={s.indicator}></span>
+          </div>
+        }
+      >
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>Основи оптимізації Back End для високої продуктивності.</p>
+              </li>
+              <li>
+                <p>
+                  Розуміння концепцій масштабування (горизонтального та
+                  вертикального).
+                </p>
+              </li>
+            </ul>
+          </div>
+        }
+      </AccordionItem>
+      <AccordionItem
+        key="11"
+        aria-label="Accordion 1"
+        title={
+          <div className={s.titleWrapper}>
+            <h3 className={s.title}>Інструменти відлагодження та логування</h3>
+            <div className={s.labelsWrapper}>
+              <span className={s.moduleLabel}>модуль 11</span>
+              <span className={s.weeksLabel}>2 неділі</span>
+            </div>
+            <span className={s.indicator}></span>
+          </div>
+        }
+      >
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>
+                  Використання інструментів для логування (наприклад, Log4j).
+                </p>
+              </li>
+              <li>
+                <p>Вміння відлагоджувати та виявляти помилки в коді.</p>
+              </li>
+            </ul>
+          </div>
+        }
+      </AccordionItem>
     </Accordion>
   );
 }
