@@ -70,7 +70,7 @@ export function LearningProgram() {
         aria-label="Accordion 1"
         title={
           <div className={s.titleWrapper}>
-            <h3 className={s.title}>основні інструменти figma</h3>
+            <h3 className={s.title}> </h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 1</span>
               <span className={s.weeksLabel}>2 неділі</span>

@@ -14,10 +14,27 @@ export default function NasaCourses() {
             tagName={"h1"}
           />
           <p className={s.description}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa,
-            aliquam tempore? Esse nesciunt cum natus atque, commodi consequatur
-            possimus quae eligendi, in labore eos quibusdam velit voluptas sed
-            perspiciatis distinctio!
+            Після успішного завершення дипломної роботи, ми допоможемо:
+            <ol className="list-decimal pl-5">
+              <li>
+                Створити конкурентне резюме під керівництвом нашого досвідченого
+                HR
+              </li>
+              <li>
+                Проведемо тренувальні співбесіди для того, щоб вони стали для
+                тебе звичайним досвідом
+              </li>
+              <li> Познайомимо з потужними платформами для пошуку роботи </li>
+              <li>
+                Наші HR допоможуть розібратись в вакансіях, підібрати ідеальну
+                роботу для тебе та разом з тобою напишуть супровідний лист
+              </li>
+              <li>
+                Після завершення курсу наші HR та викладачі будуть залишатися на
+                зв’язку з тобою до першого робочого дня і, можливо, навіть трохи
+                довше :)
+              </li>
+            </ol>
           </p>
           <div className={s.employment}></div>
         </div>

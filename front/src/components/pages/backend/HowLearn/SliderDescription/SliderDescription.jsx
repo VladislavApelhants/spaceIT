@@ -23,13 +23,14 @@ export default function SliderDescription() {
         className={s.description_box}
       >
         <SwiperSlide className={s.slide}>
-          <button type="button" className={s.register_btn}>
+          {/* <button type="button" className={s.register_btn}>
             РЄЄСТРАЦІЯ
-          </button>
-          <h3 className={s.card_title}>ЗНАЙОМТЕСЬ З ПЛАТФОРМОЮ</h3>
+          </button> */}
+          <h3 className={s.card_title}>ЯСНО ТА ЗРОЗУМІЛО</h3>
           <p className={s.description}>
-            Опис Опис Опис Опис Опис ОписО писО писО писО писОп исОп исОп исОп
-            исОп исОписО писОп исОпи сОпис ОписО писОп исОп ис
+            На нашому курсі ти не знайдеш «лишньої води». У нас все точно та
+            конкретно, наша задача випустити готових спеціалістів у своїй сфері,
+            готових змінювати світ IT
           </p>
           <button type="button" className={s.play_btn}>
             <svg width={20} height={20} className={s.icon_play}>
@@ -39,13 +40,13 @@ export default function SliderDescription() {
           </button>
         </SwiperSlide>
         <SwiperSlide className={s.slide}>
-          <button type="button" className={s.register_btn}>
+          {/* <button type="button" className={s.register_btn}>
             РЄЄСТРАЦІЯ
-          </button>
-          <h3 className={s.card_title}>ЗНАЙОМТЕСЬ З ПЛАТФОРМОЮ</h3>
+          </button> */}
+          <h3 className={s.card_title}>ДИПЛОМ</h3>
           <p className={s.description}>
-            Опис Опис Опис Опис Опис ОписО писО писО писО писОп исОп исОп исОп
-            исОп исОписО писОп исОпи сОпис ОписО писОп исОп ис
+            Після завершення курсу, ми видаємо диплом. Він підтвердження твоїх
+            знань та готовності працювати
           </p>
           <button type="button" className={s.play_btn}>
             <svg width={20} height={20} className={s.icon_play}>
@@ -55,29 +56,14 @@ export default function SliderDescription() {
           </button>
         </SwiperSlide>
         <SwiperSlide className={s.slide}>
-          <button type="button" className={s.register_btn}>
+          {/* <button type="button" className={s.register_btn}>
             РЄЄСТРАЦІЯ
-          </button>
-          <h3 className={s.card_title}>ЗНАЙОМТЕСЬ З ПЛАТФОРМОЮ</h3>
+          </button> */}
+          <h3 className={s.card_title}>ЛЕКТОР ТА МЕНТОР</h3>
           <p className={s.description}>
-            Опис Опис Опис Опис Опис ОписО писО писО писО писОп исОп исОп исОп
-            исОп исОписО писОп исОпи сОпис ОписО писОп исОп ис
-          </p>
-          <button type="button" className={s.play_btn}>
-            <svg width={20} height={20} className={s.icon_play}>
-              <use href="/icons/sprite.svg#icon-play"></use>
-            </svg>
-            ДИВИТИСЬ ВІДЕО
-          </button>
-        </SwiperSlide>
-        <SwiperSlide className={s.slide}>
-          <button type="button" className={s.register_btn}>
-            РЄЄСТРАЦІЯ
-          </button>
-          <h3 className={s.card_title}>ЗНАЙОМТЕСЬ З ПЛАТФОРМОЮ</h3>
-          <p className={s.description}>
-            Опис Опис Опис Опис Опис ОписО писО писО писО писОп исОп исОп исОп
-            исОп исОписО писОп исОпи сОпис ОписО писОп исОп ис
+            У кожної групи буде лектор та ментор. Ментор буде перевіряти ваші
+            домашні завдання, а до лектора можна звернутись з додатковими
+            питаннями
           </p>
           <button type="button" className={s.play_btn}>
             <svg width={20} height={20} className={s.icon_play}>
