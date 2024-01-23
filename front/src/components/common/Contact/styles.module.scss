@@ -1,0 +1,80 @@
+.contact {
+  padding: 32px 0;
+  max-width: 1920px;
+  position: relative;
+  z-index: 2;
+
+  border-radius: 41px;
+  background: url("/images/contact-decor-tablet.svg"),
+    linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+    url("/images/contact-bg-mobile.png"), lightgray;
+  background-position: -20px 0, center, center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 0 32px 0;
+  }
+
+  @media screen and (min-width: 1368px) {
+    padding: 50px 0;
+  }
+  @media screen and (min-width: 1920px) {
+    padding: 80px 0 92px;
+  }
+
+  @media screen and (min-width: 376px) {
+    border: 1px solid #000;
+    background: url("/images/contact-decor-tablet.svg"),
+      url("/images/contact-bg-tablet.png"), lightgray;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: -194px 0, center, center;
+  }
+  @media screen and (min-width: 769px) {
+    background: url("/images/contact-decor-tablet.svg"),
+      linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+      url("/images/contact-bg-desktop.png"), lightgray;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: -192px 0, center, center;
+  }
+  @media screen and (min-width: 1369px) {
+    margin: 0 auto;
+
+    border-radius: 50px;
+    background: url("/images/contact-decor-desktop.svg"),
+      linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+      url("/images/contact-bg-desktop-large.png"), lightgray;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: -500px 0, center, center;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin: 0 auto;
+
+    border-radius: 50px;
+    background: url("/images/contact-decor-desktop-large.svg"),
+      linear-gradient(284deg, #000 -1.45%, rgba(0, 0, 0, 0) 56.53%),
+      url("/images/contact-bg-desktop-large.png"), lightgray;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: -730px 0, center, center;
+  }
+}
+
+.contactContainer {
+  @media screen and (min-width: 1368px) {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+  }
+  @media screen and (min-width: 1368px) {
+    gap: 170px;
+  }
+  @media screen and (min-width: 1920px) {
+    gap: 229px;
+  }
+}
