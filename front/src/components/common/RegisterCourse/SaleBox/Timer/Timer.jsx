@@ -9,7 +9,7 @@ export default function Timer({ dateTime }) {
 
   useEffect(() => {
     timer(new Date(dateTime));
-  }, []);
+  }, [dateTime]);
 
   const timer = (data) => {
     const timerId = setInterval(() => {
