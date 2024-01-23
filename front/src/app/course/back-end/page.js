@@ -43,7 +43,7 @@ export default function Course() {
         <CourseTechnology />
         <NasaCourses />
         <Diploma />
-        <RegisterCourse name="Back-end" />
+        <RegisterCourse name="back-end" />
         <Faq />
         <Courses />
         <Contact />

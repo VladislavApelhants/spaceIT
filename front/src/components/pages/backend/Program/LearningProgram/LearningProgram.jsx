@@ -6,7 +6,7 @@ import s from "./styles.module.scss";
 export function LearningProgram() {
   const defaultContent = (
     <div className={s.contentWrapper}>
-      <div className={s.leftContent}>
+      {/* <div className={s.leftContent}>
         <p className={s.mainText}>
           Поринемо в основні концепції адекватного проектування
         </p>
@@ -23,7 +23,7 @@ export function LearningProgram() {
             дизайнеру-початківцю
           </p>
         </div>
-      </div>
+      </div> */}
       <ul className={s.list}>
         <li>
           <p>Основні інструменти Figma</p>
@@ -70,7 +70,7 @@ export function LearningProgram() {
         aria-label="Accordion 1"
         title={
           <div className={s.titleWrapper}>
-            <h3 className={s.title}> </h3>
+            <h3 className={s.title}>Мови програмування</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 1</span>
               <span className={s.weeksLabel}>2 неділі</span>
@@ -79,7 +79,18 @@ export function LearningProgram() {
           </div>
         }
       >
-        {defaultContent}
+        {
+          <div className={s.contentWrapper}>
+            <ul className={s.list}>
+              <li>
+                <p>
+                  Одна або декілька мов програмування для розробки серверної
+                  частини (наприклад, Python, Java, PHP, Ruby, Node.js)
+                </p>
+              </li>
+            </ul>
+          </div>
+        }
       </AccordionItem>
       <AccordionItem
         key="2"
