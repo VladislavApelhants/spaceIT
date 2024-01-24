@@ -11,19 +11,24 @@ import { endpoints } from "@/services/serverAPI";
 export default function Hero() {
   return (
     <section className={s.hero_section}>
-      <Title text="fullsatck" className={"main_courses_title"} tagName={"h1"} />
+      <Title
+        text="Full-stack"
+        className={"main_courses_title"}
+        tagName={"h1"}
+      />
       <Container>
         <div className={s.hero_all_vrapper}>
           <HeroPresentation />
           <div className={s.hero_info_vrapper}>
             <div className={s.title_box}>
               <Title
-                text="fullsatck"
+                text="Full-stack"
                 className={"courses_hero_title"}
                 tagName={"h2"}
               />
               <p className={s.hero_description}>
-                Навчіться професійно розроблювати дизайн сайтів та застосунків
+                Навчіться професійно розробляти естетичний та зручний інтерфейс
+                та серверну частину сайтів
               </p>
               <Button
                 text="ЗАПИСАТИСЬ НА КУРС"

@@ -9,7 +9,7 @@ export function TechnologyAccordion() {
         <Tab className={s.tab} selectedClassName={s.tabActive}>
           <span className={s.headerIcon}>
             <Image
-              src="/icons/figma.svg"
+              src="/pages/icons-tech/figma.png"
               width={24}
               height={24}
               alt="figma logo"
@@ -20,31 +20,31 @@ export function TechnologyAccordion() {
         <Tab className={s.tab} selectedClassName={s.tabActive}>
           <span className={s.headerIcon}>
             <Image
-              src="/icons/photoshop.svg"
+              src="/pages/icons-tech/nest.png"
               width={24}
               height={24}
               alt="figma logo"
             />
           </span>
-          Photoshop
+          NestJS
         </Tab>
         <Tab className={s.tab} selectedClassName={s.tabActive}>
           <span className={s.headerIcon}>
             <Image
-              src="/icons/illustrator.svg"
+              src="/pages/icons-tech/postman.png"
               width={24}
               height={24}
               alt="figma logo"
             />
           </span>
-          Illustrator
+          Postman
         </Tab>
       </TabList>
       <TabPanel className={s.tabPanel}>
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
             <Image
-              src="/icons/figma.svg"
+              src="/pages/icons-tech/figma.png"
               width={24}
               height={24}
               alt="figma logo"
@@ -52,9 +52,10 @@ export function TechnologyAccordion() {
             Figma
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            Figma хмарний багатоплатформовий сервіс, що володіє потужним
+            інструментарієм для створення прототипів та макетів з яким можна
+            працювати безпосередньо в браузері. І це лише одне з важливих
+            переваг платформи.
           </p>
         </div>
       </TabPanel>
@@ -62,17 +63,19 @@ export function TechnologyAccordion() {
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
             <Image
-              src="/icons/photoshop.svg"
+              src="/pages/icons-tech/nest.png"
               width={24}
               height={24}
               alt="figma logo"
             />
-            Figma
+            NestJS
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            NestJS — фреймворк для створення серверних додатків Node.js. Це
+            просте середовище з чіткою архітектурою і широкими можливостями.
+            Nest.JS створена для розробки вимогливих і нестандартних систем,
+            містить у коробці все необхідне, щоб запустити проєкт, але при цьому
+            підтримує інтеграцію будь-яких компонентів, бібліотек і модулів.
           </p>
         </div>
       </TabPanel>
@@ -80,17 +83,18 @@ export function TechnologyAccordion() {
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
             <Image
-              src="/icons/illustrator.svg"
+              src="/pages/icons-tech/postman.png"
               width={24}
               height={24}
               alt="figma logo"
             />
-            Figma
+            Postman
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            Postman - це інструмент, який використовується для тестування та
+            взаємодії з API. Він надає функції створення запитів, авторизації,
+            налагодження, тестування та співпраці. Що робить його широкий
+            функціонал необхідним для розробників і команд, що працюють з API.
           </p>
         </div>
       </TabPanel>
