@@ -29,41 +29,45 @@ export default function Diploma() {
               <div className={s.position_wrapper}>
                 <div className={s.position}>
                   <h3 className={s.diploma_info_titles}>Позиція</h3>
-                  <p className={s.position_param}>Junior UI/UX Designer</p>
+                  <p className={s.position_param}>Junior HR Manager</p>
                 </div>
                 <div className={s.salary}>
                   <h3 className={s.diploma_info_titles}>Зарплата від</h3>
-                  <p className={s.position_param}>$400</p>
+                  <p className={s.position_param}>$500</p>
                 </div>
               </div>
               <div className={s.prof_skill}>
                 <h3 className={s.diploma_info_titles}>Професійні навички</h3>
                 <ul className={s.skills_list}>
                   <li className={s.skills_item}>
-                    <span className={s.light}>Figma</span>
+                    <span className={s.light}>HR-стратегія</span>
                   </li>
                   <li className={s.skills_item}>
-                    <span className={s.light}>Дизайн мобільних додатків</span>
-                  </li>
-                  <li className={s.skills_item}>
-                    <span className={s.light}>Photoshop</span>
+                    <span className={s.light}>Найм та відбір персоналу</span>
                   </li>
                   <li className={s.skills_item}>
                     <span className={s.light}>
-                      User flow, User flow mobile app
+                      Управління взаємовідносинами та корпоративною культурою
                     </span>
                   </li>
                   <li className={s.skills_item}>
-                    <span className={s.light}>Illustrator</span>
+                    <span className={s.light}>
+                      Талант-менеджмент та розвиток персоналу
+                    </span>
                   </li>
                   <li className={s.skills_item}>
-                    <span className={s.light}>Архітектура проєкту</span>
+                    <span className={s.light}>
+                      Трудове законодавство та компліанс
+                    </span>
                   </li>
                   <li className={s.skills_item}>
-                    <span className={s.light}>Створення Landing Page</span>
+                    <span className={s.light}>Комунікаційні навички</span>
                   </li>
                   <li className={s.skills_item}>
-                    <span className={s.light}>UX Сценарії – User Stories</span>
+                    <span className={s.light}>Конфліктологія</span>
+                  </li>
+                  <li className={s.skills_item}>
+                    <span className={s.light}>Аналітика та звітність</span>
                   </li>
                 </ul>
               </div>
