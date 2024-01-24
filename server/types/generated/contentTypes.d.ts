@@ -362,111 +362,6 @@ export interface AdminTransferTokenPermission extends Schema.CollectionType {
   };
 }
 
-export interface ApiCallbackCallback extends Schema.CollectionType {
-  collectionName: 'callbacks';
-  info: {
-    singularName: 'callback';
-    pluralName: 'callbacks';
-    displayName: 'Callback \u0437\u0430\u0433\u0430\u043B\u044C\u043D\u0438\u0439';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    name: Attribute.String & Attribute.Required;
-    phone: Attribute.String & Attribute.Required;
-    email: Attribute.Email;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::callback.callback',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::callback.callback',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
-export interface ApiCallbackCourseCallbackCourse extends Schema.CollectionType {
-  collectionName: 'callback_courses';
-  info: {
-    singularName: 'callback-course';
-    pluralName: 'callback-courses';
-    displayName: 'Callback \u043F\u043E \u043A\u0443\u0440\u0441\u0430\u043C';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    name: Attribute.String & Attribute.Required;
-    email: Attribute.Email & Attribute.Required;
-    phone: Attribute.String & Attribute.Required;
-    courseName: Attribute.String;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::callback-course.callback-course',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::callback-course.callback-course',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
-export interface ApiCourseCourse extends Schema.CollectionType {
-  collectionName: 'courses';
-  info: {
-    singularName: 'course';
-    pluralName: 'courses';
-    displayName: '\u0421\u043F\u0438\u0441\u043E\u043A \u043A\u0443\u0440\u0441\u0456\u0432';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    courseName: Attribute.String & Attribute.Required & Attribute.Unique;
-    term: Attribute.String & Attribute.Required;
-    professions: Attribute.String & Attribute.Required;
-    skills: Attribute.String;
-    previewImg: Attribute.Media & Attribute.Required;
-    link: Attribute.String & Attribute.Required & Attribute.Unique;
-    startDate: Attribute.Date & Attribute.Required;
-    discountTime: Attribute.DateTime;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::course.course',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::course.course',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
 export interface PluginUploadFile extends Schema.CollectionType {
   collectionName: 'files';
   info: {
@@ -873,6 +768,111 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
   };
 }
 
+export interface ApiCallbackCallback extends Schema.CollectionType {
+  collectionName: 'callbacks';
+  info: {
+    singularName: 'callback';
+    pluralName: 'callbacks';
+    displayName: 'Callback \u0437\u0430\u0433\u0430\u043B\u044C\u043D\u0438\u0439';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    name: Attribute.String & Attribute.Required;
+    phone: Attribute.String & Attribute.Required;
+    email: Attribute.Email;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::callback.callback',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::callback.callback',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiCallbackCourseCallbackCourse extends Schema.CollectionType {
+  collectionName: 'callback_courses';
+  info: {
+    singularName: 'callback-course';
+    pluralName: 'callback-courses';
+    displayName: 'Callback \u043F\u043E \u043A\u0443\u0440\u0441\u0430\u043C';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    name: Attribute.String & Attribute.Required;
+    email: Attribute.Email & Attribute.Required;
+    phone: Attribute.String & Attribute.Required;
+    courseName: Attribute.String;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::callback-course.callback-course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::callback-course.callback-course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiCourseCourse extends Schema.CollectionType {
+  collectionName: 'courses';
+  info: {
+    singularName: 'course';
+    pluralName: 'courses';
+    displayName: '\u0421\u043F\u0438\u0441\u043E\u043A \u043A\u0443\u0440\u0441\u0456\u0432';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    courseName: Attribute.String & Attribute.Required & Attribute.Unique;
+    term: Attribute.String & Attribute.Required;
+    professions: Attribute.String & Attribute.Required;
+    skills: Attribute.String;
+    previewImg: Attribute.Media & Attribute.Required;
+    link: Attribute.String & Attribute.Required & Attribute.Unique;
+    startDate: Attribute.Date & Attribute.Required;
+    discountTime: Attribute.DateTime;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface ContentTypes {
@@ -883,9 +883,6 @@ declare module '@strapi/types' {
       'admin::api-token-permission': AdminApiTokenPermission;
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
-      'api::callback.callback': ApiCallbackCallback;
-      'api::callback-course.callback-course': ApiCallbackCourseCallbackCourse;
-      'api::course.course': ApiCourseCourse;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;
       'plugin::content-releases.release': PluginContentReleasesRelease;
@@ -894,6 +891,9 @@ declare module '@strapi/types' {
       'plugin::users-permissions.permission': PluginUsersPermissionsPermission;
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
+      'api::callback.callback': ApiCallbackCallback;
+      'api::callback-course.callback-course': ApiCallbackCourseCallbackCourse;
+      'api::course.course': ApiCourseCourse;
     }
   }
 }
