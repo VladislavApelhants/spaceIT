@@ -1,5 +1,5 @@
 import LectureHall from "@/components/pages/about/LectureHall/LectureHall";
-import Contact from "@/components/pages/home/Contact/Contact";
+import Contact from "@/components/common/Contact/Contact";
 import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
 import OurTeam from "@/components/pages/about/OurTeam/OurTeam";
 import Hero from "@/components/pages/about/Hero/Hero";
