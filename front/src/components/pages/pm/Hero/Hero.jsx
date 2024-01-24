@@ -11,14 +11,18 @@ import { endpoints } from "@/services/serverAPI";
 export default function Hero() {
   return (
     <section className={s.hero_section}>
-      <Title text="PM" className={"main_courses_title"} tagName={"h1"} />
+      <Title
+        text="PROJECT MANAGER"
+        className={"main_courses_title"}
+        tagName={"h1"}
+      />
       <Container>
         <div className={s.hero_all_vrapper}>
           <HeroPresentation />
-          <div className={s.hero_info_vrapper}>
+          <div className={s.hero_info_wrapper}>
             <div className={s.title_box}>
               <Title
-                text="PM"
+                text="PROJECT MANAGER"
                 className={"courses_hero_title"}
                 tagName={"h2"}
               />

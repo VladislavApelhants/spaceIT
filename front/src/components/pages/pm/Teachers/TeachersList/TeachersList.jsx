@@ -7,7 +7,7 @@ export default function TeachersList() {
       <li className={s.teacher_item}>
         <div className={s.image_thumb}>
           <Image
-            src="/images/course-teacher/img1.png"
+            src="/pages/pm/teachers/img1.png"
             width={376}
             height={376}
             alt="teacher image"
@@ -17,28 +17,26 @@ export default function TeachersList() {
         <div className={s.info_thumb}>
           <div className={s.info_top_box}>
             <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
+              <p className={s.author_course}>АВТОР КУРСУ/ЛЕКТОР</p>
+              <h3 className={s.author_name}>РУСЛАНА КОГУТ</h3>
+              <p className={s.author_description}>7 років досвіду в PM</p>
             </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
           </div>
           <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
+            Почавши свою кар'єру як проектний менеджер у великій IT-компанії,
+            Руслана розвинула свої навички в управлінні проектами від масштабних
+            технічних проектів до стратегічного планування в
+            бізнес-середовищі.На лекціях Вона ділиться своїм великим багажем
+            знань та вмінь, сприяючи розвитку навичок управління проектами серед
+            майбутніх менеджерів. Її лекції відзначаються практичністю та
+            акцентом на реальних сценаріях з робочого досвіду.
           </p>
         </div>
       </li>
       <li className={s.teacher_item}>
         <div className={s.image_thumb}>
           <Image
-            src="/images/course-teacher/img2.png"
+            src="/pages/pm/teachers/img2.png"
             width={376}
             height={376}
             alt="teacher image"
@@ -48,86 +46,18 @@ export default function TeachersList() {
         <div className={s.info_thumb}>
           <div className={s.info_top_box}>
             <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
+              <p className={s.author_course}>МЕНТОР</p>
+              <h3 className={s.author_name}>ВЕРОНІКА ПАРХОМЕНКО</h3>
+              <p className={s.author_description}>4 років досвіду в PM</p>
             </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
           </div>
           <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit. mollitia hic
-            maiores id delectus necessitatibus, blanditiis atque repellendus
-            assumenda quibusdam voluptatum velit. maiores id delectus
-            necessitatibus
-          </p>
-        </div>
-      </li>
-      <li className={s.teacher_item}>
-        <div className={s.image_thumb}>
-          <Image
-            src="/images/course-teacher/img3.png"
-            width={376}
-            height={376}
-            alt="teacher image"
-            className={s.teacher_image}
-          />
-        </div>
-        <div className={s.info_thumb}>
-          <div className={s.info_top_box}>
-            <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
-            </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
-          </div>
-          <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
-          </p>
-        </div>
-      </li>
-      <li className={s.teacher_item}>
-        <div className={s.image_thumb}>
-          <Image
-            src="/images/course-teacher/img4.png"
-            width={376}
-            height={376}
-            alt="teacher image"
-            className={s.teacher_image}
-          />
-        </div>
-        <div className={s.info_thumb}>
-          <div className={s.info_top_box}>
-            <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
-            </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
-          </div>
-          <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
+            ТВероніка виступає ментором на курсах з управління проектами,
+            надаючи особистий підхід до розвитку кожного учасника. Її менторські
+            сесії відзначаються глибоким розумінням конкретних викликів
+            учасників та наданням конструктивного порад. Тетяна прагне розвивати
+            в своїх учнів не лише технічні навички управління проектами, але і
+            лідерські якості та стратегічне мислення.
           </p>
         </div>
       </li>
