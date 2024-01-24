@@ -9,7 +9,7 @@ export function TechnologyAccordion() {
         <Tab className={s.tab} selectedClassName={s.tabActive}>
           <span className={s.headerIcon}>
             <Image
-              src="/icons/figma.svg"
+              src="/pages/front-end/technologyAccordion/figma.png"
               width={24}
               height={24}
               alt="figma logo"
@@ -20,31 +20,31 @@ export function TechnologyAccordion() {
         <Tab className={s.tab} selectedClassName={s.tabActive}>
           <span className={s.headerIcon}>
             <Image
-              src="/icons/photoshop.svg"
+              src="/pages/front-end/technologyAccordion/react.png"
               width={24}
               height={24}
               alt="figma logo"
             />
           </span>
-          Photoshop
+          React
         </Tab>
         <Tab className={s.tab} selectedClassName={s.tabActive}>
           <span className={s.headerIcon}>
             <Image
-              src="/icons/illustrator.svg"
+              src="/pages/front-end/technologyAccordion/js.png"
               width={24}
               height={24}
               alt="figma logo"
             />
           </span>
-          Illustrator
+          JavaScript
         </Tab>
       </TabList>
       <TabPanel className={s.tabPanel}>
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
             <Image
-              src="/icons/figma.svg"
+              src="/pages/front-end/technologyAccordion/figma.png"
               width={24}
               height={24}
               alt="figma logo"
@@ -52,9 +52,10 @@ export function TechnologyAccordion() {
             Figma
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            Figma хмарний багатоплатформовий сервіс, що володіє потужним
+            інструментарієм для створення прототипів та макетів з яким можна
+            працювати безпосередньо в браузері. І це лише одне з важливих
+            переваг платформи.
           </p>
         </div>
       </TabPanel>
@@ -62,7 +63,7 @@ export function TechnologyAccordion() {
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
             <Image
-              src="/icons/photoshop.svg"
+              src="/pages/front-end/technologyAccordion/react.png"
               width={24}
               height={24}
               alt="figma logo"
@@ -70,9 +71,10 @@ export function TechnologyAccordion() {
             Figma
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            React - це бібліотека для створення інтерфейсів користувача (UI).
+            Вона дозволяє розробникам побудувати ефективні та масштабовані
+            веб-додатки, які оновлюються динамічно при зміні даних, без
+            перезавантаження сторінки.
           </p>
         </div>
       </TabPanel>
@@ -80,7 +82,7 @@ export function TechnologyAccordion() {
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
             <Image
-              src="/icons/illustrator.svg"
+              src="/pages/front-end/technologyAccordion/js.png"
               width={24}
               height={24}
               alt="figma logo"
@@ -88,9 +90,10 @@ export function TechnologyAccordion() {
             Figma
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            JavaScript - високорівнева, мова програмування, яка використовується
+            для розробки динамічних веб-сайтів і веб-додатків. Вона є однією з
+            найпоширеніших та найбільш використовуваних мов програмування на
+            сучасному етапі розвитку веб-технологій
           </p>
         </div>
       </TabPanel>

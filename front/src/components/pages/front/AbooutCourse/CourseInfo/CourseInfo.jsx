@@ -4,8 +4,8 @@ export default async function CourseInfo({ endpoint = "https:google.com" }) {
   const result = await axios.get(endpoint);
 
   const { data, numberOfLessons, format } = {
-    data: "03.11.2023",
-    numberOfLessons: "23 уроки",
+    data: "14.02.2024",
+    numberOfLessons: "34 уроки",
     format: "офлайн",
   };
 

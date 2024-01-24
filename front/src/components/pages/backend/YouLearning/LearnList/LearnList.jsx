@@ -11,7 +11,7 @@ export default function LearnList() {
           Мови програмування для серверної розробки:
         </h3>
         <p className={s.learn_description}>
-          Освоєння мов програмування, таких як Python, JavaScript (з
+          - Освоєння мов програмування, таких як Python, JavaScript (з
           використанням Node.js), які часто використовуються для написання
           серверного коду. Важливо вивчити та розуміти синтаксис, структуру
           коду, та основні бібліотеки.
@@ -23,8 +23,8 @@ export default function LearnList() {
         </svg>
         <h3 className={s.learn_title}>Системи управління базами даних:</h3>
         <p className={s.learn_description}>
-          Розуміння основ розробки баз даних, створення таблиць, запитів SQL та
-          індексації.
+          - Розуміння основ розробки баз даних, створення таблиць, запитів SQL
+          та індексації.
         </p>
       </li>
       <li className={s.learn_item}>
@@ -33,8 +33,9 @@ export default function LearnList() {
         </svg>
         <h3 className={s.learn_title}>Веб-фреймворки для Back-end розробки:</h3>
         <p className={s.learn_description}>
-          Освоєння веб-фреймворків, таких як Express для Node.js. Ці фреймворки
-          допомагають швидко створювати ефективні та безпечні серверні додатки.
+          - Освоєння веб-фреймворків, таких як Express для Node.js. Ці
+          фреймворки допомагають швидко створювати ефективні та безпечні
+          серверні додатки.
         </p>
       </li>
       <li className={s.learn_item}>

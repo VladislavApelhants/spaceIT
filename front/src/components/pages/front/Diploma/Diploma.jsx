@@ -29,11 +29,11 @@ export default function Diploma() {
               <div className={s.position_wrapper}>
                 <div className={s.position}>
                   <h3 className={s.diploma_info_titles}>Позиція</h3>
-                  <p className={s.position_param}>Junior UI/UX Designer</p>
+                  <p className={s.position_param}>Junior Front-end</p>
                 </div>
                 <div className={s.salary}>
                   <h3 className={s.diploma_info_titles}>Зарплата від</h3>
-                  <p className={s.position_param}>$400</p>
+                  <p className={s.position_param}>$500</p>
                 </div>
               </div>
               <div className={s.prof_skill}>
@@ -43,27 +43,27 @@ export default function Diploma() {
                     <span className={s.light}>Figma</span>
                   </li>
                   <li className={s.skills_item}>
-                    <span className={s.light}>Дизайн мобільних додатків</span>
+                    <span className={s.light}>TypeScript</span>
                   </li>
                   <li className={s.skills_item}>
-                    <span className={s.light}>Photoshop</span>
+                    <span className={s.light}>HTML</span>
+                  </li>
+                  <li className={s.skills_item}>
+                    <span className={s.light}>CSS</span>
+                  </li>
+                  <li className={s.skills_item}>
+                    <span className={s.light}>JavaScript</span>
+                  </li>
+                  <li className={s.skills_item}>
+                    <span className={s.light}>Оптимізація та відладка</span>
+                  </li>
+                  <li className={s.skills_item}>
+                    <span className={s.light}>React</span>
                   </li>
                   <li className={s.skills_item}>
                     <span className={s.light}>
-                      User flow, User flow mobile app
+                      Адаптивний та відповідний дизайн
                     </span>
-                  </li>
-                  <li className={s.skills_item}>
-                    <span className={s.light}>Illustrator</span>
-                  </li>
-                  <li className={s.skills_item}>
-                    <span className={s.light}>Архітектура проєкту</span>
-                  </li>
-                  <li className={s.skills_item}>
-                    <span className={s.light}>Створення Landing Page</span>
-                  </li>
-                  <li className={s.skills_item}>
-                    <span className={s.light}>UX Сценарії – User Stories</span>
                   </li>
                 </ul>
               </div>
