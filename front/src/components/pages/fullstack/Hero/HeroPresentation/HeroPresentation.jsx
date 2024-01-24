@@ -7,7 +7,7 @@ export default function HeroPresentation() {
       <ul className={s.present_list}>
         <li className={s.present_item}>
           <Image
-            src="/images/hero-courses/img1.png"
+            src="/pages/full-stack/hero/img1.png"
             width={324}
             height={489}
             alt="hero course presentation picture"
@@ -15,7 +15,7 @@ export default function HeroPresentation() {
         </li>
         <li className={s.present_item}>
           <Image
-            src="/images/hero-courses/img2.png"
+            src="/pages/full-stack/hero/img2.png"
             width={324}
             height={489}
             alt="hero course presentation picture"
@@ -23,7 +23,7 @@ export default function HeroPresentation() {
         </li>
         <li className={s.present_item}>
           <Image
-            src="/images/hero-courses/img3.png"
+            src="/pages/full-stack/hero/img3.png"
             width={324}
             height={489}
             alt="hero course presentation picture"
@@ -41,7 +41,7 @@ export default function HeroPresentation() {
           <svg className={s.present_icon} width={20} height={20}>
             <use href="/icons/sprite.svg#icon-star"></use>
           </svg>
-          <span className={s.description_text}>ТРИВАЛІСТЬ КУРСУ 3 МІСЯЦІ</span>
+          <span className={s.description_text}>ТРИВАЛІСТЬ КУРСУ 7 МІСЯЦІ</span>
         </li>
         <li className={s.present_description_item}>
           <svg className={s.present_icon} width={20} height={20}>

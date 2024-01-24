@@ -10,7 +10,7 @@ export default function AboutProfession() {
     <section className={s.aboutProfession}>
       <CourseContainer>
         <Title
-          text="Дизайнер з нуля до junior"
+          text="FULL-STACK DEVELOPER З НУЛЯ ДО JUNIOR"
           tagName="h2"
           className="aboutProfessionTitle"
         />
@@ -22,11 +22,11 @@ export default function AboutProfession() {
         <div className={s.graphWrapper}>
           <ul className={s.list}>
             <li className={s.listItem}>
-              <p className={s.price}>150000</p>
+              <p className={s.price}>10000</p>
               <p className={s.text}>Вакансій</p>
             </li>
             <li className={s.listItem}>
-              <p className={s.price}>20000 - 50000 грн</p>
+              <p className={s.price}>40000 - 45000 грн</p>
               <p className={s.text}>Середня зарплатня</p>
             </li>
           </ul>
@@ -52,25 +52,25 @@ export default function AboutProfession() {
           />
           <ul>
             <li className={s.vacanciesListItem}>
-              <span>
-                <p className={s.listItemText}>UI/UX Designer</p>
-                <p className={s.listItemSecondText}>Київ, офіс</p>
+              <span className={s.vacancies_description}>
+                <p className={s.listItemText}>Junior Full-Stack Developer</p>
+                <p className={s.listItemSecondText}>Дистанційно</p>
               </span>
-              <p className={s.vacanciesListItemSalary}>30000 грн</p>
+              <p className={s.vacanciesListItemSalary}>25000-35000 грн</p>
             </li>
             <li className={s.vacanciesListItem}>
-              <span>
-                <p className={s.listItemText}>UI/UX Designer</p>
-                <p className={s.listItemSecondText}>Київ, офіс</p>
+              <span className={s.vacancies_description}>
+                <p className={s.listItemText}>Middle Full-stack Developer</p>
+                <p className={s.listItemSecondText}>Дистанційна</p>
               </span>
-              <p className={s.vacanciesListItemSalary}>30000 грн</p>
+              <p className={s.vacanciesListItemSalary}>400000-70000 грн</p>
             </li>
             <li className={s.vacanciesListItem}>
-              <span>
-                <p className={s.listItemText}>UI/UX Designer</p>
-                <p className={s.listItemSecondText}>Київ, офіс</p>
+              <span className={s.vacancies_description}>
+                <p className={s.listItemText}>Senior Full Stack Developer</p>
+                <p className={s.listItemSecondText}>Одеса, офіс</p>
               </span>
-              <p className={s.vacanciesListItemSalary}>30000 грн</p>
+              <p className={s.vacanciesListItemSalary}>140000-180000 грн</p>
             </li>
           </ul>
         </div>
