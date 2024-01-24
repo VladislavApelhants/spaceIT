@@ -1,108 +1,9 @@
-// .base {
-//   @media screen and (min-width: 1368px) {
-//     display: flex;
-//     align-items: center;
-//     gap: 32px;
-//   }
-// }
-
-// .accordionBase {
-//   position: relative;
-// }
-
-// .heading {
-//   @media screen and (min-width: 1368px) {
-//     flex-grow: 1;a
-//   }
-// }
-
-// .title {
-//   font-size: 18px;
-//   font-weight: 400;
-//   line-height: 1.5;
-//   letter-spacing: 0em;
-//   transition: color linear 250ms, font-size linear 250ms,
-//     line-height linear 250ms;
-
-//   @media screen and (min-width: 768px) {
-//     font-size: 16px;
-//   }
-//   @media screen and (min-width: 1920px) {
-//     font-size: 24px;
-//   }
-// }
-
-// .content {
-//   margin-bottom: 32px;
-
-//   color: #fff;
-//   font-style: normal;
-//   font-weight: 400;
-//   line-height: 1.5;
-//   @media screen and (min-width: 1368px) {
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     max-width: 448px;
-//     margin-bottom: 0;
-
-//     font-size: 14px;
-//   }
-
-//   @media screen and (min-width: 1920px) {
-//     max-width: 647px;
-//     font-size: 18px;
-//   }
-// }
-
-// .trigger {
-//   margin-bottom: 20px;
-
-//   color: #fff;
-//   font-size: 18px;
-//   font-weight: 400;
-//   line-height: 1.5;
-//   &:hover,
-//   &:focus {
-//     color: rgba(217, 61, 48, 1);
-//   }
-// }
-
-// .base[data-open="true"] .title {
-//   color: rgba(217, 61, 48, 1);
-
-//   font-size: 20px;
-//   font-weight: 800;
-//   line-height: 1.2;
-//   @media screen and (min-width: 1920px) {
-//     font-size: 32px;
-//   }
-// }
-
-// .base + hr {
-//   height: 1px;
-//   margin-bottom: 32px;
-//   border-top: 1px solid rgba(61, 61, 61, 1);
-
-//   transition: border-top linear 250ms, margin-top linear 500ms;
-//   @media screen and (min-width: 1368px) {
-//     max-width: 640px;
-//   }
-//   @media screen and (min-width: 1920px) {
-//     max-width: 921px;
-//   }
-// }
-
-// .base[data-open="true"] + hr {
-//   border-top: 2px solid rgba(217, 61, 48, 1);
-// }
-
 .titleWrapper {
   margin-bottom: 32px;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  // justify-content: space-between;
 
   &:hover .title {
     color: #d93d30;
@@ -123,7 +24,7 @@
 
   @media screen and (min-width: 768px) {
     align-items: center;
-    gap: 65px;
+    gap: 20px;
   }
   @media screen and (min-width: 1368px) {
     gap: unset;
@@ -133,22 +34,30 @@
   }
 }
 
-.title {
+.trigger {
+  width: 100%;
   outline: none;
+}
+
+.title {
   margin-bottom: 22px;
+  max-width: 300px;
 
   order: 1;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 
+  outline: none;
+
   transition: color linear 250ms;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
+    max-width: 100%;
     order: 2;
   }
   @media screen and (min-width: 1368px) {
@@ -166,17 +75,17 @@
   order: 3;
 
   @media screen and (min-width: 768px) {
-    gap: 65px;
+    gap: 20px;
     order: 1;
   }
 
   @media screen and (min-width: 1368px) {
-    margin-right: 232px;
+    margin-right: 100px;
     gap: 205px;
   }
   @media screen and (min-width: 1920px) {
-    margin-right: 329px;
-    gap: 298px;
+    margin-right: 100px;
+    gap: 100px;
   }
 }
 
@@ -211,6 +120,7 @@
   }
 }
 .indicator {
+  margin-left: auto;
   width: 24px;
   height: 24px;
 
@@ -230,11 +140,11 @@
     order: 3;
   }
   @media screen and (min-width: 1368px) {
-    margin-left: 87px;
+    // margin-left: 87px;
     order: 3;
   }
   @media screen and (min-width: 1920px) {
-    margin-left: 120px;
+    // margin-left: 120px;
     width: 28px;
     height: 28px;
 
@@ -436,9 +346,9 @@
 .list li::before {
   content: "";
   display: inline-block;
-  margin-right: 8px;
-  width: 8px;
-  height: 8px;
+  margin-right: 5px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background-color: #d93d30;
 }

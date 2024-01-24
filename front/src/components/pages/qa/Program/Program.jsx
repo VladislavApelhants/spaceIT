@@ -10,7 +10,7 @@ export default function Program() {
       <CourseContainer>
         <div className={s.circle}></div>
         <Title text="програма" tagName="h2" className="programTitle" />
-        <Labels numberOfLessons="23 уроки" numberOfTasks="50 завдань" />
+        <Labels numberOfLessons="32 уроки" numberOfTasks="64 завдань" />
         <LearningProgram />
       </CourseContainer>
     </section>

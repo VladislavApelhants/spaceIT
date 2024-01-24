@@ -1,4 +1,4 @@
-import Contact from "@/components/pages/home/Contact/Contact";
+import Contact from "@/components/common/Contact/Contact";
 import TopDecor from "@/components/common/TopDecor/TopDecor";
 import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
 import Contacts from "@/components/pages/contact/Contacts/Contacts";

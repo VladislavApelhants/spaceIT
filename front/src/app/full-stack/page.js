@@ -2,7 +2,7 @@ import Hero from "@/components/pages/fullstack/Hero/Hero";
 import AboutCourse from "@/components/pages/fullstack/AbooutCourse/AbooutCourse";
 import YouLearning from "@/components/pages/fullstack/YouLearning/YouLearning";
 import Courses from "@/components/common/PageCoursesList/Courses.module";
-import Contact from "@/components/pages/home/Contact/Contact";
+import Contact from "@/components/common/Contact/Contact";
 import AboutProfession from "@/components/pages/fullstack/AboutProfession/AboutProfession";
 import Teachers from "@/components/pages/fullstack/Teachers/Teachers";
 import Program from "@/components/pages/fullstack/Program/Program";
@@ -42,7 +42,7 @@ export default function Course() {
         <CourseTechnology />
         <NasaCourses />
         <Diploma />
-        <RegisterCourse name="Full-stack" />
+        <RegisterCourse name="full-stack" />
         <Faq />
         <Courses />
         <Contact />

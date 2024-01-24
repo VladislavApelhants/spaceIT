@@ -2,7 +2,7 @@ import Hero from "@/components/pages/qa/Hero/Hero";
 import AboutCourse from "@/components/pages/qa/AbooutCourse/AbooutCourse";
 import YouLearning from "@/components/pages/qa/YouLearning/YouLearning";
 import Courses from "@/components/common/PageCoursesList/Courses.module";
-import Contact from "@/components/pages/home/Contact/Contact";
+import Contact from "@/components/common/Contact/Contact";
 import AboutProfession from "@/components/pages/qa/AboutProfession/AboutProfession";
 import Teachers from "@/components/pages/qa/Teachers/Teachers";
 import Program from "@/components/pages/qa/Program/Program";
