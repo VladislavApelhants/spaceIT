@@ -41,7 +41,8 @@
 
 .title {
   margin-bottom: 22px;
-  max-width: 300px;
+  min-width: 200px;
+  max-width: 250px;
 
   order: 1;
   color: #fff;
@@ -49,6 +50,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: left;
   text-transform: uppercase;
 
   outline: none;
@@ -58,6 +60,7 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
     max-width: 100%;
+    min-width: auto;
     order: 2;
   }
   @media screen and (min-width: 1368px) {
@@ -352,10 +355,3 @@
   border-radius: 50%;
   background-color: #d93d30;
 }
-
-// @media screen and (min-width: 768px) {
-// }
-// @media screen and (min-width: 1368px) {
-// }
-// @media screen and (min-width: 1920px) {
-// }
