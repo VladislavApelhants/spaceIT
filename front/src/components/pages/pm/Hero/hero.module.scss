@@ -29,23 +29,29 @@
     justify-content: space-between;
     padding: 24px;
     background-image: url("/images/hero-courses/hero-desk1-bg.png");
+    height: 592px;
   }
   @media screen and (min-width: 1920px) {
     padding: 40px;
     background-image: url("/images/hero-courses/hero-desk2-bg.png");
+    height: 832px;
   }
 }
 .title_box {
   width: 100%;
   @media screen and (min-width: 1368px) {
     width: 382px;
-    margin-bottom: 153px;
   }
   @media screen and (min-width: 1920px) {
     width: 490px;
-    margin-bottom: 192px;
   }
 }
+.hero_info_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .hero_description {
   font-size: 16px;
   font-weight: 400;
