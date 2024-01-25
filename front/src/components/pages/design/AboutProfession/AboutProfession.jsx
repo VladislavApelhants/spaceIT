@@ -26,7 +26,7 @@ export default function AboutProfession() {
               <p className={s.text}>Вакансій</p>
             </li>
             <li className={s.listItem}>
-              <p className={s.price}>20000 - 50000 грн</p>
+              <p className={s.price}>30000 грн</p>
               <p className={s.text}>Середня зарплатня</p>
             </li>
           </ul>
@@ -52,25 +52,29 @@ export default function AboutProfession() {
           />
           <ul>
             <li className={s.vacanciesListItem}>
-              <span>
-                <p className={s.listItemText}>UI/UX Designer</p>
-                <p className={s.listItemSecondText}>Київ, офіс</p>
+              <span className="max-w-[350px] w-full">
+                <p className={s.listItemText}>UI/UX Designer без досвіду</p>
+                <p className={s.listItemSecondText}>Дніпро, офіс</p>
               </span>
-              <p className={s.vacanciesListItemSalary}>30000 грн</p>
+              <p className={s.vacanciesListItemSalary}>15000-20000 грн</p>
             </li>
             <li className={s.vacanciesListItem}>
-              <span>
-                <p className={s.listItemText}>UI/UX Designer</p>
-                <p className={s.listItemSecondText}>Київ, офіс</p>
+              <span className="max-w-[350px] w-full">
+                <p className={s.listItemText}>
+                  UI/UX Designer досвід від 1 року
+                </p>
+                <p className={s.listItemSecondText}>Віддалено</p>
               </span>
-              <p className={s.vacanciesListItemSalary}>30000 грн</p>
+              <p className={s.vacanciesListItemSalary}>30000-40000 грн</p>
             </li>
             <li className={s.vacanciesListItem}>
-              <span>
-                <p className={s.listItemText}>UI/UX Designer</p>
-                <p className={s.listItemSecondText}>Київ, офіс</p>
+              <span className="max-w-[350px] w-full">
+                <p className={s.listItemText}>
+                  UI/UX Designer досвід від 2 років
+                </p>
+                <p className={s.listItemSecondText}>Віддалено</p>
               </span>
-              <p className={s.vacanciesListItemSalary}>30000 грн</p>
+              <p className={s.vacanciesListItemSalary}>35000-60000 грн</p>
             </li>
           </ul>
         </div>
