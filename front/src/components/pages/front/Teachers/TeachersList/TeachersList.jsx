@@ -1,6 +1,6 @@
 import Image from "next/image";
 import s from "./teachersList.module.scss";
-import SocialList from "@/components/common/SocialList/SocialList";
+// import SocialList from "@/components/common/SocialList/SocialList";
 export default function TeachersList() {
   return (
     <ul>

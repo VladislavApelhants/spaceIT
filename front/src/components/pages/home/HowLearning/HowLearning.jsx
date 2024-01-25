@@ -32,9 +32,7 @@ export default function HowLearning() {
                   >
                     <use href="/icons/sprite.svg#icon-star"></use>
                   </svg>
-                  <h3 className={s.howLearning_item_title}>
-                    Особистий онлайн-кабінет
-                  </h3>
+                  <h3 className={s.howLearning_item_title}>Онлайн Лекції</h3>
                 </div>
                 <p className={s.howLearning_item_description}>
                   Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
@@ -47,7 +45,7 @@ export default function HowLearning() {
                     <use href="/icons/sprite.svg#icon-moon"></use>
                   </svg>
                   <h3 className={s.howLearning_item_title}>
-                    Особистий онлайн-кабінет
+                    Постіїна підтримка ментора
                   </h3>
                 </div>
                 <p className={s.howLearning_item_description}>
@@ -60,9 +58,7 @@ export default function HowLearning() {
                   <svg className={s.icons} width={20} height={20}>
                     <use href="/icons/sprite.svg#icon-rocket-white"></use>
                   </svg>
-                  <h3 className={s.howLearning_item_title}>
-                    Особистий онлайн-кабінет
-                  </h3>
+                  <h3 className={s.howLearning_item_title}>it english</h3>
                 </div>
                 <p className={s.howLearning_item_description}>
                   Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис

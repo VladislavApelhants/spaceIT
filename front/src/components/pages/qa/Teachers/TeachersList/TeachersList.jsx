@@ -6,9 +6,9 @@ export default function TeachersList() {
       <li className={s.teacher_item}>
         <div className={s.image_thumb}>
           <Image
-            src="/pages/qa/teachers/teach1.png"
-            width={376}
-            height={376}
+            src="/pages/qa/teachers/thenkovetskiy.png"
+            width={765}
+            height={765}
             alt="teacher image"
             className={s.teacher_image}
             loading="lazy"
@@ -34,9 +34,9 @@ export default function TeachersList() {
       <li className={s.teacher_item}>
         <div className={s.image_thumb}>
           <Image
-            src="/pages/qa/teachers/teach2.png"
-            width={376}
-            height={376}
+            src="/pages/qa/teachers/timchenko.png"
+            width={765}
+            height={765}
             alt="teacher image"
             className={s.teacher_image}
             loading="lazy"
