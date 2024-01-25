@@ -7,7 +7,7 @@ export default function HeroPresentation() {
       <ul className={s.present_list}>
         <li className={s.present_item}>
           <Image
-            src="/images/hero-courses/img1.png"
+            src="/pages/ui-ux/hero/hero-1.png"
             width={324}
             height={489}
             alt="hero course presentation picture"
@@ -15,7 +15,7 @@ export default function HeroPresentation() {
         </li>
         <li className={s.present_item}>
           <Image
-            src="/images/hero-courses/img2.png"
+            src="/pages/ui-ux/hero/hero-2.png"
             width={324}
             height={489}
             alt="hero course presentation picture"
@@ -23,7 +23,7 @@ export default function HeroPresentation() {
         </li>
         <li className={s.present_item}>
           <Image
-            src="/images/hero-courses/img3.png"
+            src="/pages/ui-ux/hero/hero-3.png"
             width={324}
             height={489}
             alt="hero course presentation picture"

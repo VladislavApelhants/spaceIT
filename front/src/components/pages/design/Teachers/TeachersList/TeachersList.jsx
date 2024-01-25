@@ -7,9 +7,9 @@ export default function TeachersList() {
       <li className={s.teacher_item}>
         <div className={s.image_thumb}>
           <Image
-            src="/images/course-teacher/img1.png"
-            width={376}
-            height={376}
+            src="/pages/ui-ux/teachers/artem-kovalchyk.png"
+            width={765}
+            height={765}
             alt="teacher image"
             className={s.teacher_image}
           />
@@ -17,21 +17,23 @@ export default function TeachersList() {
         <div className={s.info_thumb}>
           <div className={s.info_top_box}>
             <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
+              <p className={s.author_course}>АВТОР КУРСУ/ЛЕКТОР</p>
+              <h3 className={s.author_name}>АРТЕМ КОВАЛЬЧУК</h3>
+              <p className={s.author_description}>6 років досвіду в UI/UX</p>
             </div>
-            <SocialList
+            {/* <SocialList
               socialList="teachers_list"
               socialLink="teacher_list_link"
               socialIcon="teacher_list_icon"
-            />
+            /> */}
           </div>
           <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
+            Експерт у галузі UI/UX-дизайну, талановитий викладач та професіонал
+            з багаторічним досвідом.Артем відомий своєю здатністю розкривати
+            творчий потенціал студентів та надихати їх на досягнення високих
+            результатів. Його курси з UI/UX-дизайну не лише допомагають
+            студентам опановувати необхідні навички, але й створюють атмосферу
+            креативу та професіоналізму<div className=""></div>
           </p>
         </div>
       </li>
@@ -39,8 +41,8 @@ export default function TeachersList() {
         <div className={s.image_thumb}>
           <Image
             src="/images/course-teacher/img2.png"
-            width={376}
-            height={376}
+            width={765}
+            height={765}
             alt="teacher image"
             className={s.teacher_image}
           />
@@ -48,86 +50,22 @@ export default function TeachersList() {
         <div className={s.info_thumb}>
           <div className={s.info_top_box}>
             <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
+              <p className={s.author_course}>МЕНТОР</p>
+              <h3 className={s.author_name}>ДМИТРО ІВАЩЕНКО</h3>
+              <p className={s.author_description}>5 років досвіду в UI/UX</p>
             </div>
-            <SocialList
+            {/* <SocialList
               socialList="teachers_list"
               socialLink="teacher_list_link"
               socialIcon="teacher_list_icon"
-            />
+            /> */}
           </div>
           <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit. mollitia hic
-            maiores id delectus necessitatibus, blanditiis atque repellendus
-            assumenda quibusdam voluptatum velit. maiores id delectus
-            necessitatibus
-          </p>
-        </div>
-      </li>
-      <li className={s.teacher_item}>
-        <div className={s.image_thumb}>
-          <Image
-            src="/images/course-teacher/img3.png"
-            width={376}
-            height={376}
-            alt="teacher image"
-            className={s.teacher_image}
-          />
-        </div>
-        <div className={s.info_thumb}>
-          <div className={s.info_top_box}>
-            <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
-            </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
-          </div>
-          <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
-          </p>
-        </div>
-      </li>
-      <li className={s.teacher_item}>
-        <div className={s.image_thumb}>
-          <Image
-            src="/images/course-teacher/img4.png"
-            width={376}
-            height={376}
-            alt="teacher image"
-            className={s.teacher_image}
-          />
-        </div>
-        <div className={s.info_thumb}>
-          <div className={s.info_top_box}>
-            <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>Автор курсу</p>
-              <h3 className={s.author_name}>ОЛЕКСІЙ СКОРОХОД</h3>
-              <p className={s.author_description}>100+ років досвіду в UI/UX</p>
-            </div>
-            <SocialList
-              socialList="teachers_list"
-              socialLink="teacher_list_link"
-              socialIcon="teacher_list_icon"
-            />
-          </div>
-          <p className={s.teacher_info}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            cumque exercitationem eius excepturi laudantium ab, odio inventore
-            mollitia hic maiores id delectus necessitatibus, blanditiis atque
-            repellendus assumenda quibusdam voluptatum velit.
+            Вирізняється своєю здатністю виявляти і розвивати таланти молодих
+            дизайнерів. Його підхід базується на відкритті креативних
+            можливостей та розвитку навичок, необхідних для успіху в сучасній
+            сфері дизайну.Ментор Дмитро виступає за ідею спільноти та
+            взаємодопомоги серед дизайнерів, надаючи цінні інсайти та підтримку.
           </p>
         </div>
       </li>

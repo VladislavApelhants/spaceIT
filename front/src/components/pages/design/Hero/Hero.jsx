@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section className={s.hero_section}>
       <Title
-        text="Our Courses"
+        text="Курс UI UX Design"
         className={"main_courses_title"}
         tagName={"h1"}
       />
