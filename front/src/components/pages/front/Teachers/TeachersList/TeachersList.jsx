@@ -8,8 +8,8 @@ export default function TeachersList() {
         <div className={s.image_thumb}>
           <Image
             src="/pages/front-end/teachers/dmutro-kalinin.png"
-            width={376}
-            height={376}
+            width={765}
+            height={765}
             alt="teacher image"
             className={s.teacher_image}
           />
@@ -44,8 +44,8 @@ export default function TeachersList() {
         <div className={s.image_thumb}>
           <Image
             src="/pages/front-end/teachers/tetyana-onipko.png"
-            width={376}
-            height={376}
+            width={765}
+            height={765}
             alt="teacher image"
             className={s.teacher_image}
           />
