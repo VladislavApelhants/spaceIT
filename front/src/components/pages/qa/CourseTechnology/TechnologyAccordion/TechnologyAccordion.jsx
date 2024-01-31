@@ -7,90 +7,98 @@ export function TechnologyAccordion() {
     <Tabs className={s.tabs} selectedTabPanelClassName={s.activeTabPanel}>
       <TabList className={s.tabsList}>
         <Tab className={s.tab} selectedClassName={s.tabActive}>
-          <span className={s.headerIcon}>
+          {/* <span className={s.headerIcon}>
             <Image
               src="/icons/figma.svg"
               width={24}
               height={24}
               alt="figma logo"
             />
-          </span>
-          Figma
+          </span> */}
+          Jira
         </Tab>
         <Tab className={s.tab} selectedClassName={s.tabActive}>
-          <span className={s.headerIcon}>
+          {/* <span className={s.headerIcon}>
             <Image
               src="/icons/photoshop.svg"
               width={24}
               height={24}
               alt="figma logo"
             />
-          </span>
-          Photoshop
+          </span> */}
+          Postman
         </Tab>
         <Tab className={s.tab} selectedClassName={s.tabActive}>
-          <span className={s.headerIcon}>
+          {/* <span className={s.headerIcon}>
             <Image
               src="/icons/illustrator.svg"
               width={24}
               height={24}
               alt="figma logo"
             />
-          </span>
-          Illustrator
+          </span> */}
+          TestRail
         </Tab>
       </TabList>
       <TabPanel className={s.tabPanel}>
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
-            <Image
+            {/* <Image
               src="/icons/figma.svg"
               width={24}
               height={24}
               alt="figma logo"
-            />
-            Figma
+            /> */}
+            Jira
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            Управління задачами та проектами. JIRA використовується для
+            відстеження задач, багів, нових функцій та інших елементів проекту.
+            Він надає зручний інтерфейс для спільної роботи команди, дозволяючи
+            слідкувати за роботою, призначати завдання та вести журнал змін.
+            JIRA часто використовується в методах розробки програмного
+            забезпеченн
           </p>
         </div>
       </TabPanel>
       <TabPanel className={s.tabPanel}>
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
-            <Image
+            {/* <Image
               src="/icons/photoshop.svg"
               width={24}
               height={24}
               alt="figma logo"
-            />
-            Figma
+            /> */}
+            Postman
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            Тестування API. Postman є інструментом для тестування API, що
+            дозволяє створювати, редагувати та виконувати запити до
+            веб-сервісів. Він надає зручний інтерфейс для надсилання різних
+            видів запитів (GET, POST, PUT, DELETE) та перевірки відповідей.
+            Postman також дозволяє автоматизувати тестові сценарії та
+            використовувати їх для тестування згодом.
           </p>
         </div>
       </TabPanel>
       <TabPanel className={s.tabPanel}>
         <div className={s.tabPanelContent}>
           <span className={s.contentIcon}>
-            <Image
+            {/* <Image
               src="/icons/illustrator.svg"
               width={24}
               height={24}
               alt="figma logo"
-            />
-            Figma
+            /> */}
+            TestRail
           </span>
           <p>
-            ОписОп исОпи сОпис Оп исОпис ОписОпис ОписОписОпи сО писОписО писОпи
-            сОп исО исОпи сОписОп исОписОпис Оп исОпис ОписОп исОпис Опис Оп
-            исОп исОп исОпис
+            Управління тестовими кейсами та результатами тестування. TestRail є
+            інструментом для організації та ведення тестових кейсів, планування
+            тестування та відстеження результатів. З його допомогою команди QA
+            можуть створювати, керувати та виконувати тестові сценарії, а також
+            відстежувати прогрес тестування.
           </p>
         </div>
       </TabPanel>

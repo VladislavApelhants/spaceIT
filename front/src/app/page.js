@@ -4,9 +4,9 @@ import Hero from "@/components/pages/home/Hero";
 import HowLearning from "@/components/pages/home/HowLearning/HowLearning";
 import StepSection from "@/components/pages/home/Step";
 import JoinUs from "@/components/pages/home/JoinUs/JoinUs";
-import Faq from "@/components/pages/home/Faq/Faq";
+import Faq from "@/components/common/Faq/Faq";
 import Teachers from "@/components/pages/home/Teachers/Teachers";
-import Socials from "@/components/pages/home/Socials/Socials";
+// import Socials from "@/components/pages/home/Socials/Socials";
 import Nasa from "@/components/pages/home/Nasa/Nasa";
 import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
 
@@ -28,7 +28,7 @@ export default function Home() {
         <Teachers />
         <Nasa />
         <JoinUs />
-        <Socials />
+        {/* <Socials /> */}
         <Faq />
         <Contact />
       </HiddenWrapper>

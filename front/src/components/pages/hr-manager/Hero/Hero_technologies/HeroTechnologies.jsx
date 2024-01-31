@@ -10,6 +10,26 @@ export default function HeroTechnologies() {
       />
       <ul className={s.technologies_list}>
         <li className={s.techno_item}>
+          {/* <svg width={28} height={28} className={s.techno_icon}>
+            <use href="/icons/sprite.svg#icon-figma"></use>
+          </svg> */}
+          <h4 className={s.techno_item_title}>HRIS</h4>
+        </li>
+        <li className={s.techno_item}>
+          {/* <svg width={28} height={28} className={s.techno_icon}>
+            <use href="/icons/sprite.svg#icon-photoshop"></use>
+          </svg> */}
+          <h4 className={s.techno_item_title}>ATS</h4>
+        </li>
+        <li className={s.techno_item}>
+          {/* <svg width={28} height={28} className={s.techno_icon}>
+            <use href="/icons/sprite.svg#icon-llustrator"></use>
+          </svg> */}
+          <h4 className={s.techno_item_title}>
+            Performance Management Software
+          </h4>
+        </li>
+        {/* <li className={s.techno_item}>
           <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-figma"></use>
           </svg>
@@ -26,25 +46,7 @@ export default function HeroTechnologies() {
             <use href="/icons/sprite.svg#icon-llustrator"></use>
           </svg>
           <h4 className={s.techno_item_title}>Illustrator</h4>
-        </li>
-        <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
-            <use href="/icons/sprite.svg#icon-figma"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Figma</h4>
-        </li>
-        <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
-            <use href="/icons/sprite.svg#icon-photoshop"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Photoshop</h4>
-        </li>
-        <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
-            <use href="/icons/sprite.svg#icon-llustrator"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Illustrator</h4>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

@@ -25,40 +25,36 @@ export default function StepList() {
         <SwiperSlide className={s.step_slide}>
           <span className={s.card_position}>01</span>
           <div>
-            <h3 className={s.card_title}>перший крок</h3>
+            <h3 className={s.card_title}>Вся необхідна теорія</h3>
             <p className={s.card_description}>
-              Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
-              Опис Опис Опис Опис Опис Опис
+              Жодної “води” лише інформація що знадобиться вам у роботі.
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={s.step_slide}>
           <span className={s.card_position}>02</span>
           <div>
-            <h3 className={s.card_title}>други крок</h3>
-            <p className={s.card_description}>
-              Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
-              Опис Опис Опис Опис Опис Опис Опис
-            </p>
+            <h3 className={s.card_title}>Практичні завдання</h3>
+            <p className={s.card_description}>80% нашої програми це практика</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={s.step_slide}>
           <span className={s.card_position}>03</span>
           <div>
-            <h3 className={s.card_title}>третій крок</h3>
+            <h3 className={s.card_title}>Власний проект або портфоліо</h3>
             <p className={s.card_description}>
-              Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
-              Опис Опис Опис Опис Опис Опис Опис
+              Можливість наочно показати свої навички майбутньому работодавцю
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide className={s.step_slide}>
           <span className={s.card_position}>04</span>
           <div>
-            <h3 className={s.card_title}>четвертий крок</h3>
+            <h3 className={s.card_title}>
+              Резюме і практика проходження співбесід
+            </h3>
             <p className={s.card_description}>
-              Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис Опис
-              Опис Опис Опис Опис Опис Опис
+              Створете конкурентне резюме під керівництвом досвідченого HR
             </p>
           </div>
         </SwiperSlide>

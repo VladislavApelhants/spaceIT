@@ -1,11 +1,11 @@
-import LectureHall from "@/components/pages/about/LectureHall/LectureHall";
+// import LectureHall from "@/components/pages/about/LectureHall/LectureHall";
 import Contact from "@/components/common/Contact/Contact";
 import HiddenWrapper from "@/components/common/HiddenWrapper/HiddenWrapper";
 import OurTeam from "@/components/pages/about/OurTeam/OurTeam";
 import Hero from "@/components/pages/about/Hero/Hero";
 import TopDecor from "@/components/common/TopDecor/TopDecor";
-import Customers from "@/components/pages/about/Customers/Customers";
-import Roadmap from "@/components/pages/about/Roadmap/Roadmap";
+// import Customers from "@/components/pages/about/Customers/Customers";
+// import Roadmap from "@/components/pages/about/Roadmap/Roadmap";
 
 export const metadata = {
   title: "Space IT | Про нас",
@@ -18,10 +18,10 @@ export default function About() {
       <TopDecor ellipseClass="about_hero" bgClass="hero_union" />
       <HiddenWrapper>
         <Hero />
-        <LectureHall />
-        <Roadmap />
+        {/* <LectureHall /> */}
+        {/* <Roadmap /> */}
         <OurTeam />
-        <Customers />
+        {/* <Customers /> */}
         <Contact />
       </HiddenWrapper>
     </>

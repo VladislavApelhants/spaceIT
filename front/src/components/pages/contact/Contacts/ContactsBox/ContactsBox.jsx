@@ -6,20 +6,25 @@ export default function ContactsBox() {
     <div className={s.contact_box}>
       <div className={s.contacts_list}>
         <p>
-          <Link href="/" className={s.contact_link}>
+          <Link
+            href="mailto:zhytomyr.space.it.school@gmail.com"
+            className={s.contact_link}
+          >
             <svg width={28} height={28}>
               <use href="/icons/sprite.svg#icon-majesticons_mail"></use>
             </svg>
-            <span className={s.contact_text}>info@space.it</span>
+            <span className={s.contact_text}>
+              zhytomyr.space.it.school@gmail.com
+            </span>
           </Link>
           <span className={s.elem_description}>Загальні питання</span>
         </p>
         <p>
-          <Link href="/" className={s.contact_link}>
+          <Link href="tel:+38096 993 9629" className={s.contact_link}>
             <svg width={28} height={28}>
               <use href="/icons/sprite.svg#icon-phone-fill"></use>
             </svg>
-            <span className={s.contact_text}>88005553535</span>
+            <span className={s.contact_text}>096 993 9629</span>
           </Link>
           <span className={s.elem_description}>Контактний центр</span>
         </p>
