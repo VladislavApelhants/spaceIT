@@ -11,18 +11,33 @@ export function Navigation() {
         <Title text="курси" className={"footer-title"} />
         <ul className={s.list}>
           <li>
-            <Link href="#" className={s.listLink}>
-              Software Engineering
+            <Link href="/front-end" className={s.listLink}>
+              Front-end
             </Link>
           </li>
           <li>
-            <Link href="#" className={s.listLink}>
-              Data Science
+            <Link href="/back-end" className={s.listLink}>
+              Back-end
             </Link>
           </li>
           <li>
-            <Link href="#" className={s.listLink}>
-              UI/UX Design
+            <Link href="/full-stack" className={s.listLink}>
+              FullStack
+            </Link>
+          </li>
+          <li>
+            <Link href="/qa-manual" className={s.listLink}>
+              QA manual
+            </Link>
+          </li>
+          <li>
+            <Link href="/hr-manager" className={s.listLink}>
+              HR manager
+            </Link>
+          </li>
+          <li>
+            <Link href="/ui-ux-design" className={s.listLink}>
+              UI/UX design
             </Link>
           </li>
         </ul>
@@ -40,14 +55,9 @@ export function Navigation() {
               Контакти
             </Link>
           </li>
-          <li>
-            <Link href="#" className={s.listLink}>
-              FAQ
-            </Link>
-          </li>
         </ul>
       </div>
-      <div className={s.footerNavItem}>
+      {/* <div className={s.footerNavItem}>
         <Title text="додатки" className={"footer-title"} />
         <ul className={s.list}>
           <li>
@@ -66,7 +76,7 @@ export function Navigation() {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className={`${s.footerNavItem} ${s.hide}`}>
         <ButtonCall />
         <ButtonMessage />

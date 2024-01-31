@@ -5,7 +5,7 @@ export default function SocialList({ socialList, socialLink, socialIcon }) {
     <ul className={s[socialList]}>
       <li>
         <a
-          href="#"
+          href="https://www.instagram.com/invites/contact/?i=hgn4uekr2du3&utm_content=sxitg3i"
           target="_blank"
           className={s[socialLink]}
           aria-label="посилання на instagram"
@@ -17,7 +17,7 @@ export default function SocialList({ socialList, socialLink, socialIcon }) {
       </li>
       <li>
         <a
-          href="#"
+          href="@spaceit_school_ua"
           target="_blank"
           className={s[socialLink]}
           aria-label="посилання на telegram"
@@ -27,7 +27,7 @@ export default function SocialList({ socialList, socialLink, socialIcon }) {
           </svg>
         </a>
       </li>
-      <li>
+      {/* <li>
         <a
           href="#"
           target="_blank"
@@ -62,7 +62,7 @@ export default function SocialList({ socialList, socialLink, socialIcon }) {
             <use href="/icons/sprite.svg#icon-linkedin" />
           </svg>
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }

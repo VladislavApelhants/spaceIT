@@ -115,7 +115,7 @@
 
 .contacts_pg_list {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   @media screen and (min-width: 768px) {
     justify-content: flex-start;
     gap: 40px;

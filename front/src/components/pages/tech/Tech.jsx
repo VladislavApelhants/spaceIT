@@ -12,31 +12,59 @@ export default function TechSection() {
             className="tech_title"
           />
           <p className={s.tech_description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            vero pariatur nemo dolore assumenda nisi amet labore minima iste
-            saepe. Quo similique quae cupiditate, ex enim eos ipsum praesentium
-            minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quis reiciendis itaque laboriosam architecto earum. Rem reiciendis
-            sit beatae magnam, soluta doloribus ipsam. Ipsam, enim consequuntur
-            ipsa dolorem doloremque laboriosam veniam!
+            Політика конфіденційності Останнє оновлення: 31.01
           </p>
           <p className={s.tech_description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            vero pariatur nemo dolore assumenda nisi amet labore minima iste
-            saepe. Quo similique quae cupiditate, ex enim eos ipsum praesentium
-            minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quis reiciendis itaque laboriosam architecto earum. Rem reiciendis
-            sit beatae magnam, soluta doloribus ipsam. Ipsam, enim consequuntur
-            ipsa dolorem doloremque laboriosam veniam!
+            Дякуємо за відвідування Space IT School (далі - "Ми", "Наш",
+            "Сайт"). Ваша конфіденційність дуже важлива для нас. Ця політика
+            конфіденційності пояснює, як ми збираємо, використовуємо,
+            розкриваємо та захищаємо інформацію, яку ви нам надаєте в процесі
+            використання нашого сайту.
           </p>
           <p className={s.tech_description}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            vero pariatur nemo dolore assumenda nisi amet labore minima iste
-            saepe. Quo similique quae cupiditate, ex enim eos ipsum praesentium
-            minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quis reiciendis itaque laboriosam architecto earum. Rem reiciendis
-            sit beatae magnam, soluta doloribus ipsam. Ipsam, enim consequuntur
-            ipsa dolorem doloremque laboriosam veniam!
+            Збір та Використання Інформації Ми можемо збирати особисту
+            інформацію, яку ви надаєте добровільно, наприклад, під час
+            реєстрації на нашому сайті, при оформленні замовлення на навчання чи
+            підписці на розсилку. Ця інформація може включати ваше ім'я,
+            контактні дані, дані про оплату та іншу інформацію, необхідну для
+            надання наших послуг.
+          </p>
+          <p className={s.tech_description}>
+            Ми використовуємо зібрану інформацію для надання наших послуг,
+            вдосконалення якості навчання, обробки оплат та забезпечення
+            зручності користувачів.
+          </p>
+          <p className={s.tech_description}>
+            Захист Вашої Інформації Ми приділяємо велику увагу захисту особистої
+            інформації наших відвідувачів. Ми вживаємо відповідних технічних та
+            організаційних заходів для запобігання несанкціонованому доступу,
+            зміні, розголошенню чи знищенню інформації.
+          </p>
+          <p className={s.tech_description}>
+            Розкриття Інформації Третім Сторонам Ми не розкриваємо особисту
+            інформацію відвідувачів третім сторонам, за винятком випадків, коли
+            це необхідно для надання послуг, виконання правових обов'язків або з
+            вашого письмового дозволу.
+          </p>
+          <p className={s.tech_description}>
+            Контроль Інформації Ви маєте право переглядати, виправляти чи
+            видаляти свою особисту інформацію, змінити налаштування розсилок чи
+            скасувати свій обліковий запис, звернувшись до нас за вказаними
+            контактами нижче.
+          </p>
+          <p className={s.tech_description}>
+            Зміни у Політиці Конфіденційності Ми можемо час від часу оновлювати
+            цю політику конфіденційності. Будь ласка, періодично переглядайте її
+            для ознайомлення з останніми змінами. Дата останнього оновлення
+            завжди буде вказана вище.
+          </p>
+          <p className={s.tech_description}>
+            Зв'язок Якщо у вас є питання щодо цієї політики конфіденційності,
+            звертайтеся за електронною адресою [ваша електронна адреса] або за
+            телефоном [ваш номер телефону].
+          </p>
+          <p className={s.tech_description}>
+            Дякуємо за довіру та вибір Space IT School!
           </p>
         </div>
       </Container>

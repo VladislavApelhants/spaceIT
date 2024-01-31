@@ -10,40 +10,23 @@ export default function HeroTechnologies() {
       />
       <ul className={s.technologies_list}>
         <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
+          {/* <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-figma"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Figma</h4>
+          </svg> */}
+
+          <h4 className={s.techno_item_title}>Jira</h4>
         </li>
         <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
+          {/* <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-photoshop"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Photoshop</h4>
+          </svg> */}
+          <h4 className={s.techno_item_title}>Postman</h4>
         </li>
         <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
+          {/* <svg width={28} height={28} className={s.techno_icon}>
             <use href="/icons/sprite.svg#icon-llustrator"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Illustrator</h4>
-        </li>
-        <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
-            <use href="/icons/sprite.svg#icon-figma"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Figma</h4>
-        </li>
-        <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
-            <use href="/icons/sprite.svg#icon-photoshop"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Photoshop</h4>
-        </li>
-        <li className={s.techno_item}>
-          <svg width={28} height={28} className={s.techno_icon}>
-            <use href="/icons/sprite.svg#icon-llustrator"></use>
-          </svg>
-          <h4 className={s.techno_item_title}>Illustrator</h4>
+          </svg> */}
+          <h4 className={s.techno_item_title}>TestRail</h4>
         </li>
       </ul>
     </div>

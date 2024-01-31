@@ -12,19 +12,19 @@
   }
   @media screen and (min-width: 768px) {
     margin-top: 57px;
+    width: 100%;
+    justify-content: center;
     gap: 96px;
   }
   @media screen and (min-width: 1368px) {
     margin: 0 53px 0 0;
     width: 530px;
-    justify-content: space-between;
-    gap: 0;
+    justify-content: unset;
+    gap: 50px;
   }
   @media screen and (min-width: 1920px) {
     margin: 0 160px 0 0;
     width: 766px;
-    justify-content: space-between;
-    gap: 0;
   }
 }
 

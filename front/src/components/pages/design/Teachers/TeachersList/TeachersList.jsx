@@ -1,13 +1,13 @@
 import Image from "next/image";
 import s from "./teachersList.module.scss";
-import SocialList from "@/components/common/SocialList/SocialList";
+// import SocialList from "@/components/common/SocialList/SocialList";
 export default function TeachersList() {
   return (
     <ul>
       <li className={s.teacher_item}>
         <div className={s.image_thumb}>
           <Image
-            src="/pages/ui-ux/teachers/artem-kovalchyk.png"
+            src="/pages/ui-ux/teachers/artem.png"
             width={765}
             height={765}
             alt="teacher image"
@@ -17,7 +17,7 @@ export default function TeachersList() {
         <div className={s.info_thumb}>
           <div className={s.info_top_box}>
             <div className={s.info_text_wrapper}>
-              <p className={s.author_course}>АВТОР КУРСУ/ЛЕКТОР</p>
+              <p className={s.author_course}>МЕНТОР</p>
               <h3 className={s.author_name}>АРТЕМ КОВАЛЬЧУК</h3>
               <p className={s.author_description}>6 років досвіду в UI/UX</p>
             </div>
@@ -37,7 +37,7 @@ export default function TeachersList() {
           </p>
         </div>
       </li>
-      <li className={s.teacher_item}>
+      {/* <li className={s.teacher_item}>
         <div className={s.image_thumb}>
           <Image
             src="/images/course-teacher/img2.png"
@@ -53,13 +53,13 @@ export default function TeachersList() {
               <p className={s.author_course}>МЕНТОР</p>
               <h3 className={s.author_name}>ДМИТРО ІВАЩЕНКО</h3>
               <p className={s.author_description}>5 років досвіду в UI/UX</p>
-            </div>
-            {/* <SocialList
+            </div> */}
+      {/* <SocialList
               socialList="teachers_list"
               socialLink="teacher_list_link"
               socialIcon="teacher_list_icon"
             /> */}
-          </div>
+      {/* </div>
           <p className={s.teacher_info}>
             Вирізняється своєю здатністю виявляти і розвивати таланти молодих
             дизайнерів. Його підхід базується на відкритті креативних
@@ -68,7 +68,7 @@ export default function TeachersList() {
             взаємодопомоги серед дизайнерів, надаючи цінні інсайти та підтримку.
           </p>
         </div>
-      </li>
+      </li> */}
     </ul>
   );
 }
