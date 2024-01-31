@@ -55,11 +55,6 @@ export function Navigation() {
               Контакти
             </Link>
           </li>
-          <li>
-            <Link href="#" className={s.listLink}>
-              FAQ
-            </Link>
-          </li>
         </ul>
       </div>
       {/* <div className={s.footerNavItem}>
