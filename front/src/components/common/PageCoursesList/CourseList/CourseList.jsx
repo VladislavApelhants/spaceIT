@@ -59,6 +59,7 @@ export default function CourseList() {
                   width={200}
                   height={200}
                   alt="image course info"
+                  className={s.image}
                 />
                 <span className={s.cource_duration_training}>
                   {term} місяць
