@@ -28,9 +28,11 @@ export default function SaleBox({ name = "" }) {
   return (
     <div className={s.sale_box}>
       <div className={s.course_time}>
-        <div className={s.discount_circle}>
-          <span className={s.discount_circle_value}>50%</span>
-        </div>
+        {date && (
+          <div className={s.discount_circle}>
+            <span className={s.discount_circle_value}>50%</span>
+          </div>
+        )}
         <h3 className={s.course_title}>КУРС {name}</h3>
         <div className="left_time">
           <div className={s.custom_progressbar}>
@@ -40,6 +42,7 @@ export default function SaleBox({ name = "" }) {
           </div>
         </div>
       </div>
+
       <div className={s.discount}>
         {date && <Timer dateTime={date} />}
         <Buttons>
