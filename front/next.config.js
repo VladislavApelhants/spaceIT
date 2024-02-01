@@ -7,7 +7,7 @@ const nextConfig = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
-    domains: ["localhost"],
+    domains: ["localhost", "roomy-tray-production.up.railway.app"],
   },
 };
 

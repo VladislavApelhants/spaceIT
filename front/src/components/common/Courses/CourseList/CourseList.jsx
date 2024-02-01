@@ -52,7 +52,7 @@ export default function CourseList() {
           }) => (
             <SwiperSlide key={id} className={s.cource_item}>
               <div className={s.course_item_thumb}>
-                <Image
+                <img
                   src={`${endpoints.BASE_URL}${previewImg.data.attributes.url}`}
                   width={200}
                   height={200}
