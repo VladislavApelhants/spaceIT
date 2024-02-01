@@ -6,6 +6,7 @@ export const endpoints = {
   callbackCourse: `${BASE_URL}/api/callback-courses`,
   callback: `${BASE_URL}/api/callbacks`,
   getAllCourses: `${BASE_URL}/api/courses?populate=previewImg`,
+  BASE_URL: "http://localhost:1337",
 };
 
 async function sendModalCall(endpoint, data) {
