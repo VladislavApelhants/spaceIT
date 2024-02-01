@@ -17,7 +17,7 @@ export default function SocialList({ socialList, socialLink, socialIcon }) {
       </li>
       <li>
         <a
-          href="@spaceit_school_ua"
+          href="https://t.me/spaceit_school_ua"
           target="_blank"
           className={s[socialLink]}
           aria-label="посилання на telegram"

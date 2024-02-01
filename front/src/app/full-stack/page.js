@@ -32,7 +32,7 @@ export default function Course() {
       <HiddenWrapper>
         <Hero />
         <Sidebar className={"min"} targets={targets} labels={labels} />
-        <AboutCourse />
+        <AboutCourse name="full-stack" />
         <YouLearning />
         <AboutProfession />
         <Teachers />
