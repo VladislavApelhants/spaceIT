@@ -4,7 +4,7 @@ import CourseInfo from "./CourseInfo/CourseInfo";
 
 import s from "./styles.module.scss";
 
-export default function AboutCourse() {
+export default function AboutCourse({ name }) {
   return (
     <section className={s.aboutCourse} id="about">
       <CourseContainer>
@@ -24,7 +24,7 @@ export default function AboutCourse() {
             омріяну роботу в сфері IT
           </p>
         </div>
-        <CourseInfo />
+        <CourseInfo name={name} />
       </CourseContainer>
     </section>
   );
