@@ -10,7 +10,7 @@ export default function Ready() {
         <div className={s.ready_wrapper}>
           <div className={s.title_wrapper}>
             <h2 className={s.ready_title}>
-              ГОТОВІ СТАТИ <br /> UI/UX ДИЗАЙНЕРОМ?
+              ГОТОВІ СТАТИ <br /> ТЕСТУВАЛЬНИКОМ?
             </h2>
             <p className={s.ready_description}>
               Не можете визначитись з направленням в дизайні, або бажаєте
