@@ -10,7 +10,7 @@ export default function Ready() {
         <div className={s.ready_wrapper}>
           <div className={s.title_wrapper}>
             <h2 className={s.ready_title}>
-              ГОТОВІ СТАТИ <br /> UI/UX ДИЗАЙНЕРОМ?
+              ГОТОВІ СТАТИ <br /> FULL-STACK РОЗРОБНИКОМ?
             </h2>
             <p className={s.ready_description}>
               Не можете визначитись з направленням в дизайні, або бажаєте
@@ -22,7 +22,7 @@ export default function Ready() {
             btnText="Надіслати"
             subtext="Натискаючи кнопку “Надіслати”, ви погоджуєтесь з тим, що ми можемо зв’язатись з вами задопомогою дзвінка, пошти, або СМС"
             endpoint={endpoints.callbackCourse}
-            courseName={"ui/ux design"}
+            courseName={"fullstack"}
           />
         </div>
       </CourseContainer>
