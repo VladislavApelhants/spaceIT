@@ -1,6 +1,5 @@
 "use client";
 import { Accordion, AccordionItem } from "@nextui-org/react";
-import { Image } from "@nextui-org/react";
 import s from "./styles.module.scss";
 
 export function LearningProgram() {
@@ -73,7 +72,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Основи HTML/CSS</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 1</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -100,7 +99,7 @@ export function LearningProgram() {
             <h3 className={s.title}>оJavaScript та ES6+</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 2</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -130,7 +129,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Робота з DOM</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 3</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -157,7 +156,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Вивчення бібліотек та фреймворків</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 4</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -184,7 +183,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Респонсивний дизайн</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 5</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -214,7 +213,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Робота з Git</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 6</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -241,7 +240,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Основи архітектури веб-додатків</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 7</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -271,7 +270,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Взаємодія з API</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 8</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -298,7 +297,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Основи тестування коду</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 9</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -331,7 +330,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Основи веб-дизайну</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 10</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>
@@ -361,7 +360,7 @@ export function LearningProgram() {
             <h3 className={s.title}>Робота з інструментами розробки</h3>
             <div className={s.labelsWrapper}>
               <span className={s.moduleLabel}>модуль 12</span>
-              <span className={s.weeksLabel}>2 неділі</span>
+              <span className={s.weeksLabel}>2 тижня</span>
             </div>
             <span className={s.indicator}></span>
           </div>

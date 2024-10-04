@@ -1,17 +1,16 @@
 "use client";
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import { Pagination, Navigation } from "swiper/modules";
-import { nanoid } from "nanoid";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/scss";
 import "swiper/css/navigation";
-import "/src/components/common/styledButtonsForSlider.scss";
+import "swiper/scss";
 import s from "./teachersList.module.scss";
+import "/src/components/common/styledButtonsForSlider.scss";
 
 const dataTeachers = [
   {
+    id: "1",
     name: "ДМИТРО КАЛІНІН",
     prof: "7 років досвіду в Front-end",
     experience: "7",
@@ -19,6 +18,7 @@ const dataTeachers = [
     alt: "ДМИТРО КАЛІНІН",
   },
   {
+    id: "2",
     name: "ТЕТЯНА ОНІПКО",
     prof: "5 років досвіду в Front-end",
     experience: "5",
@@ -26,6 +26,7 @@ const dataTeachers = [
     alt: "ТЕТЯНА ОНІПКО",
   },
   {
+    id: "3",
     name: "ВЛАДИСЛАВ ЛЕВІЩЕНКО",
     prof: "11 років досвіду в Back-end та Front-end розробці",
     experience: "11",
@@ -33,6 +34,7 @@ const dataTeachers = [
     alt: "ВЛАДИСЛАВ ЛЕВІЩЕНКО",
   },
   {
+    id: "4",
     name: "ДЕНИС КОЛОДЮК",
     prof: "8 років досвіду в Back-end розробці",
     experience: "8",
@@ -40,6 +42,7 @@ const dataTeachers = [
     alt: "ДЕНИС КОЛОДЮК",
   },
   {
+    id: "5",
     name: "МАКСИМ МЕЛЬНИЧУК",
     prof: "6 років досвіду в Back-end та Front-end розробці",
     experience: "6",
@@ -47,6 +50,7 @@ const dataTeachers = [
     alt: "МАКСИМ МЕЛЬНИЧУК",
   },
   {
+    id: "6",
     name: "ІННА ЧОРНА",
     prof: "10 років досвіду HR manager",
     experience: "10",
@@ -54,6 +58,7 @@ const dataTeachers = [
     alt: "ІННА ЧОРНА",
   },
   {
+    id: "7",
     name: "ВІКТОРІЯ ПРОКОПЧУК",
     prof: "6 років досвіду HR manager",
     experience: "6",
@@ -61,6 +66,7 @@ const dataTeachers = [
     alt: "ВІКТОРІЯ ПРОКОПЧУК",
   },
   {
+    id: "8",
     name: "РУСЛАНА КОГУТ",
     prof: "7 років досвіду в PM",
     experience: "7",
@@ -68,6 +74,7 @@ const dataTeachers = [
     alt: "РУСЛАНА КОГУТ",
   },
   {
+    id: "9",
     name: "ВЕРОНІКА ПАРХОМЕНКО",
     prof: "4 років досвіду в PM",
     experience: "4",
@@ -75,6 +82,7 @@ const dataTeachers = [
     alt: "ВЕРОНІКА ПАРХОМЕНКО",
   },
   {
+    id: "10",
     name: "ЄВГЕН ЗЕНЬКОВСЬКИЙ",
     prof: "8 років досвіду в QA",
     experience: "8",
@@ -82,6 +90,7 @@ const dataTeachers = [
     alt: "ЄВГЕН ЗЕНЬКОВСЬКИЙ",
   },
   {
+    id: "11",
     name: "ОКСАНА ТИМЧЕНКО",
     prof: "4 років досвіду в QA",
     experience: "4",

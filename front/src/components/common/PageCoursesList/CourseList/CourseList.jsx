@@ -1,18 +1,17 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
+import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
-import { Pagination, Navigation } from "swiper/modules";
 
-import LinkCourse from "../LinkCourse/LinkCourse";
-import { serverAPI, endpoints } from "@/services/serverAPI";
-import "swiper/scss";
+import { endpoints, serverAPI } from "@/services/serverAPI";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "/src/components/common/styledButtonsForSlider.scss";
-import "./styledProgressBar.scss";
+import "swiper/scss";
+import LinkCourse from "../LinkCourse/LinkCourse";
 import s from "./courseList.module.scss";
+import "./styledProgressBar.scss";
+import "/src/components/common/styledButtonsForSlider.scss";
 
 export default function CourseList() {
   const [courses, setCourses] = useState([]);
@@ -59,9 +58,7 @@ export default function CourseList() {
                   alt="image course info"
                   className={s.image}
                 />
-                <span className={s.cource_duration_training}>
-                  {term} місяць
-                </span>
+                <span className={s.cource_duration_training}>{term}</span>
               </div>
               <h3 className={s.cource_item_title}>{courseName}</h3>
               <div className={s.item_prof_block}>
