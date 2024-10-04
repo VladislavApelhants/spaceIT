@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// const BASE_URL = "https://roomy-tray-production.up.railway.app";
 const BASE_URL = "https://gentle-cooperation-production.up.railway.app";
 
 export const endpoints = {
