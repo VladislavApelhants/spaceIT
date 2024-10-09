@@ -11,4 +11,9 @@ module.exports = ({ env }) => ({
     "PUBLIC_URL",
     "https://gentle-cooperation-production.up.railway.app"
   ),
+  admin: {
+    auth: {
+      secret: env("ADMIN_JWT_SECRET"),
+    },
+  },
 });
