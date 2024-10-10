@@ -8,6 +8,7 @@ module.exports = [
       origin: [
         "https://spaceit-production.up.railway.app",
         "http://localhost:1337",
+        "http://0.0.0.0:1337",
       ], // Укажи домены, с которых разрешены запросы
     },
   },
