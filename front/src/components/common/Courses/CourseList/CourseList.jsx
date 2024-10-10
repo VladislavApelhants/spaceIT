@@ -49,7 +49,6 @@ export default function CourseList() {
               term,
             },
           }) => {
-            console.log("previewImg", previewImg);
             return (
               <SwiperSlide key={id} className={s.cource_item}>
                 <div className={s.course_item_thumb}>
