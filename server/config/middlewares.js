@@ -6,7 +6,10 @@ module.exports = [
     name: "strapi::cors",
     config: {
       enabled: true,
-      origin: ["https://spaceit-production.up.railway.app"], // Укажи домены, с которых разрешены запросы
+      origin: [
+        "https://spaceit-production.up.railway.app",
+        "http://localhost:1337",
+      ], // Укажи домены, с которых разрешены запросы
     },
   },
   "strapi::poweredBy",
